@@ -1,0 +1,21 @@
+{
+    "header-layout.desktop": {
+      "title": "Desktop Header",
+      "children": [
+        "header-row#desktop__1",
+        "header-row#desktop__2"
+      ]
+    },
+    "header-row#desktop__1": {
+      "title": "Desktop header row 1",
+      "children": [
+        // "slider-layout#global__header--offer"
+      ]
+    },
+    "header-row#desktop__2": {
+      "title": "Desktop header row 2",
+      "children": [
+        "sticky-layout#desktop__header"
+      ]
+    }
+  }
