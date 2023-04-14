@@ -1,0 +1,27 @@
+{
+    "slider-layout#global__header--offer": {
+        "children": [
+            "rich-text#header__slider--offer-1",
+            "rich-text#header__slider--offer-2",
+            "rich-text#header__slider--offer-3"
+        ],
+        "props": {
+            "autoplay": {
+                "timeout": 2000,
+                "stopOnHover": true
+            },
+            "arrowSize": 11,
+            "blockClass": "global__header--offer",
+            "fullWidth": true,
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "mobile": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "showPaginationDots": "never"
+        },
+        "title": "Offer's slider on top header"
+    }
+}

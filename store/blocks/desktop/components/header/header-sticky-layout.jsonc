@@ -2,11 +2,12 @@
     "sticky-layout#desktop__header": {
         "title": "Desktop sticky header",
         "props": {
-            "blockClass": "desktop__header"
+            "blockClass": "desktop__header",
+            "position": "TOP"
         },
         "children": [
-            "flex-layout.row#desktop__header--1",
-            "flex-layout.row#desktop__header--2"
+            "flex-layout.row#desktop__header--row1",
+            "flex-layout.row#desktop__header--row2"
         ]
     }
 }

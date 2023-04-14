@@ -1,0 +1,12 @@
+{
+    "flex-layout.col#global__logo--container": {
+        "children": [
+            "logo"
+        ],
+        "props": {
+            "blockClass": "global__logo--container",
+            "verticalAlign": "middle"
+        },
+        "title": "Logo container"
+    }
+}
