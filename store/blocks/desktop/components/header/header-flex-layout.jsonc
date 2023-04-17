@@ -1,0 +1,55 @@
+{
+    "flex-layout.row#desktop__header--row1": {
+        "children": [
+            "flex-layout.col#desktop__header--link",
+            "flex-layout.col#global__logo--container",
+            "flex-layout.col#desktop__header--container"
+        ],
+        "props": {
+            "blockClass": "desktop__header--row1",
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "title": "Desktop sticky header row 1"
+    },
+    "flex-layout.row#desktop__header--row2": {
+        "children": [
+            "vtex.menu@2.x:menu#websites"
+        ],
+        "props": {
+            "blockClass": "desktop__header--row2",
+            "borderWidth": 5,
+            "colSinzing": "auto",
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "width": 50
+        },
+        "title": "Desktop sticky header row 2"
+    },
+    "flex-layout.col#desktop__header--link": {
+        "children": [
+            "link#desktop__header--link"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "width": 50
+        },
+        "title": "Container chat link"
+    },
+    "flex-layout.col#desktop__header--container": {
+        "children": ["flex-layout.row#header__container--col-3"],
+        "title": "Searchbar, login and cart (colum-container)"
+    },
+    "flex-layout.row#header__container--col-3": {
+        "children": [
+            "search-bar",
+            "login",
+            "minicart.v2"
+        ],
+        "title": "Searchbar, login and cart (row-container)"
+    }
+}

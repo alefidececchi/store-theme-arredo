@@ -1,0 +1,92 @@
+{
+    "vtex.menu@2.x:menu#websites": {
+        "props": {
+            "items": [
+                {
+                    "id": "menu-item-ropa-de-cama",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/ropa-de-cama",
+                        "noFollow": false,
+                        "tagTitle": "ropa-de-cama",
+                        "text": "ROPA DE CAMA"
+                    }
+                },
+                {
+                    "id": "menu-item-baño",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/baño",
+                        "noFollow": false,
+                        "tagTitle": "baño",
+                        "text": "BAÑO"
+                    }
+                },
+                {
+                    "id": "menu-item-cocina",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/cocina",
+                        "noFollow": false,
+                        "tagTitle": "cocina",
+                        "text": "COCINA"
+                    }
+                },
+                {
+                    "id": "menu-item-decoracion",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/decoracion",
+                        "noFollow": false,
+                        "tagTitle": "decoracion",
+                        "text": "DECORACIÓN"
+                    }
+                },
+                {
+                    "id": "menu-item-disney",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/disney",
+                        "noFollow": false,
+                        "tagTitle": "disney",
+                        "text": "DISNEY"
+                    }
+                },
+                {
+                    "id": "menu-item-destacadas",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/destacadas",
+                        "noFollow": false,
+                        "tagTitle": "destacadas",
+                        "text": "DESTACADAS"
+                    }
+                },
+                {
+                    "id": "menu-item-conocenos",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/conocenos",
+                        "noFollow": false,
+                        "tagTitle": "conocenos",
+                        "text": "CONOCENOS"
+                    }
+                }
+            ]
+        }
+    }
+}

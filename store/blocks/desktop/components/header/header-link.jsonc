@@ -1,0 +1,10 @@
+{
+    "link#desktop__header--link": {
+        "props": {
+            "displayMode": "link",
+            "label": "Hablemos",
+            "href": "/contacto"
+        },
+        "title": "link to contact"
+    }
+}
