@@ -1,0 +1,49 @@
+{
+    "flex-layout.row#mobile__header--row1": {
+        "children": [
+            "flex-layout.col#drawer__container--col",
+            // "drawer#menu",
+            // "drawer#search",
+            "header-force-center#logo__container--center",
+            "minicart.v2"
+        ],
+        "props": {
+            "blockClass": "mobile__header--row1",
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "title": "Mobile sticky header row 1"
+    },
+    "flex-layout.col#drawer__container--col": {
+        "children": [
+            "flex-layout.row#drawer__container--row"
+        ],
+        "props": {
+            "blockClass": "drawer__container--col",
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false
+        },
+        "title": "Drawer container col"
+    },
+    "flex-layout.row#drawer__container--row": {
+        "children": [
+            "drawer#menu",
+            "drawer#search"
+        ],
+        "props": {
+            "blockClass": "drawer__container--row",
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "title": "Drawer container row"
+    }
+}

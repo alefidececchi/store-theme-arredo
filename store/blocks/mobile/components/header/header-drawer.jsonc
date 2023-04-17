@@ -1,0 +1,19 @@
+{
+    "drawer#menu": {
+        "children": [],
+        "title": "Drawer menu"
+    },
+    "drawer#search": {
+        "blocks": ["drawer-trigger#mobile__icon--search"],
+        "children": [
+            "search-bar"
+        ],
+        "title": "Drawer search"
+    },
+    "drawer-trigger#mobile__icon--search": {
+        "children": [
+            "image#global__icon--search"
+        ],
+        "title": "Icon search Drawer on mobile"
+    }
+}

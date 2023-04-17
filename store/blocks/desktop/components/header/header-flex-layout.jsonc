@@ -2,7 +2,7 @@
     "flex-layout.row#desktop__header--row1": {
         "children": [
             "flex-layout.col#desktop__header--link",
-            "flex-layout.col#global__logo--container",
+            "header-force-center#logo__container--center",
             "flex-layout.col#desktop__header--container"
         ],
         "props": {
