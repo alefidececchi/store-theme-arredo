@@ -1,3 +1,9 @@
-.paragraph{
+/* .paragraph{
     margin: 0px;
+} */
+
+.paragraph--header__slider--offer-1,
+.paragraph--header__slider--offer-2,
+.paragraph--header__slider--offer-3 {
+    color: white;
 }

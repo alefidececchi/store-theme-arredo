@@ -3,7 +3,8 @@
         "props": {
             "displayMode": "link",
             "label": "Hablemos",
-            "href": "/contacto"
+            "href": "/contacto",
+            "blockClass": "desktop__header--link"
         },
         "title": "link to contact"
     }

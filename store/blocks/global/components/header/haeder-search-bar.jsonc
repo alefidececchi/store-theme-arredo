@@ -1,0 +1,11 @@
+{
+    "search-bar#global__header--searchbar": {
+        "blocks": [
+            "autocomplete-result-list"
+        ],
+        "props": {
+            "openAutocompleteOnFocus": true,
+            "placeholder": "¿Qué estás buscando?"
+        }
+    }
+}

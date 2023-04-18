@@ -1,10 +1,10 @@
 {
-    "header-force-center#logo__container--center": {
+    "header-force-center#global__logo--container": { 
         "children": [
             "logo"
         ],
         "props": {
-            "blockClass": "logo__container--center"
+            "blockClass": "global__logo--container"
         },
         "title": "Logo center container"
     }

@@ -2,16 +2,15 @@
     "flex-layout.row#desktop__header--row1": {
         "children": [
             "flex-layout.col#desktop__header--link",
-            "header-force-center#logo__container--center",
+            "header-force-center#global__logo--container",
             "flex-layout.col#desktop__header--container"
         ],
         "props": {
             "blockClass": "desktop__header--row1",
+            "fullWidth": true,
             "horizontalAlign": "center",
-            "verticalAlign": "center",
             "preventHorizontalStretch": true,
-            "preventVerticalStretch": true,
-            "fullWidth": true
+            "preventVerticalStretch": true
         },
         "title": "Desktop sticky header row 1"
     },
@@ -23,10 +22,11 @@
             "blockClass": "desktop__header--row2",
             "borderWidth": 5,
             "colSinzing": "auto",
+            "colJustify": "between",
             "fullWidth": true,
             "horizontalAlign": "center",
-            "verticalAlign": "middle",
-            "width": 50
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true
         },
         "title": "Desktop sticky header row 2"
     },
@@ -35,8 +35,10 @@
             "link#desktop__header--link"
         ],
         "props": {
+            "blockClass": "desktop__header--link",
+            "horizontalAlign": "center",
             "verticalAlign": "middle",
-            "width": 50
+            "width": "100%"
         },
         "title": "Container chat link"
     },
@@ -46,7 +48,7 @@
     },
     "flex-layout.row#header__container--col-3": {
         "children": [
-            "search-bar",
+            "search-bar#global__header--searchbar",
             "login",
             "minicart.v2"
         ],
