@@ -1,10 +1,17 @@
 {
     "drawer#menu": {
-        "children": [],
+        "blocks": [
+            "drawer-header#mobile"
+        ],
+        "children": [
+            "mega-menu#mobile"
+        ],
         "title": "Drawer menu"
     },
     "drawer#search": {
-        "blocks": ["drawer-trigger#mobile__icon--search"],
+        "blocks": [
+            "drawer-trigger#mobile__icon--search"
+        ],
         "children": [
             "search-bar"
         ],
