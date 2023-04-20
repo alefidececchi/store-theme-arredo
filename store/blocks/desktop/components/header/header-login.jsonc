@@ -9,7 +9,8 @@
           "showIconProfile": true,
           "iconLabel": "",
           "hideIconLabel": true
-        }
+        },
+        "title": "Login component"
       }
       
 }
