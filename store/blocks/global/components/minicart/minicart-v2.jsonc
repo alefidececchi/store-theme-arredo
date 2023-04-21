@@ -1,0 +1,12 @@
+{
+    "minicart.v2": {
+        "props": {
+            "drawerSlideDirection": "rightToLeft",
+            "quantityDisplay": "not-empty",
+            "itemCountMode": "distinct",
+            "MinicartIcon": "icon#global__cart--2",
+            "variation": "drawer"
+        },
+        "title": "Minicart"
+    }
+}

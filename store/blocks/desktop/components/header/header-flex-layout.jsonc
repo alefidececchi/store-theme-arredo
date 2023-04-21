@@ -46,6 +46,9 @@
         "children": [
             "flex-layout.row#header__container--col-3"
         ],
+        "props": {
+            "blockClass": "desktop__header--container"
+        },
         "title": "Searchbar, login and cart (colum-container)"
     },
     "flex-layout.row#header__container--col-3": {
@@ -54,6 +57,9 @@
             "login",
             "minicart.v2"
         ],
+        "props": {
+            "blockClass": "header__container--col-3"
+        },
         "title": "Searchbar, login and cart (row-container)"
     },
     "flex-layout.row#desktop__container--department1": {
