@@ -10,6 +10,9 @@
             "menu-item#desktop__department--destacadas",
             "menu-item#desktop__department--conocenos"
         ],
+        "props": {
+            "blockClass": "desktop__menu--websites"
+        },
         "title": "Menu of departments"
     },
     "vtex.menu@2.x:menu#submenu__ropadecama": {

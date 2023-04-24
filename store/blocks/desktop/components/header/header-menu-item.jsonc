@@ -4,6 +4,7 @@
             "vtex.menu@2.x:submenu#desktop__block--department1"
         ],
         "props": {
+            "blockClass": "desktop__item--department",
             "id": "department-ropa-de-cama",
             "type": "custom",
             "highlight": false,
@@ -19,6 +20,7 @@
     },
     "menu-item#desktop__department--baño": {
         "props": {
+            "blockClass": "desktop__item--department",
             "id": "department-baño",
             "type": "custom",
             "highlight": false,
@@ -34,6 +36,7 @@
     },
     "menu-item#desktop__department--cocina": {
         "props": {
+            "blockClass": "desktop__item--department",
             "id": "department-cocina",
             "type": "custom",
             "highlight": false,
@@ -49,6 +52,7 @@
     },
     "menu-item#desktop__department--decoracion": {
         "props": {
+            "blockClass": "desktop__item--department",
             "id": "department-decoracion",
             "type": "custom",
             "highlight": false,
@@ -64,6 +68,7 @@
     },
     "menu-item#desktop__department--disney": {
         "props": {
+            "blockClass": "desktop__item--department",
             "id": "department-disney",
             "type": "custom",
             "highlight": false,
@@ -79,6 +84,7 @@
     },
     "menu-item#desktop__department--destacadas": {
         "props": {
+            "blockClass": "desktop__item--department",
             "id": "department-destacadas",
             "type": "custom",
             "highlight": false,
@@ -94,6 +100,7 @@
     },
     "menu-item#desktop__department--conocenos": {
         "props": {
+            "blockClass": "desktop__item--department",
             "id": "department-conocenos",
             "type": "custom",
             "highlight": false,

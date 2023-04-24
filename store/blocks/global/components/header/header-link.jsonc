@@ -1,0 +1,11 @@
+{
+    "link#global__header--link": {
+        "props": {
+            "blockClass": "global__header--link",
+            "displayMode": "anchor",
+            "href": "/contacto",
+            "label": "Hablemos"
+        },
+        "title": "Global link to contact"
+    }
+}

@@ -1,6 +1,7 @@
 {
     "minicart.v2": {
         "props": {
+            "blockClass": "global__minicart",
             "drawerSlideDirection": "rightToLeft",
             "quantityDisplay": "not-empty",
             "itemCountMode": "distinct",

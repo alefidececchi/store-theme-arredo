@@ -1,0 +1,5 @@
+.flexRow--mobile__header--row1 {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}

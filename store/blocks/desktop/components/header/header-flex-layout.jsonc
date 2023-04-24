@@ -32,7 +32,7 @@
     },
     "flex-layout.col#desktop__header--link": {
         "children": [
-            "link#desktop__header--link"
+            "link#global__header--link"
         ],
         "props": {
             "blockClass": "desktop__header--link",
@@ -47,7 +47,10 @@
             "flex-layout.row#header__container--col-3"
         ],
         "props": {
-            "blockClass": "desktop__header--container"
+            "blockClass": "desktop__header--container",
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "width": "100%"
         },
         "title": "Searchbar, login and cart (colum-container)"
     },
@@ -58,10 +61,15 @@
             "minicart.v2"
         ],
         "props": {
-            "blockClass": "header__container--col-3"
+            "blockClass": "header__container--col-3",
+            "colSinzing": "auto",
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true
         },
         "title": "Searchbar, login and cart (row-container)"
     },
+
     "flex-layout.row#desktop__container--department1": {
         "children": [
             "flex-layout.col#desktop__container--submenu",
@@ -70,7 +78,9 @@
         "props": {
             "blockClass": "desktop__container--department1",
             "fullWidth": true,
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true
         },
         "title": "Desktop row container department 1"
     },

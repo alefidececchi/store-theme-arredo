@@ -2,12 +2,25 @@
 .styledLinkContainer {
     margin: 0 12px;
 } */
+
+.styledLinkContainer--desktop__item--department {
+    padding: 0;
+}
+
+.styledLink--desktop__item--department {
+    color      : #555;
+    font-size  : 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
 .submenuContainer--desktop__block--department1 {
     position: absolute;
     left    : 0;
 }
 
 .submenuWrapper--desktop__block--department1 {
+    background-size: cover;
     background-image: url("assets/img/desktop__submenu1--background.png");
     width           : 100vw;
 }
@@ -28,7 +41,8 @@
 
 .submenuWrapper--desktop__block--medidas {
     background-color: white;
-    height          : 330.59px;
-    top             : -35.65px;
-    width: 60%;
+    height          : 360px;
+    top             : -53px;
+    left            : -55px;
+    width           : 60%;
 }
