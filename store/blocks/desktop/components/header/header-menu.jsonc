@@ -1,92 +1,42 @@
 {
+    //Departments
     "vtex.menu@2.x:menu#websites": {
+        "children": [
+            "menu-item#desktop__department--ropadecama",
+            "menu-item#desktop__department--baño",
+            "menu-item#desktop__department--cocina",
+            "menu-item#desktop__department--decoracion",
+            "menu-item#desktop__department--disney",
+            "menu-item#desktop__department--destacadas",
+            "menu-item#desktop__department--conocenos"
+        ],
+        "title": "Menu of departments"
+    },
+    "vtex.menu@2.x:menu#submenu__ropadecama": {
+        "children": [
+            "menu-item#ropadecama__menu--medidas",
+            "menu-item#ropadecama__category--1",
+            "menu-item#ropadecama__category--2",
+            "menu-item#ropadecama__category--3",
+            "menu-item#ropadecama__category--4",
+            "menu-item#ropadecama__category--5",
+            "menu-item#ropadecama__category--6",
+            "menu-item#ropadecama__category--7",
+            "menu-item#ropadecama__category--8",
+            "menu-item#ropadecama__category--9",
+            "menu-item#ropadecama__category--10",
+            "menu-item#ropadecama__category--11"
+        ],
         "props": {
-            "items": [
-                {
-                    "id": "menu-item-ropa-de-cama",
-                    "type": "custom",
-                    "highlight": false,
-                    "itemProps": {
-                        "type": "internal",
-                        "href": "/ropa-de-cama",
-                        "noFollow": false,
-                        "tagTitle": "ropa-de-cama",
-                        "text": "ROPA DE CAMA"
-                    }
-                },
-                {
-                    "id": "menu-item-baño",
-                    "type": "custom",
-                    "highlight": false,
-                    "itemProps": {
-                        "type": "internal",
-                        "href": "/baño",
-                        "noFollow": false,
-                        "tagTitle": "baño",
-                        "text": "BAÑO"
-                    }
-                },
-                {
-                    "id": "menu-item-cocina",
-                    "type": "custom",
-                    "highlight": false,
-                    "itemProps": {
-                        "type": "internal",
-                        "href": "/cocina",
-                        "noFollow": false,
-                        "tagTitle": "cocina",
-                        "text": "COCINA"
-                    }
-                },
-                {
-                    "id": "menu-item-decoracion",
-                    "type": "custom",
-                    "highlight": false,
-                    "itemProps": {
-                        "type": "internal",
-                        "href": "/decoracion",
-                        "noFollow": false,
-                        "tagTitle": "decoracion",
-                        "text": "DECORACIÓN"
-                    }
-                },
-                {
-                    "id": "menu-item-disney",
-                    "type": "custom",
-                    "highlight": false,
-                    "itemProps": {
-                        "type": "internal",
-                        "href": "/disney",
-                        "noFollow": false,
-                        "tagTitle": "disney",
-                        "text": "DISNEY"
-                    }
-                },
-                {
-                    "id": "menu-item-destacadas",
-                    "type": "custom",
-                    "highlight": false,
-                    "itemProps": {
-                        "type": "internal",
-                        "href": "/destacadas",
-                        "noFollow": false,
-                        "tagTitle": "destacadas",
-                        "text": "DESTACADAS"
-                    }
-                },
-                {
-                    "id": "menu-item-conocenos",
-                    "type": "custom",
-                    "highlight": false,
-                    "itemProps": {
-                        "type": "internal",
-                        "href": "/conocenos",
-                        "noFollow": false,
-                        "tagTitle": "conocenos",
-                        "text": "CONOCENOS"
-                    }
-                }
-            ]
-        }
+            "blockClass": "submenu__ropadecama",
+            "orientation": "vertical"
+        },
+        "title": "Menu 'ropa de cama' department"
+    },
+    "vtex.menu@2.x:menu#desktop__block--medidas": {
+        "children": [
+            "menu-item#desktop__medidas--king"
+        ],
+        "title": "Menu 'medidas' category"
     }
 }

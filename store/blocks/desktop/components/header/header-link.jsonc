@@ -1,10 +1,20 @@
 {
     "link#desktop__header--link": {
         "props": {
-            "displayMode": "link",
-            "label": "Hablemos",
-            "href": "/contacto"
+            "blockClass": "desktop__header--link",
+            "displayMode": "anchor",
+            "href": "/contacto",
+            "label": "Hablemos"
         },
         "title": "link to contact"
+    },
+    "link#desktop__department1": {
+        "props": {
+            "blockClass": "desktop__department1",
+            "displayMode": "anchor",
+            "href": "/ropa-de-cama",
+            "label": "Ver todo"
+        },
+        "title": "Link to /ropa-de-cama"
     }
 }

@@ -2,3 +2,33 @@
 .styledLinkContainer {
     margin: 0 12px;
 } */
+.submenuContainer--desktop__block--department1 {
+    position: absolute;
+    left    : 0;
+}
+
+.submenuWrapper--desktop__block--department1 {
+    background-image: url("assets/img/desktop__submenu1--background.png");
+    width           : 100vw;
+}
+
+.submenu--desktop__block--department1 {
+    justify-content: flex-start;
+}
+
+.submenu--desktop__block--medidas {
+    justify-content: flex-start;
+}
+
+.submenuContainer--desktop__block--medidas {
+    position: absolute;
+    left    : 250.09px;
+    width   : 100vw;
+}
+
+.submenuWrapper--desktop__block--medidas {
+    background-color: white;
+    height          : 330.59px;
+    top             : -35.65px;
+    width: 60%;
+}

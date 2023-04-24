@@ -2,16 +2,15 @@
     "flex-layout.row#desktop__header--row1": {
         "children": [
             "flex-layout.col#desktop__header--link",
-            "flex-layout.col#global__logo--container",
+            "header-force-center#global__logo--container",
             "flex-layout.col#desktop__header--container"
         ],
         "props": {
             "blockClass": "desktop__header--row1",
+            "fullWidth": true,
             "horizontalAlign": "center",
-            "verticalAlign": "center",
             "preventHorizontalStretch": true,
-            "preventVerticalStretch": true,
-            "fullWidth": true
+            "preventVerticalStretch": true
         },
         "title": "Desktop sticky header row 1"
     },
@@ -23,10 +22,11 @@
             "blockClass": "desktop__header--row2",
             "borderWidth": 5,
             "colSinzing": "auto",
+            "colJustify": "between",
             "fullWidth": true,
             "horizontalAlign": "center",
-            "verticalAlign": "middle",
-            "width": 50
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true
         },
         "title": "Desktop sticky header row 2"
     },
@@ -35,21 +35,94 @@
             "link#desktop__header--link"
         ],
         "props": {
+            "blockClass": "desktop__header--link",
+            "horizontalAlign": "center",
             "verticalAlign": "middle",
-            "width": 50
+            "width": "100%"
         },
         "title": "Container chat link"
     },
     "flex-layout.col#desktop__header--container": {
-        "children": ["flex-layout.row#header__container--col-3"],
+        "children": [
+            "flex-layout.row#header__container--col-3"
+        ],
+        "props": {
+            "blockClass": "desktop__header--container"
+        },
         "title": "Searchbar, login and cart (colum-container)"
     },
     "flex-layout.row#header__container--col-3": {
         "children": [
-            "search-bar",
+            "search-bar#global__header--searchbar",
             "login",
             "minicart.v2"
         ],
+        "props": {
+            "blockClass": "header__container--col-3"
+        },
         "title": "Searchbar, login and cart (row-container)"
+    },
+    "flex-layout.row#desktop__container--department1": {
+        "children": [
+            "flex-layout.col#desktop__container--submenu",
+            "flex-layout.col#desktop__container--image1"
+        ],
+        "props": {
+            "blockClass": "desktop__container--department1",
+            "fullWidth": true,
+            "horizontalAlign": "center"
+        },
+        "title": "Desktop row container department 1"
+    },
+    "flex-layout.col#desktop__container--submenu": {
+        "children": [
+            "vtex.menu@2.x:menu#submenu__ropadecama",
+            "link#desktop__department1"
+        ],
+        "props": {
+            "blockClass": "desktop__container--submenu",
+            "horizontalAlign": "left",
+            "preventVerticalStretch": true,
+            "verticalAlign": "middle",
+            "width": "30%"
+        },
+        "title": "Container submenu"
+    },
+    "flex-layout.col#desktop__container--image1": {
+        "children": [
+            "image#desktop__menu--department1"
+        ],
+        "props": {
+            "blockClass": "desktop__container--image1",
+            "horizontalAlign": "left",
+            "preventVerticalStretch": true,
+            "verticalAlign": "middle"
+        },
+        "title": "image department 1 container"
+    },
+    "flex-layout.col#desktop__container--img-medidas": {
+        "children": [
+            "image#desktop__submenu--medidas"
+        ],
+        "props": {
+            "blockClass": "desktop__container--img-medidas",
+            "horizontalAlign": "left",
+            "preventVerticalStretch": true,
+            "verticalAlign": "middle"
+        },
+        "title": "Submenu image container"
+    },
+    "flex-layout.row#desktop__container--medidas": {
+        "children": [
+            "vtex.menu@2.x:menu#desktop__block--medidas",
+            "flex-layout.col#desktop__container--img-medidas"
+        ],
+        "props": {
+            "blockClass": "desktop__container--medidas",
+            "fullWidth": true,
+            "preventVerticalStretch": true,
+            "horizontalAlign": "left"
+        },
+        "title": "Container submenu 'medidas'"
     }
 }

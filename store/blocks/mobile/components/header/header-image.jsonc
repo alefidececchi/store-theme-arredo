@@ -1,0 +1,13 @@
+{
+    "image#mobile__department--ropadecama": {
+        "props": {
+            "alt": "ropa de cama",
+            "link": {
+                "url": "https://alejandrofidececchi--itgloberspartnercl.myvtex.com/linea-canamo"
+            },
+            "maxWidth": "80%",
+            "src": "assets/img/mobile__department--ropadecama.png"
+        },
+        "title": "Departament image 1"
+    }
+}

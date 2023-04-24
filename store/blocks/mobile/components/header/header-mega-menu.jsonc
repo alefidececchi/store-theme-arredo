@@ -1,0 +1,10 @@
+{
+    "mega-menu#mobile": {
+        "props": {
+            "title": "",
+            "orientation": "horizontal",
+            "openOnly": "horizontal"
+        },
+        "title": "Mega menu only on mobile view"
+    }
+}
