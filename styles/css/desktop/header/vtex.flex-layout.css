@@ -1,0 +1,9 @@
+.flexRowContent--desktop__header--row1,
+.flexRowContent--mobile__header--row1 {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.flexRow--header__container--col-3 {
+    width: 33vw;
+}

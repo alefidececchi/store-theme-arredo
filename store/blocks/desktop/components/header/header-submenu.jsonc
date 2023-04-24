@@ -1,0 +1,21 @@
+{
+    
+    "vtex.menu@2.x:submenu#desktop__block--department1": {
+        "children": [
+            "flex-layout.row#desktop__container--department1"
+        ],
+        "props": {
+            "blockClass": "desktop__block--department1"
+        },
+        "title": "Submenu Block of departament 1"
+    },
+    "vtex.menu@2.x:submenu#desktop__block--medidas": {
+        "children": [
+            "flex-layout.row#desktop__container--medidas"
+        ],
+        "props": {
+            "blockClass": "desktop__block--medidas"
+        },
+        "title": "Submenu block of 'medidas' category"
+    }
+}

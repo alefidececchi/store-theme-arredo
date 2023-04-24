@@ -1,0 +1,13 @@
+{
+    "search-bar#global__header--searchbar": {
+        "blocks": [
+            "autocomplete-result-list.v2"
+        ],
+        "props": {
+            "blockClass": "searchbar",
+            "placeholder": "¿Qué estás buscando?",
+            "openAutocompleteOnFocus": true
+        },
+        "title": "Searchbar"
+    }
+}

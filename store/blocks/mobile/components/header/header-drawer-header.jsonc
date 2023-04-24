@@ -1,0 +1,8 @@
+{
+    "drawer-header#mobile": {
+        "children": [
+            "flex-layout.col#mobile__drawer--header"
+        ],
+        "title": "Drawer header"
+    }
+}

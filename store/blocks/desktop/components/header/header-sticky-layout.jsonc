@@ -1,0 +1,13 @@
+{
+    "sticky-layout#desktop__header": {
+        "children": [
+            "flex-layout.row#desktop__header--row1",
+            "flex-layout.row#desktop__header--row2"
+        ],
+        "props": {
+            "blockClass": "desktop__header",
+            "position": "TOP"
+        },
+        "title": "Desktop sticky header"
+    }
+}
