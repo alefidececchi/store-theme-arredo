@@ -1,9 +1,20 @@
 .drawer--mobile__drawer--menu {
-    width: 20.313rem!important;
+    width: 20.313rem !important;
 }
 
 .drawer--mobile__drawer--search {
-    width: 20.313rem!important;
+    width: 20.313rem !important;
+}
+
+.drawerContent--mobile__drawer--menu {
+    padding: 0 0.625rem;
+    height : 100vh;
+}
+
+.childrenContainer--mobile__drawer--menu {
+    display: flex;
+    flex-direction: column;
+    height: 88.5%;
 }
 
 .closeIconContainer--mobile__drawer--search {
@@ -11,7 +22,7 @@
 }
 
 .childrenContainer--mobile__drawer--search :global(.vtex-store-components-3-x-searchBarContainer) {
-    display: flex;
+    display        : flex;
     justify-content: center;
-    align-items: center;
+    align-items    : center;
 }
