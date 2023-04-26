@@ -1,0 +1,15 @@
+/* .flexRowContent--global__minicart--list {
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.flexRowContent--global__minicart--list :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: auto!important;
+}
+.flexCol--global__minicartlist--description {
+    padding-left: 1rem;
+}
+
+/* .flexRowContent--global__minicart--description1 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+
+} */
