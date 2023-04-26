@@ -20,13 +20,17 @@
 }
 
 .submenuWrapper--desktop__block--department1 {
-    background-size: cover;
+    /* display: flex;
+    justify-content: center; */
+    background-size : cover;
     background-image: url("assets/img/desktop__submenu1--background.png");
     width           : 100vw;
 }
 
 .submenu--desktop__block--department1 {
-    justify-content: flex-start;
+    justify-content: center;
+    width          : auto;
+    margin         : 0 auto;
 }
 
 .submenu--desktop__block--medidas {
@@ -39,10 +43,15 @@
     width   : 100vw;
 }
 
+.flexCol--desktop__container--submenu {
+    width: 195px;
+}
+
 .submenuWrapper--desktop__block--medidas {
+    position        : fixed;
     background-color: white;
     height          : 360px;
-    top             : -53px;
-    left            : -55px;
-    width           : 60%;
+    top             : 164px;
+    left            : calc(((100vw - 839px) / 2) + 195px);
+    width           : 644px;
 }

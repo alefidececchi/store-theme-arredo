@@ -10,7 +10,7 @@
         "blocks": [
             "header-layout.desktop",
             "header-layout.mobile",
-            "logo",
+            "logo#global",
             "vtex.menu@2.x:menu#websites",
             "minicart.v2",
             "search-bar"

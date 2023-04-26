@@ -1,5 +1,5 @@
 {
-    "login#desktop": {
+    "login#mobile": {
         "props": {
           "emailAndPasswordTitle": "LOG-IN",
           "accessCodeTitle": "Acess Code LOG-IN",
@@ -7,8 +7,8 @@
           "passwordPlaceholder": "password",
           "showPasswordVerificationIntoTooltip": true,
           "showIconProfile": true,
-          "iconLabel": "",
-          "hideIconLabel": true
+          "iconLabel": "Ingresar",
+          "hideIconLabel": false
         },
         "title": "Login component"
       }

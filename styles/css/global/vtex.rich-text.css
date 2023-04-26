@@ -1,3 +1,11 @@
 .paragraph--header__slider--offer {
-    color: white;
+    margin: 0;
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 16px;
+    text-align: center;
 }

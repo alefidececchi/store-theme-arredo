@@ -57,7 +57,7 @@
     "flex-layout.row#header__container--col-3": {
         "children": [
             "search-bar#global__header--searchbar",
-            "login",
+            "login#desktop",
             "minicart.v2"
         ],
         "props": {

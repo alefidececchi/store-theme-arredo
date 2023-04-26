@@ -1,6 +1,7 @@
 {
     "mega-menu#mobile": {
         "props": {
+            "blockClass": "mobile__megamenu",
             "title": "",
             "orientation": "horizontal",
             "openOnly": "horizontal"
