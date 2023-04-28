@@ -2,3 +2,6 @@
 .minicartTitle {
     display: none;
 } */
+.minicartWrapperContainer--global__minicart{
+    margin-right: 1.25rem;
+}

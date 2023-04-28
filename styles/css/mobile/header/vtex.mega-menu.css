@@ -1,0 +1,26 @@
+.menuContainerNavVertical--mobile__megamenu {
+    margin: 0;
+}
+
+.submenuItemVertical--mobile__megamenu,
+.menuItemVertical--mobile__megamenu {
+    border-bottom-style: none;
+}
+
+.styledLinkContainer--mobile__megamenu {
+    padding: 0;
+    margin-bottom: 1.25rem;
+}
+.styledLinkContent--mobile__megamenu {
+    align-items: center;
+}
+
+.collapsibleHeaderText--mobile__megamenu,
+.styledLinkText--mobile__megamenu {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24.5px;
+    color: #555;
+    margin: 0;
+
+}

@@ -1,0 +1,69 @@
+.drawerContent--global__minicart {
+    height: 100%;
+}
+
+.childrenContainer--global__minicart {
+    padding-top: 1.125rem;
+    height     : 100%;
+}
+
+.minicartSideBarContentWrapper--global__minicart {
+    height: 100% !important;
+}
+
+
+.minicartTitle--global__minicart-base-content {
+    font-size: 0;
+}
+
+.minicartTitle--global__minicart-base-content::before {
+    content    : "Mi Compra";
+    color      : #555;
+    font-size  : 20px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.closeIconContainer--global__minicart {
+    justify-content: flex-end;
+    padding        : 0;
+    right          : 1.313rem;
+    position       : absolute;
+    height         : 2rem;
+    z-index        : 2;
+}
+
+.openIconContainer--global__minicart {
+    padding: 0;
+}
+
+.minicartSummary--global__minicart--summary {
+    padding: 0;
+}
+
+.minicartCheckoutButton--global__minicart--checkoutbutton {
+    padding: 0;
+}
+
+.minicartCheckoutButton--global__minicart--checkoutbutton :global(.vtex-button) {
+    height          : 60px;
+    background-color: #ff0093;
+    border-radius   : 8px;
+    font-size       : 0;
+    border-color    : #ff0093;
+}
+
+.minicartSummary--global__minicart--summary :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+    color      : #909090;
+    font-size  : 12px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+:global(.vtex-minicart-2-x-minicartCheckoutButton) :global(.vtex-button__label)::before {
+    content    : "FINALIZAR COMPRA";
+    color      : #fff;
+    font-size  : 16px;
+    font-weight: 400;
+    line-height: 24px;
+}

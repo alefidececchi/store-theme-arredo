@@ -3,6 +3,16 @@
         "children": [
             "flex-layout.col#mobile__drawer--header"
         ],
-        "title": "Drawer header"
+        "props": {
+            "blockClass": "mobile__drawer--header"
+        },
+        "title": "Mobile drawer header"
+    },
+    "drawer-close-button#mobile__menu--closebutton": {
+        "props": {
+            "blockClass": "mobile__menu--closebutton",
+            "size": 20
+        },
+        "title": "Mobile menu close button"
     }
 }

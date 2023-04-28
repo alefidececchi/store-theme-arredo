@@ -4,8 +4,11 @@
             "drawer-header#mobile"
         ],
         "children": [
-            "mega-menu#mobile"
+            "flex-layout.col#mobile__container--menu"
         ],
+        "props": {
+            "blockClass": "mobile__drawer--menu"
+        },
         "title": "Drawer menu"
     },
     "drawer#search": {
@@ -13,14 +16,20 @@
             "drawer-trigger#mobile__icon--search"
         ],
         "children": [
-            "search-bar"
+            "search-bar#global__header--searchbar"
         ],
+        "props": {
+            "blockClass": "mobile__drawer--search"
+        },
         "title": "Drawer search"
     },
     "drawer-trigger#mobile__icon--search": {
         "children": [
-            "image#global__icon--search"
+            "icon#global__icon--search"
         ],
+        "props": {
+            "blockClass": "mobile__icon--search"
+        },
         "title": "Icon search Drawer on mobile"
     }
 }

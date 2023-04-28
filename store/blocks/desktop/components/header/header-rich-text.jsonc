@@ -1,0 +1,11 @@
+{
+    "rich-text#desktop__measures--title": {
+        "props": {
+            "blockClass": "desktop__measures--title",
+            "text": "Medidas",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT"
+        },
+        "title": "Category measures title"
+    }
+}

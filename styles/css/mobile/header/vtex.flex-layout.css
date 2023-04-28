@@ -1,0 +1,27 @@
+.flexColChild--mobile__container--menu {
+    align-items       : center;
+    display           : flex;
+    flex-direction    : row;
+    justify-content   : flex-start;
+}
+.flexCol--mobile__container--menu {
+    justify-content: space-between;
+}
+
+.flexRowContent--mobile__container--login {
+    justify-content: flex-start;
+}
+
+.flexRow--mobile__container--login {
+    height       : auto;
+    border-top   : 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding      : 1rem 0;
+    width        : 100%;
+}
+
+.flexRow--mobile__header--row1 {
+    align-items: center;
+    display    : flex;
+    height     : 70px;
+}

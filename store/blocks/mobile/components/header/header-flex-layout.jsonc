@@ -1,7 +1,7 @@
 {
     "flex-layout.row#mobile__header--row1": {
         "children": [
-            "flex-layout.col#mobile__drawer--containercol", 
+            "flex-layout.col#mobile__drawer--containercol",
             "header-force-center#global__logo--container",
             "minicart.v2"
         ],
@@ -15,7 +15,7 @@
         },
         "title": "Mobile sticky header row 1"
     },
-    "flex-layout.col#mobile__drawer--containercol": { 
+    "flex-layout.col#mobile__drawer--containercol": {
         "children": [
             "flex-layout.row#mobile__drawer--containerrow"
         ],
@@ -45,7 +45,6 @@
     "flex-layout.col#mobile__drawer--header": {
         "children": [
             "flex-layout.row#mobile__container--closebutton",
-            "flex-layout.row#mobile__container--department1",
             "flex-layout.row#mobile__container--gobackbtn"
         ],
         "props": {
@@ -58,7 +57,7 @@
     },
     "flex-layout.row#mobile__container--closebutton": {
         "children": [
-            "drawer-close-button"
+            "drawer-close-button#mobile__menu--closebutton"
         ],
         "props": {
             "blockClass": "mobile__container--closebutton",
@@ -69,20 +68,6 @@
             "preventVerticalStretch": true
         },
         "title": "Container drawer close button"
-    },
-    "flex-layout.row#mobile__container--department1": {
-        "children": [
-            "image#mobile__department--ropadecama"
-        ],
-        "props": {
-            "blockClass": "mobile__container--department1",
-            "fullWidth": true,
-            "horizontalAlign": "center",
-            "preserveLayoutOnMobile": true,
-            "preventHorizontalStretch": true,
-            "preventVerticalStretch": true
-        },
-        "title": "Container image department-1"
     },
     "flex-layout.row#mobile__container--gobackbtn": {
         "children": [
@@ -98,5 +83,47 @@
             "paddingLeft": 4
         },
         "title": "Container menu-go-back button"
+    },
+    "flex-layout.col#mobile__container--menu": {
+        "children": [
+            "mega-menu#mobile",
+            "flex-layout.row#mobile__container--login",
+            "flex-layout.row#mobile__container--link"
+        ],
+        "props": {
+            "blockClass": "mobile__container--menu",
+            "horizontalAlign": "left",
+            "preventVerticalStretch": true,
+            "verticalAlign": "top"
+        },
+        "title": "Mobile Drawer container"
+    },
+    "flex-layout.row#mobile__container--login": {
+        "children": [
+            "login#mobile"
+        ],
+        "props": {
+            "blockClass": "mobile__container--login",
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true
+        },
+        "title": "Mobile login row container"
+    },
+    "flex-layout.row#mobile__container--link": {
+        "children": [
+            "link#global__header--link"
+        ],
+        "props": {
+            "blockClass": "mobile__container--link",
+            "fullWidth": true,
+            "horizontalAlign": "left",
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true
+        },
+        "title": "Mobile link row container"
     }
 }
