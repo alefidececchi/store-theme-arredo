@@ -1,16 +1,16 @@
 {
-    "menu-item#desktop__department--ropadecama": {
+    "menu-item#desktop__department--bedclothes": {
         "blocks": [
             "vtex.menu@2.x:submenu#desktop__block--department1"
         ],
         "props": {
             "blockClass": "desktop__item--department",
-            "id": "department-ropa-de-cama",
+            "id": "department-bed-clothes",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/ropa-de-cama",
+                "href": "/bed-clothes",
                 "noFollow": false,
                 "tagTitle": "Ropa de cama",
                 "text": "ROPA DE CAMA"
@@ -18,15 +18,15 @@
         },
         "title": "Menu item departament 1"
     },
-    "menu-item#desktop__department--baño": {
+    "menu-item#desktop__department--bathroom": {
         "props": {
             "blockClass": "desktop__item--department",
-            "id": "department-baño",
+            "id": "department-bathroom",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/baño",
+                "href": "/bano",
                 "noFollow": false,
                 "tagTitle": "Baño",
                 "text": "BAÑO"
@@ -34,15 +34,15 @@
         },
         "title": "Menu item departament 2"
     },
-    "menu-item#desktop__department--cocina": {
+    "menu-item#desktop__department--kitchen": {
         "props": {
             "blockClass": "desktop__item--department",
-            "id": "department-cocina",
+            "id": "department-kitchen",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/cocina",
+                "href": "/kitchen",
                 "noFollow": false,
                 "tagTitle": "Cocina",
                 "text": "COCINA"
@@ -50,15 +50,15 @@
         },
         "title": "Menu item departament 3"
     },
-    "menu-item#desktop__department--decoracion": {
+    "menu-item#desktop__department--decoration": {
         "props": {
             "blockClass": "desktop__item--department",
-            "id": "department-decoracion",
+            "id": "department-decoration",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/decoracion",
+                "href": "/decoration",
                 "noFollow": false,
                 "tagTitle": "Decoracion",
                 "text": "DECORACIÓN"
@@ -82,15 +82,15 @@
         },
         "title": "Menu item departament 5"
     },
-    "menu-item#desktop__department--destacadas": {
+    "menu-item#desktop__department--outstanding": {
         "props": {
             "blockClass": "desktop__item--department",
-            "id": "department-destacadas",
+            "id": "department-outstanding",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/destacadas",
+                "href": "/outstanding",
                 "noFollow": false,
                 "tagTitle": "Destacadas",
                 "text": "DESTACADAS"
@@ -98,15 +98,15 @@
         },
         "title": "Menu item departament 6"
     },
-    "menu-item#desktop__department--conocenos": {
+    "menu-item#desktop__department--knowus": {
         "props": {
             "blockClass": "desktop__item--department",
-            "id": "department-conocenos",
+            "id": "department-knowus",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/conocenos",
+                "href": "/knowus",
                 "noFollow": false,
                 "tagTitle": "Conocenos",
                 "text": "CONOCENOS"
@@ -114,32 +114,32 @@
         },
         "title": "Menu item departament 7"
     },
-    "menu-item#ropadecama__menu--medidas": {
+    "menu-item#bedclothes__menu--measures": {
         "blocks": [
-            "vtex.menu@2.x:submenu#desktop__block--medidas"
+            "vtex.menu@2.x:submenu#desktop__block--measures"
         ],
         "props": {
-            "id": "ropadecama-medidas",
+            "id": "bedclothes-measures",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/ropa-de-cama/medidas",
+                "href": "/bed-clothes/measures",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Medidas"
             }
         },
-        "title": "Menu item 'medidas' category"
+        "title": "Menu item 'measures' category"
     },
-    "menu-item#desktop__medidas--king": {
+    "menu-item#desktop__measures--king": {
         "props": {
-            "id": "ropadecama-medidas-king",
+            "id": "bedclothes-measures-king",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/ropa-de-cama/medidas/king-size",
+                "href": "/bed-clothes/measures/king-size",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "King (hasta 2 x 2 m)"
@@ -147,169 +147,169 @@
         },
         "title": "Menu item 'king' subcategory"
     },
-    "menu-item#ropadecama__category--1": {
+    "menu-item#bedclothes__category--1": {
         "props": {
-            "id": "ropadecama-category-1",
+            "id": "bedclothes-category-1",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/ropa-de-cama/sabanas",
+                "href": "/bed-clothes/bed-sheets",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Sábanas"
             }
         },
-        "title": "Menu item 'sabanas' category"
+        "title": "Menu item 'bed-sheets' category"
     },
-    "menu-item#ropadecama__category--2": {
+    "menu-item#bedclothes__category--2": {
         "props": {
-            "id": "ropadecama-category-2",
+            "id": "bedclothes-category-2",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/ropa-de-cama/cubrecamas",
+                "href": "/bed-clothes/bedspreads",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Cubrecamas"
             }
         },
-        "title": "Menu item 'cubrecamas' category"
+        "title": "Menu item 'bedspreads' category"
     },
-    "menu-item#ropadecama__category--3": {
+    "menu-item#bedclothes__category--3": {
         "props": {
-            "id": "ropadecama-category-3",
+            "id": "bedclothes-category-3",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/ropa-de-cama/acolchados",
+                "href": "/bed-clothes/padded",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Acolchados"
             }
         },
-        "title": "Menu item 'acolchados' category"
+        "title": "Menu item 'padded' category"
     },
-    "menu-item#ropadecama__category--4": {
+    "menu-item#bedclothes__category--4": {
         "props": {
-            "id": "ropadecama-category-4",
+            "id": "bedclothes-category-4",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/ropa-de-cama/fundas-de-acolchados",
+                "href": "/bed-clothes/padding-covers",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Fundas de Acolchados"
             }
         },
-        "title": "Menu item 'fundas de acolchados' category"
+        "title": "Menu item 'padding covers' category"
     },
-    "menu-item#ropadecama__category--5": {
+    "menu-item#bedclothes__category--5": {
         "props": {
-            "id": "ropadecama-category-5",
+            "id": "bedclothes-category-5",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/ropa-de-cama/almohadas",
+                "href": "/bed-clothes/pillows",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Almohadas"
             }
         },
-        "title": "Menu item 'almohadas' category"
+        "title": "Menu item 'pillows' category"
     },
-    "menu-item#ropadecama__category--6": {
+    "menu-item#bedclothes__category--6": {
         "props": {
-            "id": "ropadecama-category-6",
+            "id": "bedclothes-category-6",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/ropa-de-cama/frazadas",
+                "href": "/bed-clothes/blankets",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Frazadas"
             }
         },
-        "title": "Menu item 'frazadas' category"
+        "title": "Menu item 'blankets' category"
     },
-    "menu-item#ropadecama__category--7": {
+    "menu-item#bedclothes__category--7": {
         "props": {
-            "id": "ropadecama-category-7",
+            "id": "bedclothes-category-7",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/ropa-de-cama/mantas",
+                "href": "/bed-clothes/rug",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Mantas"
             }
         },
-        "title": "Menu item 'mantas' category"
+        "title": "Menu item 'rug' category"
     },
-    "menu-item#ropadecama__category--8": {
+    "menu-item#bedclothes__category--8": {
         "props": {
-            "id": "ropadecama-category-8",
+            "id": "bedclothes-category-8",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/ropa-de-cama/almohadones",
+                "href": "/bed-clothes/cushions",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Almohadones"
             }
         },
-        "title": "Menu item 'almohadones' category"
+        "title": "Menu item 'cushions' category"
     },
-    "menu-item#ropadecama__category--9": {
+    "menu-item#bedclothes__category--9": {
         "props": {
-            "id": "ropadecama-category-9",
+            "id": "bedclothes-category-9",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/ropa-de-cama/cubresommier",
+                "href": "/bed-clothes/sommier-covers",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Cubresommier"
             }
         },
-        "title": "Menu item 'cubresommier' category"
+        "title": "Menu item 'sommier covers' category"
     },
-    "menu-item#ropadecama__category--10": {
+    "menu-item#bedclothes__category--10": {
         "props": {
-            "id": "ropadecama-category-10",
+            "id": "bedclothes-category-10",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/ropa-de-cama/cubrecolchon",
+                "href": "/bed-clothes/mattress-covers",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Cubrecolchón"
             }
         },
-        "title": "Menu item 'cubrecolchon' category"
+        "title": "Menu item 'mattress covers' category"
     },
-    "menu-item#ropadecama__category--11": {
+    "menu-item#bedclothes__category--11": {
         "props": {
-            "id": "ropadecama-category-11",
+            "id": "bedclothes-category-11",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/ropa-de-cama/ropa-de-hogar",
+                "href": "/bed-clothes/home-clothes",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Ropa de Hogar"
             }
         },
-        "title": "Menu item 'ropa de hogar' category"
+        "title": "Menu item 'home clothes' category"
     }
 }

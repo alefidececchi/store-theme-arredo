@@ -9,13 +9,13 @@
         },
         "title": "Submenu Block of departament 1"
     },
-    "vtex.menu@2.x:submenu#desktop__block--medidas": {
+    "vtex.menu@2.x:submenu#desktop__block--measures": {
         "children": [
-            "flex-layout.row#desktop__container--medidas"
+            "flex-layout.row#desktop__container--measures"
         ],
         "props": {
-            "blockClass": "desktop__block--medidas"
+            "blockClass": "desktop__block--measures"
         },
-        "title": "Submenu block of 'medidas' category"
+        "title": "Submenu block of 'measures' category"
     }
 }

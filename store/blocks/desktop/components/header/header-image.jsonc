@@ -2,14 +2,14 @@
     "image#desktop__menu--department1": {
         "props": {
             "blockClass": "desktop__menu--department1",
-            "src": "assets/img/mobile__department--ropadecama.png"
+            "src": "assets/img/mobile__department--bedclothes.png"
         },
         "title": "Image of department 1"
     },
-    "image#desktop__submenu--medidas": {
+    "image#desktop__submenu--measures": {
         "props": {
-            "blockClass": "desktop__submenu--medidas",
-            "src": "assets/img/desktop__submenu--medidas.png"
+            "blockClass": "desktop__submenu--measures",
+            "src": "assets/img/desktop__submenu--measures.png"
         },
         "title": "Image of department 1"
     }

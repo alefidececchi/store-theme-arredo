@@ -16,7 +16,7 @@
     },
     "flex-layout.row#desktop__header--row2": {
         "children": [
-            "vtex.menu@2.x:menu#websites"
+            "vtex.menu@2.x:menu#desktop__websites"
         ],
         "props": {
             "blockClass": "desktop__header--row2",
@@ -86,7 +86,7 @@
     },
     "flex-layout.col#desktop__container--submenu": {
         "children": [
-            "vtex.menu@2.x:menu#submenu__ropadecama",
+            "vtex.menu@2.x:menu#submenu__bedclothes",
             "link#desktop__department1"
         ],
         "props": {
@@ -110,29 +110,29 @@
         },
         "title": "image department 1 container"
     },
-    "flex-layout.col#desktop__container--img-medidas": {
+    "flex-layout.col#desktop__container--img-measures": {
         "children": [
-            "image#desktop__submenu--medidas"
+            "image#desktop__submenu--measures"
         ],
         "props": {
-            "blockClass": "desktop__container--img-medidas",
+            "blockClass": "desktop__container--img-measures",
             "horizontalAlign": "left",
             "preventVerticalStretch": true,
             "verticalAlign": "middle"
         },
         "title": "Submenu image container"
     },
-    "flex-layout.row#desktop__container--medidas": {
+    "flex-layout.row#desktop__container--measures": {
         "children": [
-            "vtex.menu@2.x:menu#desktop__block--medidas",
-            "flex-layout.col#desktop__container--img-medidas"
+            "vtex.menu@2.x:menu#desktop__block--measures",
+            "flex-layout.col#desktop__container--img-measures"
         ],
         "props": {
-            "blockClass": "desktop__container--medidas",
+            "blockClass": "desktop__container--measures",
             "fullWidth": true,
             "preventVerticalStretch": true,
             "horizontalAlign": "left"
         },
-        "title": "Container submenu 'medidas'"
+        "title": "Container submenu 'measures'"
     }
 }

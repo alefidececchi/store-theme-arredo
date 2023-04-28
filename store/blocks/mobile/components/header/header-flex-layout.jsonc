@@ -69,20 +69,6 @@
         },
         "title": "Container drawer close button"
     },
-    // "flex-layout.row#mobile__container--department1": {
-    //     "children": [
-    //         "image#mobile__department--ropadecama"
-    //     ],
-    //     "props": {
-    //         "blockClass": "mobile__container--department1",
-    //         "fullWidth": true,
-    //         "horizontalAlign": "center",
-    //         "preserveLayoutOnMobile": true,
-    //         "preventHorizontalStretch": true,
-    //         "preventVerticalStretch": true
-    //     },
-    //     "title": "Container image department-1"
-    // },
     "flex-layout.row#mobile__container--gobackbtn": {
         "children": [
             "mega-menu-go-back-btn"

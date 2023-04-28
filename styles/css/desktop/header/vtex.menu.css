@@ -1,8 +1,3 @@
-/* Example desktop:
-.styledLinkContainer {
-    margin: 0 12px;
-} */
-
 .styledLinkContainer--desktop__item--department {
     padding: 0;
 }
@@ -20,10 +15,8 @@
 }
 
 .submenuWrapper--desktop__block--department1 {
-    /* display: flex;
-    justify-content: center; */
     background-size : cover;
-    background-image: url("assets/img/desktop__submenu1--background.png");
+    background-image: url("assets/img/desktop__categories--background.png");
     width           : 100vw;
 }
 
@@ -33,11 +26,11 @@
     margin         : 0 auto;
 }
 
-.submenu--desktop__block--medidas {
+.submenu--desktop__block--measures {
     justify-content: flex-start;
 }
 
-.submenuContainer--desktop__block--medidas {
+.submenuContainer--desktop__block--measures {
     position: absolute;
     left    : 250.09px;
     width   : 100vw;
@@ -47,7 +40,7 @@
     width: 195px;
 }
 
-.submenuWrapper--desktop__block--medidas {
+.submenuWrapper--desktop__block--measures {
     position        : fixed;
     background-color: white;
     height          : 360px;

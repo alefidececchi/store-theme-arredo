@@ -3,9 +3,9 @@
         "props": {
             "blockClass": "desktop__department1",
             "displayMode": "anchor",
-            "href": "/ropa-de-cama",
+            "href": "/bed-clothes",
             "label": "Ver todo"
         },
-        "title": "Link to /ropa-de-cama"
+        "title": "Link to /bed-clothes"
     }
 }
