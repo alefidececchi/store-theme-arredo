@@ -38,8 +38,17 @@
     },
     "vtex.menu@2.x:menu#desktop__block--measures": {
         "children": [
-            "menu-item#desktop__measures--king"
+            "menu-item#desktop__measures--king",
+            "menu-item#desktop__measures--extraqueen",
+            "menu-item#desktop__measures--queen",
+            "menu-item#desktop__measures--twin",
+            "menu-item#desktop__measures--1plaza",
+            "menu-item#desktop__measures--cuna"
         ],
+        "props": {
+            "blockClass": "desktop__block--measures",
+            "orientation": "vertical"
+        },
         "title": "Menu 'measures' category"
     }
 }

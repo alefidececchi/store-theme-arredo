@@ -119,21 +119,31 @@
             "vtex.menu@2.x:submenu#desktop__block--measures"
         ],
         "props": {
+            "blockClass": "desktop__item--category",
             "id": "bedclothes-measures",
             "type": "custom",
             "highlight": false,
+            "iconPosition": "right",
             "itemProps": {
                 "type": "internal",
                 "href": "/bed-clothes/measures",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Medidas"
+            },
+            "iconProps": {
+                "id": "hpa-arrow-ahead",
+                "size": 11,
+                "viewBox": "0 0 16 16",
+                "activeClassName": "desktop__menu--activearrow",
+                "mutedClassName": "desktop__menu--activearrow"
             }
         },
         "title": "Menu item 'measures' category"
     },
     "menu-item#desktop__measures--king": {
         "props": {
+            "blockClass": "desktop__item--subcategory",
             "id": "bedclothes-measures-king",
             "type": "custom",
             "highlight": false,
@@ -147,8 +157,89 @@
         },
         "title": "Menu item 'king' subcategory"
     },
+    "menu-item#desktop__measures--extraqueen": {
+        "props": {
+            "blockClass": "desktop__item--subcategory",
+            "id": "bedclothes-measures-extraqueen",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bed-clothes/measures/extra-queen-size",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "Extra Queen (hasta 1.60 x 2 m)"
+            }
+        },
+        "title": "Menu item 'Queen' subcategory"
+    },
+    "menu-item#desktop__measures--queen": {
+        "props": {
+            "blockClass": "desktop__item--subcategory",
+            "id": "bedclothes-measures-queen",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bed-clothes/measures/queen-size",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "Queen (hasta 1.50 x 1.90 m)"
+            }
+        },
+        "title": "Menu item 'Extra queen' subcategory"
+    },
+    "menu-item#desktop__measures--twin": {
+        "props": {
+            "blockClass": "desktop__item--subcategory",
+            "id": "bedclothes-measures-twin",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bed-clothes/measures/twin-size",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "Twin (hasta 1 x 2 m)"
+            }
+        },
+        "title": "Menu item 'Twin' subcategory"
+    },
+    "menu-item#desktop__measures--1plaza": {
+        "props": {
+            "blockClass": "desktop__item--subcategory",
+            "id": "bedclothes-measures-1plaza",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bed-clothes/measures/1plaza-size",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "1 Plaza (hasta 0.90 x 1.90 m)"
+            }
+        },
+        "title": "Menu item '1 Plaza' subcategory"
+    },
+    "menu-item#desktop__measures--cuna": {
+        "props": {
+            "blockClass": "desktop__item--subcategory",
+            "id": "bedclothes-measures-cuna",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/bed-clothes/measures/cuna-size",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "Cuna (hasta 0.80 x 1.40 m)"
+            }
+        },
+        "title": "Menu item 'Cuna' subcategory"
+    },
     "menu-item#bedclothes__category--1": {
         "props": {
+            "blockClass": "desktop__item--category",
             "id": "bedclothes-category-1",
             "type": "custom",
             "highlight": false,
@@ -164,6 +255,7 @@
     },
     "menu-item#bedclothes__category--2": {
         "props": {
+            "blockClass": "desktop__item--category",
             "id": "bedclothes-category-2",
             "type": "custom",
             "highlight": false,
@@ -179,6 +271,7 @@
     },
     "menu-item#bedclothes__category--3": {
         "props": {
+            "blockClass": "desktop__item--category",
             "id": "bedclothes-category-3",
             "type": "custom",
             "highlight": false,
@@ -194,6 +287,7 @@
     },
     "menu-item#bedclothes__category--4": {
         "props": {
+            "blockClass": "desktop__item--category",
             "id": "bedclothes-category-4",
             "type": "custom",
             "highlight": false,
@@ -209,6 +303,7 @@
     },
     "menu-item#bedclothes__category--5": {
         "props": {
+            "blockClass": "desktop__item--category",
             "id": "bedclothes-category-5",
             "type": "custom",
             "highlight": false,
@@ -224,6 +319,7 @@
     },
     "menu-item#bedclothes__category--6": {
         "props": {
+            "blockClass": "desktop__item--category",
             "id": "bedclothes-category-6",
             "type": "custom",
             "highlight": false,
@@ -239,6 +335,7 @@
     },
     "menu-item#bedclothes__category--7": {
         "props": {
+            "blockClass": "desktop__item--category",
             "id": "bedclothes-category-7",
             "type": "custom",
             "highlight": false,
@@ -254,6 +351,7 @@
     },
     "menu-item#bedclothes__category--8": {
         "props": {
+            "blockClass": "desktop__item--category",
             "id": "bedclothes-category-8",
             "type": "custom",
             "highlight": false,
@@ -269,6 +367,7 @@
     },
     "menu-item#bedclothes__category--9": {
         "props": {
+            "blockClass": "desktop__item--category",
             "id": "bedclothes-category-9",
             "type": "custom",
             "highlight": false,
@@ -284,6 +383,7 @@
     },
     "menu-item#bedclothes__category--10": {
         "props": {
+            "blockClass": "desktop__item--category",
             "id": "bedclothes-category-10",
             "type": "custom",
             "highlight": false,
@@ -299,6 +399,7 @@
     },
     "menu-item#bedclothes__category--11": {
         "props": {
+            "blockClass": "desktop__item--category",
             "id": "bedclothes-category-11",
             "type": "custom",
             "highlight": false,

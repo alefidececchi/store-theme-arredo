@@ -41,10 +41,46 @@
 }
 
 .submenuWrapper--desktop__block--measures {
-    position        : fixed;
     background-color: white;
     height          : 360px;
+    left            : calc(((100vw - 845.4px) / 2) + 201.41px);
+    padding         : 0;
+    position        : fixed;
     top             : 164px;
-    left            : calc(((100vw - 839px) / 2) + 195px);
     width           : 644px;
+}
+
+.menuItem--desktop__item--department--isOpen .styledLinkContent--desktop__item--department {
+    color: #ff0093;
+}
+
+.styledLinkContent--desktop__item--category {
+    color            : #555;
+    display          : flex;
+    font-size        : 14px;
+    font-weight      : 700;
+    height           : 1.25rem;
+    justify-content  : space-between;
+}
+
+.menuItem--desktop__item--category--isOpen .styledLinkContent--desktop__item--category {
+    color: #ff0093;
+}
+
+.styledLinkContent--desktop__item--subcategory {
+    text-transform: none;
+    font-size     : 14px;
+    font-weight   : 500;
+    padding       : 5px 10px;
+    margin        : 0 0 10px;
+}
+
+.menuItem--desktop__item--subcategory--isOpen .styledLinkContent--desktop__item--subcategory:hover {
+    font-size       : 14px;
+    color           : #ff0093;
+    background-color: rgba(245, 170, 188, 0.21);
+    width           : auto;
+    padding         : 5px 10px;
+    border-radius   : 8px;
+    transition      : 0.3s ease-out;
 }

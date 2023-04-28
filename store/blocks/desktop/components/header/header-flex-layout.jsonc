@@ -69,7 +69,6 @@
         },
         "title": "Searchbar, login and cart (row-container)"
     },
-
     "flex-layout.row#desktop__container--department1": {
         "children": [
             "flex-layout.col#desktop__container--submenu",
@@ -124,7 +123,7 @@
     },
     "flex-layout.row#desktop__container--measures": {
         "children": [
-            "vtex.menu@2.x:menu#desktop__block--measures",
+            "flex-layout.col#desktop__container--measures",
             "flex-layout.col#desktop__container--img-measures"
         ],
         "props": {
@@ -134,5 +133,12 @@
             "horizontalAlign": "left"
         },
         "title": "Container submenu 'measures'"
+    },
+    "flex-layout.col#desktop__container--measures": {
+        "children": [
+            "rich-text#desktop__measures--title",
+            "vtex.menu@2.x:menu#desktop__block--measures"
+        ],
+        "title": "Measures category container"
     }
 }
