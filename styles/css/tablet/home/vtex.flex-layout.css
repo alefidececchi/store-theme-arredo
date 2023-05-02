@@ -3,3 +3,12 @@
     margin: 50px auto;
     max-width: 1200px;
 } */
+
+/* .flexRow--global__home--section2 {
+    max-width: min(90vw, 35rem);
+} */
+
+.flexRowContent--mobile__home--section2 {
+    max-width: 35rem;
+    margin   : 0 auto;
+}

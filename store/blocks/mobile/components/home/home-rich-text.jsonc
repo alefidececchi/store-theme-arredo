@@ -1,0 +1,11 @@
+{
+    "rich-text#mobile__home--section3": {
+        "props": {
+            "blockClass":   "mobile__home--section3",
+            "text": "## Conocé nuestros favoritos de temporada",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        },
+        "title": "Header slider title"
+    }
+}

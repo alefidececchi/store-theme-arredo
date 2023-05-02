@@ -1,0 +1,18 @@
+{
+    "image#mobile__section1--img1": {
+        "props": {
+            "alt": "Hasta 50% off en King y Queen",
+            "blockClass": [
+                "mobile__section1--img",
+                "mobile__section1--img1"
+            ],
+            "link": {
+                "url": "https://alejandrofidececchi--itgloberspartnercl.myvtex.com/promotions/bed-clothes"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/mobile__home--section1.png",
+            "title": "Hasta 50% off en King y Queen"
+        },
+        "title": "Mobile home section 1 slider image"
+    }
+}

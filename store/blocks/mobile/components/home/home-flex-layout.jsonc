@@ -1,0 +1,50 @@
+{
+  "flex-layout.row#mobile__home--section1": {
+    "children": [
+      "slider-layout#mobile__home--section1"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section1",
+      "fullWidth": "100%",
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Mobile section 1 container"
+  },
+  "flex-layout.row#mobile__home--section2": {
+    "children": [
+      "slider-layout#global__home--section2"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section2",
+      "fullWidth": "100%",
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 2 mobile container"
+  },
+  "flex-layout.row#mobile__home--section3": {
+    "children": [
+      "rich-text#mobile__home--section3",
+      "link#global__home--section3",
+      "flex-layout.col#mobile__section3--slider"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section3",
+      "fullWidth": "100%",
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#mobile__section3--slider": {
+    "children": [
+      "slider-layout#global__home--section3"
+    ],
+    "props": {
+      "blockClass": "mobile__section3--slider",
+      "width": "100%",
+      "horizontalAllign": "center"
+    },
+    "title": "Section 3 mobile slider row container"
+  }
+}

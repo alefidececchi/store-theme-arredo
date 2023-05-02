@@ -1,0 +1,9 @@
+{
+    "responsive-layout.mobile#home": {
+        "children": [
+            "flex-layout.row#mobile__home--section1",
+            "flex-layout.row#mobile__home--section2",
+            "flex-layout.row#mobile__home--section3"
+        ]
+    }
+}

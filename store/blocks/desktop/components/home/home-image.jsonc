@@ -1,0 +1,18 @@
+{
+    "image#desktop__section1--img1": {
+        "props": {
+            "alt": "Hasta 50% off en King y Queen",
+            "blockClass": [
+                "desktop__section1--img",
+                "desktop__section1--img1"
+            ],
+            "link": {
+                "url": "https://alejandrofidececchi--itgloberspartnercl.myvtex.com/promotions/bed-clothes"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/desktop__home--section1.png",
+            "title": "Hasta 50% off en King y Queen"
+        },
+        "title": "Desktop home section 1 slider image"
+    }
+}

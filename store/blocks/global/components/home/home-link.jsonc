@@ -1,0 +1,11 @@
+{
+    "link#global__home--section3": {
+        "props": {
+            "blockClass": "global__home--section3",
+            "displayMode": "anchor",
+            "href": "/new-collection",
+            "label": "MIRÁ NUESTRA PROPUESTA"
+        },
+        "title": "Global link to new collection"
+    }
+}

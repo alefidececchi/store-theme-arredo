@@ -1,0 +1,59 @@
+.infoCardContainer--global__section2--infocard {
+    display        : flex;
+    flex-direction : column-reverse;
+    align-items    : center;
+    justify-content: center;
+    padding        : 0;
+    height         : 200px;
+    width          : 100%;
+    max-width      : 310px;
+}
+
+.infoCardImageContainer--global__section2--infocard {
+    width        : 100%;
+    height       : 150px;
+    border-radius: 8px;
+    overflow     : hidden;
+}
+
+.infoCardImage--global__section2--infocard {
+    width      : 105%;
+    max-width  : unset;
+    transition : all 1s ease;
+    margin-left: -5%;
+}
+
+.infoCardTextContainer--global__section2--infocard {
+    margin : 0;
+    width  : 100%;
+    padding: 0;
+}
+
+.infoCardCallActionContainer--global__section2--infocard {
+    margin: 0;
+    width : 100%;
+    text-align: center;
+}
+
+.infoCardCallActionContainer--global__section2--infocard :global(.vtex-button) {
+    background-color: #fff;
+    opacity         : .8;
+    border          : 0;
+    border-radius   : 0;
+}
+
+.infoCardCallActionContainer--global__section2--infocard :global(.vtex-button__label) {
+    color: #555;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 14px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.imageElement--global__section3--item {
+    width: 100%;
+}

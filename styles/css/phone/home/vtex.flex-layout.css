@@ -3,3 +3,13 @@
     margin: 50px auto;
     max-width: 1200px;
 } */
+
+/* .flexRow--global__home--section2 {
+    max-width: 20rem;
+    margin: 0 auto;
+} */
+
+.flexRowContent--mobile__home--section2 {
+    max-width: 20rem;
+    margin   : 0 auto;
+}

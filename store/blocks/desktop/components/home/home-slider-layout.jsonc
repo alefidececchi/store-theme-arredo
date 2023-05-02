@@ -1,0 +1,31 @@
+{
+    "slider-layout#desktop__home--section1": {
+        "children": [
+            "image#desktop__section1--img1"
+        ],
+        "props": {
+            "autoplay": {
+                "stopOnHover": true,
+                "timeout": 5000
+            },
+            "blockClass": "desktop__home--section1",
+            "centerMode": "disabled",
+            "fullWidth": true,
+            "infinite": true,
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "slideTransition": {
+                "speed": 800,
+                "delay": 0,
+                "timing": ""
+            },
+            "usePagination": true
+        },
+        "title": "Home section 1 global slider"
+    }
+}

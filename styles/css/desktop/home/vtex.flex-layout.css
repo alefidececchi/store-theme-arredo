@@ -3,3 +3,26 @@
     margin: 50px auto;
     max-width: 1200px;
 } */
+
+.flexRowContent--desktop__home--section2 {
+    max-width: min(90vw, 67.5rem);
+    margin   : 0 auto;
+}
+
+.flexRow--desktop__home--section3 {
+    background-color: #a19b98;
+    padding         : 2rem;
+    margin-top      : 50px;
+    margin-bottom   : 45px;
+}
+
+.flexRowContent--desktop__home--section3 {
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    margin         : 0 auto
+}
+
+.flexRowContent--desktop__home--section3 .stretchChildrenWidth {
+    width: auto!important;
+}

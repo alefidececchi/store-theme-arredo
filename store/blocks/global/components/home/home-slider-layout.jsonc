@@ -1,0 +1,58 @@
+{
+    "slider-layout#global__home--section2": {
+        "children": [
+            "info-card#global__section2--bedsheets",
+            "info-card#global__section2--padded",
+            "info-card#global__section2--rug",
+            "info-card#global__section2--pillows",
+            "info-card#global__section2--bedspreads",
+            "info-card#global__section2--towels"
+        ],
+        "props": {
+            "blockClass": "global__home--section2",
+            "centerMode": "disabled",
+            "fullWidth": true,
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 1
+            },
+            "showNavigationArrows": "always",
+            "showPaginationDots": "always",
+            "slideTransition": {
+                "speed": 400,
+                "delay": 0,
+                "timing": ""
+            },
+            "usePagination": true
+        },
+        "title": "Home section 2 global slider"
+    },
+    "slider-layout#global__home--section3": {
+        "children": [
+            "flex-layout.col#global__section3--space",
+            "flex-layout.col#global__section3--autumn",
+            "flex-layout.col#global__section3--season"
+        ],
+        "props": {
+            "blockClass": "global__home--section3",
+            "centerMode": "disabled",
+            "fullWidth": true,
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 1
+            },
+            "showNavigationArrows": "mobileOnly",
+            "showPaginationDots": "mobileOnly",
+            "slideTransition": {
+                "speed": 400,
+                "delay": 0,
+                "timing": ""
+            },
+            "usePagination": true
+        },
+        "title": "Home section 3 global slider"
+
+    }
+}
