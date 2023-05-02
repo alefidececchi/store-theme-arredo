@@ -1,0 +1,20 @@
+{
+    "list-context.product-list#global__home--section4": {
+        "blocks": [
+            "product-summary.shelf#global__home--section4"
+        ],
+        "children": [
+            "slider-layout#global__home--section4"
+        ]
+    },
+    "product-summary.shelf#global__home--section4": {
+        "children": [
+            "product-summary-name",
+            "product-summary-description",
+            "product-summary-image",
+            "product-summary-price",
+            "product-summary-sku-selector",
+            "product-summary-buy-button"
+        ]
+    }
+}

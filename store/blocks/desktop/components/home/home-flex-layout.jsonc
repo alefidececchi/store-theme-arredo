@@ -9,7 +9,7 @@
       "horizontalAllign": "center",
       "preserveLayoutOnMobile": true
     },
-    "title": "Section 1 global container"
+    "title": "Section 1 desktop container"
   },
   "flex-layout.row#desktop__home--section2": {
     "children": [
@@ -46,6 +46,45 @@
       "width": "100%",
       "horizontalAllign": "center"
     },
-    "title": "Section 3 desktop slider row container"
+    "title": "Section 3 desktop slider column container"
+  },
+  "flex-layout.row#desktop__home--section4": {
+    "children": [
+      "flex-layout.col#desktop__home--section4"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section4",
+      "fullWidth": "100%",
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 4 desktop row container"
+  },
+  "flex-layout.col#desktop__home--section4": {
+    "children": [
+      "flex-layout.row#desktop__section4--title",
+      "flex-layout.row#desktop__section4--slider"
+    ],
+    "title": "Section 4 desktop column container"
+  },
+  "flex-layout.row#desktop__section4--title": {
+    "children": [
+      "rich-text#global__section4--title"
+    ],
+    "props": {
+      "blockClass": "desktop__section4--title",
+      "width": "100%"
+    },
+    "title": "Title column container in section 4"
+  },
+  "flex-layout.row#desktop__section4--slider": {
+    "children": [
+      "list-context.product-list#global__home--section4"
+    ],
+    "props": {
+      "blockClass": "desktop__section4--slider",
+      "width": "100%"
+    },
+    "title": "Slider row container in section 4"
   }
 }

@@ -70,6 +70,14 @@
             "textPosition": "LEFT"
         },
         "title": "Season item text"
+    },
+    "rich-text#global__section4--title": {
+        "props": {
+            "blockClass": "global__section4--title",
+            "text": "Conocé los más vendidos",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        },
+        "title": "Section 4 title"
     }
 }
-// 

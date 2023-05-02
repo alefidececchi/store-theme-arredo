@@ -3,7 +3,8 @@
     "children": [
       "flex-layout.row#desktop__home--section1",
       "flex-layout.row#desktop__home--section2",
-      "flex-layout.row#desktop__home--section3"
+      "flex-layout.row#desktop__home--section3",
+      "flex-layout.row#desktop__home--section4"
     ],
     "title": "Desktop home page"
   }

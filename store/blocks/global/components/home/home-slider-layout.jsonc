@@ -53,6 +53,26 @@
             "usePagination": true
         },
         "title": "Home section 3 global slider"
-
+    },
+    "slider-layout#global__home--section4": {
+        "props": {
+            "arrowSize": 11,
+            "autoplay": {
+                "stopOnHover": true,
+                "timeout": 4500
+            },
+            "blockClass": "global__home--section4",
+            "fullWidth": true,
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "showPaginationDots": "always",
+            "usePagination": true
+        },
+        "title": "Global slider section 4"
     }
 }
