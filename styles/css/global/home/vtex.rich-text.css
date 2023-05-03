@@ -8,24 +8,33 @@
 }
 
 .paragraph--section3__item--text {
-    color: #fff;
+    color      : #fff;
     font-family: DM Sans;
-    font-size: 16px;
+    font-size  : 16px;
     font-weight: 400;
     line-height: 22px;
-    margin: 0;
+    margin     : 0;
 }
 
 .headingLevel2--global__home--section3 {
-    margin        : 0;
-    color         : #fff;
-    font-family   : Stint Ultra Expanded, DM Sans;
-    font-weight   : 400;
-    word-spacing  : 10px;
-    letter-spacing: 3px;
-    font-size     : 24px;
-    line-height   : 26px;
-    text-align    : center;
-    margin-bottom : 1rem;
+    margin          : 0;
+    color           : #fff;
+    font-family     : Stint Ultra Expanded, DM Sans;
+    font-weight     : 400;
+    word-spacing    : 10px;
+    letter-spacing  : 3px;
+    font-size       : 24px;
+    line-height     : 26px;
+    text-align      : center;
+    margin-bottom   : 1rem;
     background-color: orange;
+}
+
+.paragraph--global__section4--title {
+    margin     : 12px 0 12px;
+    color      : #91989e;
+    font-family: Stint Ultra Expanded;
+    font-size  : 30px;
+    font-weight: 100;
+
 }

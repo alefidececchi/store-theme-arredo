@@ -51,7 +51,6 @@
     },
     "title": "Space text col container"
   },
-  //////////////////////////////////////
   "flex-layout.col#global__section3--autumn": {
     "children": [
       "image#global__section3--autumn",
@@ -92,8 +91,6 @@
     },
     "title": "Autumn text col container"
   },
-
-  //////////////////////////////////////////
   "flex-layout.col#global__section3--season": {
     "children": [
       "image#global__section3--season",
@@ -133,5 +130,15 @@
       "width": "100%"
     },
     "title": "Season text col container"
+  },
+  "flex-layout.row#global__section4--price": {
+    "children": [
+      "product-list-price#global__home--section4",
+      "product-selling-price#global__home--section4"
+    ],
+    "props": {
+      "blockClass": "global__section4--price"
+    },
+    "title": "Product price row container on section 4"
   }
 }

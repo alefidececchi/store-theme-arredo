@@ -5,16 +5,62 @@
         ],
         "children": [
             "slider-layout#global__home--section4"
-        ]
+        ],
+        "props": {
+            "blockClass": "global__home--section4"
+        },
+        "title": "List of products on home section 4"
     },
     "product-summary.shelf#global__home--section4": {
         "children": [
-            "product-summary-name",
-            "product-summary-description",
-            "product-summary-image",
-            "product-summary-price",
-            "product-summary-sku-selector",
-            "product-summary-buy-button"
-        ]
+            "product-summary-image#global__home--section4",
+            "product-summary-name#global__home--section4",
+            "product-summary-sku-selector#global__home--section4",
+            "flex-layout.row#global__section4--price",
+            "product-installments",
+            "add-to-cart-button#global__home--section4"
+        ],
+        "props": {
+            "blockClass": "global__home--section4"
+        },
+        "title": "Product summary shelf on home section 4"
+    },
+    "product-summary-image#global__home--section4": {
+        "props": {
+            "blockClass": "global__home--section4"
+        },
+        "title": "Product image on home section 4"
+    },
+    "product-summary-name#global__home--section4": {
+        "props": {
+            "blockClass": "global__home--section4"
+        },
+        "title": "Product name on home section 4"
+    },
+    "product-summary-sku-selector#global__home--section4": {
+        "props": {
+            "blockClass": "global__home--section4"
+        },
+        "title": "Product sku on home section 4"
+    },
+    "product-list-price#global__home--section4": {
+        "props": {
+            "blockClass": "global__home--section4"
+        },
+        "title": "Product list price on home section 4"
+    },
+    "product-selling-price#global__home--section4": {
+        "props": {
+            "blockClass": "global__home--section4"
+        },
+        "title": "Product selling price on home secion 4"
+    },
+    "add-to-cart-button#global__home--section4": {
+        "props": {
+            "blockClass": "global__home--section4",
+            "onClickBehavior": "add-to-cart",
+            "text": "AGREGAR"
+        },
+        "title": "Add to cart button on home section 4"
     }
 }

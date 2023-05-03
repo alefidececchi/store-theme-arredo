@@ -1,3 +1,9 @@
-/* .sliderLayoutContainer--global__home--section2 {
-    width: min(90vw, 20rem);
-} */
+@media screen and (max-width: 640px) {
+    .sliderTrack--global__home--section4 {
+        height: 382px;
+    }
+
+    .slide--global__home--section4 {
+        height: 100%;
+    }
+}

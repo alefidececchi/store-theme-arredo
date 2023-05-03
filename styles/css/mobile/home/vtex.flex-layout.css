@@ -1,7 +1,11 @@
-/* .flexRowContent--mobile__home--section2 {
-    max-width: 35rem;
-    margin   : 0 auto;
-} */
+@media screen and (max-width: 1023px) {
+    .flexRowContent--global__section4--price {
+        flex-direction: column;
+        align-items: flex-start;
+        bottom: 22%;
+    }
+}
+
 
 .flexRow--mobile__home--section3 {
     background-color: #a19b98;
@@ -23,6 +27,10 @@
 }
 
 .flexColChild--mobile__section3--slider :global(.vtex-slider-layout-0-x-sliderLayoutContainer--global__home--section3) {
-    padding: 0 2rem;
+    padding       : 0 2rem;
     padding-bottom: 20px;
+}
+
+.flexRow--mobile__home--section4 {
+    margin-bottom: 50px;
 }
