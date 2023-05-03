@@ -16,7 +16,7 @@
     },
     "flex-layout.row#desktop__header--row2": {
         "children": [
-            "vtex.menu@2.x:menu#websites"
+            "vtex.menu@2.x:menu#desktop__websites"
         ],
         "props": {
             "blockClass": "desktop__header--row2",
@@ -32,7 +32,7 @@
     },
     "flex-layout.col#desktop__header--link": {
         "children": [
-            "link#desktop__header--link"
+            "link#global__header--link"
         ],
         "props": {
             "blockClass": "desktop__header--link",
@@ -47,18 +47,25 @@
             "flex-layout.row#header__container--col-3"
         ],
         "props": {
-            "blockClass": "desktop__header--container"
+            "blockClass": "desktop__header--container",
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "width": "100%"
         },
         "title": "Searchbar, login and cart (colum-container)"
     },
     "flex-layout.row#header__container--col-3": {
         "children": [
             "search-bar#global__header--searchbar",
-            "login",
+            "login#desktop",
             "minicart.v2"
         ],
         "props": {
-            "blockClass": "header__container--col-3"
+            "blockClass": "header__container--col-3",
+            "colSinzing": "auto",
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true
         },
         "title": "Searchbar, login and cart (row-container)"
     },
@@ -70,13 +77,15 @@
         "props": {
             "blockClass": "desktop__container--department1",
             "fullWidth": true,
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true
         },
         "title": "Desktop row container department 1"
     },
     "flex-layout.col#desktop__container--submenu": {
         "children": [
-            "vtex.menu@2.x:menu#submenu__ropadecama",
+            "vtex.menu@2.x:menu#submenu__bedclothes",
             "link#desktop__department1"
         ],
         "props": {
@@ -100,29 +109,36 @@
         },
         "title": "image department 1 container"
     },
-    "flex-layout.col#desktop__container--img-medidas": {
+    "flex-layout.col#desktop__container--img-measures": {
         "children": [
-            "image#desktop__submenu--medidas"
+            "image#desktop__submenu--measures"
         ],
         "props": {
-            "blockClass": "desktop__container--img-medidas",
+            "blockClass": "desktop__container--img-measures",
             "horizontalAlign": "left",
             "preventVerticalStretch": true,
             "verticalAlign": "middle"
         },
         "title": "Submenu image container"
     },
-    "flex-layout.row#desktop__container--medidas": {
+    "flex-layout.row#desktop__container--measures": {
         "children": [
-            "vtex.menu@2.x:menu#desktop__block--medidas",
-            "flex-layout.col#desktop__container--img-medidas"
+            "flex-layout.col#desktop__container--measures",
+            "flex-layout.col#desktop__container--img-measures"
         ],
         "props": {
-            "blockClass": "desktop__container--medidas",
+            "blockClass": "desktop__container--measures",
             "fullWidth": true,
             "preventVerticalStretch": true,
             "horizontalAlign": "left"
         },
-        "title": "Container submenu 'medidas'"
+        "title": "Container submenu 'measures'"
+    },
+    "flex-layout.col#desktop__container--measures": {
+        "children": [
+            "rich-text#desktop__measures--title",
+            "vtex.menu@2.x:menu#desktop__block--measures"
+        ],
+        "title": "Measures category container"
     }
 }

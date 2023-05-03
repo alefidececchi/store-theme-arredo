@@ -1,42 +1,54 @@
 {
     //Departments
-    "vtex.menu@2.x:menu#websites": {
+    "vtex.menu@2.x:menu#desktop__websites": {
         "children": [
-            "menu-item#desktop__department--ropadecama",
-            "menu-item#desktop__department--baño",
-            "menu-item#desktop__department--cocina",
-            "menu-item#desktop__department--decoracion",
+            "menu-item#desktop__department--bedclothes",
+            "menu-item#desktop__department--bathroom",
+            "menu-item#desktop__department--kitchen",
+            "menu-item#desktop__department--decoration",
             "menu-item#desktop__department--disney",
-            "menu-item#desktop__department--destacadas",
-            "menu-item#desktop__department--conocenos"
-        ],
-        "title": "Menu of departments"
-    },
-    "vtex.menu@2.x:menu#submenu__ropadecama": {
-        "children": [
-            "menu-item#ropadecama__menu--medidas",
-            "menu-item#ropadecama__category--1",
-            "menu-item#ropadecama__category--2",
-            "menu-item#ropadecama__category--3",
-            "menu-item#ropadecama__category--4",
-            "menu-item#ropadecama__category--5",
-            "menu-item#ropadecama__category--6",
-            "menu-item#ropadecama__category--7",
-            "menu-item#ropadecama__category--8",
-            "menu-item#ropadecama__category--9",
-            "menu-item#ropadecama__category--10",
-            "menu-item#ropadecama__category--11"
+            "menu-item#desktop__department--outstanding",
+            "menu-item#desktop__department--knowus"
         ],
         "props": {
-            "blockClass": "submenu__ropadecama",
+            "blockClass": "desktop__websites"
+        },
+        "title": "Menu of departments"
+    },
+    "vtex.menu@2.x:menu#submenu__bedclothes": {
+        "children": [
+            "menu-item#bedclothes__menu--measures",
+            "menu-item#bedclothes__category--1",
+            "menu-item#bedclothes__category--2",
+            "menu-item#bedclothes__category--3",
+            "menu-item#bedclothes__category--4",
+            "menu-item#bedclothes__category--5",
+            "menu-item#bedclothes__category--6",
+            "menu-item#bedclothes__category--7",
+            "menu-item#bedclothes__category--8",
+            "menu-item#bedclothes__category--9",
+            "menu-item#bedclothes__category--10",
+            "menu-item#bedclothes__category--11"
+        ],
+        "props": {
+            "blockClass": "submenu__bedclothes",
             "orientation": "vertical"
         },
-        "title": "Menu 'ropa de cama' department"
+        "title": "Menu 'bed clothes' department"
     },
-    "vtex.menu@2.x:menu#desktop__block--medidas": {
+    "vtex.menu@2.x:menu#desktop__block--measures": {
         "children": [
-            "menu-item#desktop__medidas--king"
+            "menu-item#desktop__measures--king",
+            "menu-item#desktop__measures--extraqueen",
+            "menu-item#desktop__measures--queen",
+            "menu-item#desktop__measures--twin",
+            "menu-item#desktop__measures--1plaza",
+            "menu-item#desktop__measures--cuna"
         ],
-        "title": "Menu 'medidas' category"
+        "props": {
+            "blockClass": "desktop__block--measures",
+            "orientation": "vertical"
+        },
+        "title": "Menu 'measures' category"
     }
 }

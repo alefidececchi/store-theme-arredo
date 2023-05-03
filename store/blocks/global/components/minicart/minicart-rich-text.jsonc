@@ -1,0 +1,9 @@
+{
+    "rich-text#global__minicart--empty": {
+        "props": {
+            "blockClass": "global__minicart--empty",
+            "text": "Tu carrito no tiene productos"
+        },
+        "title": "Global text for empty cart"
+    }
+}

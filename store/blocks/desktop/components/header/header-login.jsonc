@@ -1,16 +1,15 @@
 {
-    "login": {
-        "props": {
-          "emailAndPasswordTitle": "LOG-IN",
-          "accessCodeTitle": "Acess Code LOG-IN",
-          "emailPlaceholder": "e-mail",
-          "passwordPlaceholder": "password",
-          "showPasswordVerificationIntoTooltip": true,
-          "showIconProfile": true,
-          "iconLabel": "",
-          "hideIconLabel": true
-        },
-        "title": "Login component"
-      }
-      
+  "login#desktop": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel": "",
+      "hideIconLabel": true
+    },
+    "title": "Login component"
+  }
 }

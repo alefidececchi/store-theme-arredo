@@ -4,7 +4,7 @@
             "autocomplete-result-list.v2"
         ],
         "props": {
-            "blockClass": "searchbar",
+            "blockClass": "global__header--searchbar",
             "placeholder": "¿Qué estás buscando?",
             "openAutocompleteOnFocus": true
         },

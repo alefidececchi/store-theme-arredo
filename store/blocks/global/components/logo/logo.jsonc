@@ -1,10 +1,11 @@
 {
-    "logo": {
+    "logo#global": {
         "props": {
+            "blockClass": "global__logo",
             "href": "/",
-            "url": "assets/img/header__logo-marca.png",
+            "url": "assets/img/global__header--logo.png",
             "width": "121"
         },
-        "title": "Logo Marca"
+        "title": "Logo mark"
     }
 }

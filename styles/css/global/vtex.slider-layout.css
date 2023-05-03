@@ -1,5 +1,10 @@
-.slideChildrenContainer--global__header--offer {
+.sliderLayoutContainer--global__header--offer {
     background-color: #7f868c;
-    color           : white;
     height          : 40px;
+}
+
+.slideChildrenContainer--global__header--offer {
+    /* background-color: #7f868c; */
+    color              : white;
+    /* height          : 40px; */
 }

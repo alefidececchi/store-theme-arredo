@@ -1,34 +1,86 @@
-/* Example desktop:
-.styledLinkContainer {
-    margin: 0 12px;
-} */
+.styledLinkContainer--desktop__item--department {
+    padding: 0;
+}
+
+.styledLink--desktop__item--department {
+    color      : #555;
+    font-size  : 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
 .submenuContainer--desktop__block--department1 {
     position: absolute;
     left    : 0;
 }
 
 .submenuWrapper--desktop__block--department1 {
-    background-image: url("assets/img/desktop__submenu1--background.png");
+    background-size : cover;
+    background-image: url("assets/img/desktop__categories--background.png");
     width           : 100vw;
 }
 
 .submenu--desktop__block--department1 {
+    justify-content: center;
+    width          : auto;
+    margin         : 0 auto;
+}
+
+.submenu--desktop__block--measures {
     justify-content: flex-start;
 }
 
-.submenu--desktop__block--medidas {
-    justify-content: flex-start;
-}
-
-.submenuContainer--desktop__block--medidas {
+.submenuContainer--desktop__block--measures {
     position: absolute;
     left    : 250.09px;
     width   : 100vw;
 }
 
-.submenuWrapper--desktop__block--medidas {
+.flexCol--desktop__container--submenu {
+    width: 195px;
+}
+
+.submenuWrapper--desktop__block--measures {
     background-color: white;
-    height          : 330.59px;
-    top             : -35.65px;
-    width: 60%;
+    height          : 360px;
+    left            : calc(((100vw - 845.4px) / 2) + 201.41px);
+    padding         : 0;
+    position        : fixed;
+    top             : 164px;
+    width           : 644px;
+}
+
+.menuItem--desktop__item--department--isOpen .styledLinkContent--desktop__item--department {
+    color: #ff0093;
+}
+
+.styledLinkContent--desktop__item--category {
+    color            : #555;
+    display          : flex;
+    font-size        : 14px;
+    font-weight      : 700;
+    height           : 1.25rem;
+    justify-content  : space-between;
+}
+
+.menuItem--desktop__item--category--isOpen .styledLinkContent--desktop__item--category {
+    color: #ff0093;
+}
+
+.styledLinkContent--desktop__item--subcategory {
+    text-transform: none;
+    font-size     : 14px;
+    font-weight   : 500;
+    padding       : 5px 10px;
+    margin        : 0 0 10px;
+}
+
+.menuItem--desktop__item--subcategory--isOpen .styledLinkContent--desktop__item--subcategory:hover {
+    font-size       : 14px;
+    color           : #ff0093;
+    background-color: rgba(245, 170, 188, 0.21);
+    width           : auto;
+    padding         : 5px 10px;
+    border-radius   : 8px;
+    transition      : 0.3s ease-out;
 }

@@ -1,17 +1,10 @@
 {
-    // "header": {
-    //     "blocks": [
-    //         "header-layout.desktop",
-    //         "header-layout.mobile"
-    //     ],
-    //     "title": "Header"
-    // },
     "header.full": {
         "blocks": [
             "header-layout.desktop",
             "header-layout.mobile",
-            "logo",
-            "vtex.menu@2.x:menu#websites",
+            "logo#global",
+            "vtex.menu@2.x:menu#desktop__websites",
             "minicart.v2",
             "search-bar"
         ],
