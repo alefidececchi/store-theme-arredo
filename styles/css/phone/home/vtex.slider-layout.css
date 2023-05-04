@@ -6,4 +6,12 @@
     .slide--global__home--section4 {
         height: 100%;
     }
+
+    .sliderLeftArrow--global__home--section4 {
+        left: calc((((100vw - 22rem) / 2) * -1) + 1rem);
+    }
+
+    .sliderRightArrow--global__home--section4 {
+        right: calc((((100vw - 22rem) / 2) * -1) + 1rem);
+    }
 }

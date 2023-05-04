@@ -4,6 +4,11 @@
         align-items   : flex-start;
         bottom        : 26%;
     }
+
+    .flexColChild--mobile__home--section4 {
+        max-width: 22rem;
+        margin   : 0 auto;
+    }
 }
 
 .flexRowContent--mobile__home--section2 {
