@@ -14,5 +14,48 @@
             "title": "Hasta 50% off en King y Queen"
         },
         "title": "Desktop home section 1 slider image"
+    },
+    "image#desktop__home--section5": {
+        "props": {
+            "alt": "",
+            "blockClass": "desktop__home--section5",
+            "link": {
+                "url": "https://alejandrofidececchi--itgloberspartnercl.myvtex.com/decoration/cushions"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/desktop__home--section5.png",
+            "title": ""
+        },
+        "title": "Image on home section 5 desktop"
+    },
+    "image#desktop__section6--img1": {
+        "props": {
+            "blockClass": [
+                "desktop__section6--img",
+                "desktop__section6--img1"
+            ],
+            "link": {
+                "url": "decoration/essence-aroma"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/desktop__section6--essence.png",
+            "title": ""
+        },
+        "title": "Essence image desktop home section 6"
+    },
+    "image#desktop__section6--img2": {
+        "props": {
+            "blockClass": [
+                "desktop__section6--img",
+                "desktop__section6--img2"
+            ],
+            "link": {
+                "url": "decoration/organizers"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/desktop__section6--organizers.png",
+            "title": ""
+        },
+        "title": "Organizers image desktop home section 6"
     }
 }

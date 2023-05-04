@@ -1,3 +1,8 @@
 .imageElement--desktop__section1--img {
     width: 100vw !important;
 }
+
+.imageElement--desktop__home--section5,
+.imageElement--desktop__section6--img {
+    height: 100%;
+}

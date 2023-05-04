@@ -14,5 +14,48 @@
             "title": "Hasta 50% off en King y Queen"
         },
         "title": "Mobile home section 1 slider image"
+    },
+    "image#mobile__home--section5": {
+        "props": {
+            "alt": "",
+            "blockClass": "mobile__home--section5",
+            "link": {
+                "url": "https://alejandrofidececchi--itgloberspartnercl.myvtex.com/decoration/cushions"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/mobile__home--section5.png",
+            "title": ""
+        },
+        "title": "Image on home section 5 mobile"
+    },
+    "image#mobile__section6--img1": {
+        "props": {
+            "blockClass": [
+                "mobile__section6--img",
+                "mobile__section6--img1"
+            ],
+            "link": {
+                "url": "decoration/essence-aroma"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/mobile__section6--essence.png",
+            "title": ""
+        },
+        "title": "Essence image mobile home section 6"
+    },
+    "image#mobile__section6--img2": {
+        "props": {
+            "blockClass": [
+                "mobile__section6--img",
+                "mobile__section6--img2"
+            ],
+            "link": {
+                "url": "decoration/organizers"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/mobile__section6--organizers.png",
+            "title": ""
+        },
+        "title": "Organizers image mobile home section 6"
     }
 }

@@ -86,5 +86,60 @@
       "width": "100%"
     },
     "title": "Slider row container in section 4"
+  },
+  "flex-layout.row#desktop__home--section5": {
+    "children": [
+      "image#desktop__home--section5"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section5",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 5 desktop container"
+  },
+  "flex-layout.row#desktop__home--section6": {
+    "children": [
+      "flex-layout.col#desktop__section6--img1",
+      "flex-layout.col#desktop__section6--img2"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section6",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 6 desktop container"
+  },
+  "flex-layout.col#desktop__section6--img1": {
+    "children": [
+      "image#desktop__section6--img1"
+    ],
+    "props": {
+      "blockClass": [
+        "desktop__section6--img",
+        "desktop__section6--img1"
+      ],
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Image 1 desktop column container on section 6"
+  },
+  "flex-layout.col#desktop__section6--img2": {
+    "children": [
+      "image#desktop__section6--img2"
+    ],
+    "props": {
+      "blockClass": [
+        "desktop__section6--img",
+        "desktop__section6--img2"
+      ],
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Image 2 desktop column container on section 6"
   }
 }
