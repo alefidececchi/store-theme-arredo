@@ -79,5 +79,14 @@
             "textPosition": "CENTER"
         },
         "title": "Section 4 title"
+    },
+    "rich-text#global__section7--title": {
+        "props": {
+            "blockClass": "global__section7--title",
+            "text": "Una almohada para tener felices sueños",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        },
+        "title": "Global title in section 7"
     }
 }

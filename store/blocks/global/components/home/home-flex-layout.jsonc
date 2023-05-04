@@ -140,5 +140,17 @@
       "blockClass": "global__section4--price"
     },
     "title": "Product price row container on section 4"
+  },
+  "flex-layout.row#global__section7--title": {
+    "children": [
+      "rich-text#global__section7--title"
+    ],
+    "props": {
+      "blockClass": "global__section7--title",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Global Title column container in section 7"
   }
 }

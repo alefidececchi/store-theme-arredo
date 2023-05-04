@@ -6,7 +6,8 @@
             "flex-layout.row#mobile__home--section3",
             "flex-layout.row#mobile__home--section4",
             "flex-layout.row#mobile__home--section5",
-            "flex-layout.row#mobile__home--section6"
+            "flex-layout.row#mobile__home--section6",
+            "flex-layout.row#mobile__home--section7"
         ]
     }
 }

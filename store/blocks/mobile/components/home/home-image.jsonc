@@ -57,5 +57,50 @@
             "title": ""
         },
         "title": "Organizers image mobile home section 6"
+    },
+    "image#mobile__home--section7": {
+        "props": {
+            "blockClass": [
+                "mobile__home--section7",
+                "mobile__section7--pillows"
+            ],
+            "link": {
+                "url": "bed-clothes/pillows"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/mobile__section7--pillows.png",
+            "title": ""
+        },
+        "title": "Pillows image in mobile home section 7"
+    },
+    "image#mobile__section7--plainpillows": {
+        "props": {
+            "blockClass": [
+                "mobile__section7--differentspillows",
+                "mobile__section7--plainpillows"
+            ],
+            "link": {
+                "url": "bed-clothes/pillows?plainpillows=true"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/mobile__section7--plainpillows.png",
+            "title": ""
+        },
+        "title": "Plain pillows image in mobile home section 7"
+    },
+    "image#mobile__section7--patternedpillows": {
+        "props": {
+            "blockClass": [
+                "mobile__section7--differentspillows",
+                "mobile__section7--patternedpillows"
+            ],
+            "link": {
+                "url": "bed-clothes/pillows?patternedpillows=true"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/mobile__section7--patternedpillows.png",
+            "title": ""
+        },
+        "title": "Patterned pillows image in mobile home section 7"
     }
 }
