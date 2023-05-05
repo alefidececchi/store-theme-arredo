@@ -160,8 +160,7 @@
   "flex-layout.col#mobile__home--section7": {
     "children": [
       "flex-layout.row#global__section7--title",
-      "image#mobile__home--section7",
-      "link#global__section7--pillows",
+      "flex-layout.row#mobile__section7--pillows",
       "flex-layout.row#mobile__section--differentspillows"
     ],
     "props": {
@@ -172,17 +171,18 @@
     },
     "title": "Section 7 column container"
   },
-  "flex-layout.row#global__section7--title": {
+  "flex-layout.row#mobile__section7--pillows": {
     "children": [
-      "rich-text#global__section7--title"
+      "image#mobile__home--section7",
+      "link#global__section7--pillows"
     ],
     "props": {
-      "blockClass": "global__section7--title",
+      "blockClass": "mobile__section7--pillows",
       "fullWidth": true,
       "horizontalAllign": "center",
       "preserveLayoutOnMobile": true
     },
-    "title": "Title row container section 7"
+    "title": "Pillows row container in section 7"
   },
   "flex-layout.row#mobile__section--differentspillows": {
     "children": [

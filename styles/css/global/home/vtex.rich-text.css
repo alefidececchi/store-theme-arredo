@@ -36,5 +36,30 @@
     font-family: Stint Ultra Expanded;
     font-size  : 30px;
     font-weight: 100;
+}
 
+.paragraph--global__section7--title {
+    color        : #fff;
+    font-family  : Stint Ultra Expanded;
+    font-size    : 30px;
+    font-weight  : 500;
+    line-height  : 58px;
+    text-align   : center;
+    margin-top   : 2rem;
+    margin-bottom: 1.313rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .paragraph--global__section7--title {
+        color        : #fff;
+        font-family  : Stint Ultra Expanded;
+        font-size    : 24px;
+        font-weight  : 500;
+        line-height  : 26px;
+        margin-bottom: 1.313rem;
+        margin-top   : 2rem;
+        padding      : 0 1rem;
+        text-align   : center;
+    }
 }

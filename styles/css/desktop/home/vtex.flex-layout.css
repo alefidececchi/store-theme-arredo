@@ -50,3 +50,48 @@
 .flexRowContent--desktop__home--section6 .stretchChildrenWidth:last-child {
     margin-left: 17.5px;
 }
+
+.flexRow--desktop__home--section7 {
+    padding         : 0 2rem;
+    background-color: #a19b98;
+    margin-top      : 50px;
+}
+
+.flexRowContent--desktop__home--section7 {
+    max-width: 76.25rem;
+    margin   : 0 auto;
+}
+
+.flexColChild--desktop__home--section7 {
+    width: auto !important;
+}
+
+.flexRowContent--desktop__section7--pillows,
+.flexCol--desktop__section7--plainpillows,
+.flexCol--desktop__section7--patternedpillows {
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    width          : 100%;
+}
+
+.flexRowContent--desktop__section7--pillows .stretchChildrenWidth,
+.flexColChild--desktop__section7--plainpillows,
+.flexColChild--desktop__section7--patternedpillows {
+    position: relative;
+    margin  : auto;
+    overflow: hidden;
+    width   : 100% !important;
+}
+
+.flexRow--desktop__home--section7 {
+    padding-bottom: 2.5rem;
+}
+
+.flexCol--desktop__section7--plainpillows {
+    margin-right: 17.5px;
+}
+
+.flexCol--desktop__section7--patternedpillows {
+    margin-left: 17.5px;
+}

@@ -147,10 +147,10 @@
     ],
     "props": {
       "blockClass": "global__section7--title",
+      "fullWidth": true,
       "horizontalAllign": "center",
-      "verticalAlign": "middle",
-      "width": "100%"
+      "preserveLayoutOnMobile": true
     },
-    "title": "Global Title column container in section 7"
+    "title": "Title row container section 7"
   }
 }

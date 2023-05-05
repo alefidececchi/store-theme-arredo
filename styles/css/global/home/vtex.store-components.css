@@ -30,8 +30,8 @@
 }
 
 .infoCardCallActionContainer--global__section2--infocard {
-    margin: 0;
-    width : 100%;
+    margin    : 0;
+    width     : 100%;
     text-align: center;
 }
 
@@ -43,17 +43,22 @@
 }
 
 .infoCardCallActionContainer--global__section2--infocard :global(.vtex-button__label) {
-    color: #555;
-    font-family: DM Sans;
-    font-size: 18px;
-    font-weight: 400;
-    font-style: normal;
+    color         : #555;
+    font-family   : DM Sans;
+    font-size     : 18px;
+    font-weight   : 400;
+    font-style    : normal;
     letter-spacing: normal;
-    line-height: 14px;
-    text-align: center;
+    line-height   : 14px;
+    text-align    : center;
     text-transform: capitalize;
 }
 
 .imageElement--global__section3--item {
+    width: 100%;
+}
+
+.imageElement--desktop__section7--plainpillows,
+.imageElement--desktop__section7--patternedpillows {
     width: 100%;
 }

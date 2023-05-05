@@ -6,3 +6,38 @@
 .imageElement--desktop__section6--img {
     height: 100%;
 }
+
+.imageElementLink--desktop__section7--pillows,
+.imageElementLink--desktop__section7--plainpillows,
+.imageElementLink--desktop__section7--patternedpillows {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+}
+
+.imageElement--desktop__section7--pillows,
+.imageElement--desktop__section7--plainpillows,
+.imageElement--desktop__section7--patternedpillows {
+    max-width : 100%;
+    transition: all 1s ease;
+    display   : block;
+    width     : 110%;
+    height    : auto;
+    transform : scale(1.1);
+}
+
+.imageElement--desktop__section7--pillows:hover,
+.imageElement--desktop__section7--plainpillows:hover,
+.imageElement--desktop__section7--patternedpillows:hover {
+    transform: scale(1);
+}
+
+.imageElementLink--desktop__section7--pillows {
+    height: 350px;
+}
+
+.imageElementLink--desktop__section7--plainpillows,
+.imageElementLink--desktop__section7--patternedpillows {
+    height: 250px;
+}
