@@ -219,5 +219,43 @@
       "width": "100%"
     },
     "title": "Patterned pillows column container in section 7"
+  },
+  "flex-layout.row#desktop__home--section8": {
+    "children": [
+      "flex-layout.col#desktop__section8--firstcol",
+      "flex-layout.col#desktop__section8--secondcol"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section8",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 8 row container"
+  },
+  "flex-layout.col#desktop__section8--firstcol": {
+    "children": [
+      "image#desktop__section8--img-1"
+    ],
+    "props": {
+      "blockClass": "desktop__section8--firstcol",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "65%"
+    },
+    "title": "Image first column container in section 8"
+  },
+  "flex-layout.col#desktop__section8--secondcol": {
+    "children": [
+      "image#desktop__section8--img-2",
+      "image#desktop__section8--img-3"
+    ],
+    "props": {
+      "blockClass": "desktop__section8--secondcol",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "35%"
+    },
+    "title": "Image second column container in section 8"
   }
 }

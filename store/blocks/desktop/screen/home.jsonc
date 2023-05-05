@@ -7,7 +7,8 @@
       "flex-layout.row#desktop__home--section4",
       "flex-layout.row#desktop__home--section5",
       "flex-layout.row#desktop__home--section6",
-      "flex-layout.row#desktop__home--section7"
+      "flex-layout.row#desktop__home--section7",
+      "flex-layout.row#desktop__home--section8"
     ],
     "title": "Desktop home page"
   }

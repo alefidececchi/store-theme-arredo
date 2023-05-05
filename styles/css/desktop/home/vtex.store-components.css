@@ -18,7 +18,10 @@
 
 .imageElement--desktop__section7--pillows,
 .imageElement--desktop__section7--plainpillows,
-.imageElement--desktop__section7--patternedpillows {
+.imageElement--desktop__section7--patternedpillows,
+.imageElement--desktop__section8--img-1,
+.imageElement--desktop__section8--img-2,
+.imageElement--desktop__section8--img-3 {
     max-width : 100%;
     transition: all 1s ease;
     display   : block;
@@ -29,7 +32,10 @@
 
 .imageElement--desktop__section7--pillows:hover,
 .imageElement--desktop__section7--plainpillows:hover,
-.imageElement--desktop__section7--patternedpillows:hover {
+.imageElement--desktop__section7--patternedpillows:hover,
+.imageElement--desktop__section8--img-1:hover,
+.imageElement--desktop__section8--img-2:hover,
+.imageElement--desktop__section8--img-3:hover {
     transform: scale(1);
 }
 
