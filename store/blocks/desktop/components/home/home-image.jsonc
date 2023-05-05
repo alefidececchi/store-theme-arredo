@@ -1,0 +1,148 @@
+{
+    "image#desktop__section1--img1": {
+        "props": {
+            "alt": "Hasta 50% off en King y Queen",
+            "blockClass": [
+                "desktop__section1--img",
+                "desktop__section1--img1"
+            ],
+            "link": {
+                "url": "https://alejandrofidececchi--itgloberspartnercl.myvtex.com/promotions/bed-clothes"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/desktop__home--section1.png",
+            "title": "Hasta 50% off en King y Queen"
+        },
+        "title": "Desktop home section 1 slider image"
+    },
+    "image#desktop__home--section5": {
+        "props": {
+            "alt": "",
+            "blockClass": "desktop__home--section5",
+            "link": {
+                "url": "https://alejandrofidececchi--itgloberspartnercl.myvtex.com/decoration/cushions"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/desktop__home--section5.png",
+            "title": ""
+        },
+        "title": "Image on home section 5 desktop"
+    },
+    "image#desktop__section6--img1": {
+        "props": {
+            "blockClass": [
+                "desktop__section6--img",
+                "desktop__section6--img1"
+            ],
+            "link": {
+                "url": "decoration/essence-aroma"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/desktop__section6--essence.png",
+            "title": ""
+        },
+        "title": "Essence image desktop home section 6"
+    },
+    "image#desktop__section6--img2": {
+        "props": {
+            "blockClass": [
+                "desktop__section6--img",
+                "desktop__section6--img2"
+            ],
+            "link": {
+                "url": "decoration/organizers"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/desktop__section6--organizers.png",
+            "title": ""
+        },
+        "title": "Organizers image desktop home section 6"
+    },
+    "image#desktop__home--section7": {
+        "props": {
+            "blockClass": [
+                "desktop__home--section7",
+                "desktop__section7--pillows"
+            ],
+            "link": {
+                "url": "bed-clothes/pillows"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/desktop__section7--pillows.png",
+            "title": ""
+        },
+        "title": "Pillows image in desktop home section 7"
+    },
+    "image#desktop__section7--plainpillows": {
+        "props": {
+            "blockClass": [
+                "desktop__section7--differentspillows",
+                "desktop__section7--plainpillows"
+            ],
+            "link": {
+                "url": "bed-clothes/pillows?plainpillows=true"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/desktop__section7--plainpillows.png",
+            "title": ""
+        },
+        "title": "Plain pillows image in desktop home section 7"
+    },
+    "image#desktop__section7--patternedpillows": {
+        "props": {
+            "blockClass": [
+                "desktop__section7--differentspillows",
+                "desktop__section7--patternedpillows"
+            ],
+            "link": {
+                "url": "bed-clothes/pillows?patternedpillows=true"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/desktop__section7--patternedpillows.png",
+            "title": ""
+        },
+        "title": "Patterned pillows image in desktop home section 7"
+    },
+    "image#desktop__section8--img-1": {
+        "props": {
+            "blockClass": "desktop__section8--img-1",
+            "link": {
+                "url": "bathroom/towels"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/desktop__section8--towels1.png",
+            "title": ""
+        },
+        "title": "Towels image in desktop home section 8"
+    },
+    "image#desktop__section8--img-2": {
+        "props": {
+            "blockClass": [
+                "desktop__section8--secondcol",
+                "desktop__section8--img-2"
+            ],
+            "link": {
+                "url": "bathroom/set-towels"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/desktop__section8--towels2.png",
+            "title": ""
+        },
+        "title": "Towels image in desktop home section 8"
+    },
+    "image#desktop__section8--img-3": {
+        "props": {
+            "blockClass": [
+                "desktop__section8--secondcol",
+                "desktop__section8--img-3"
+            ],
+            "link": {
+                "url": "bathroom/towels"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/desktop__section8--towels3.png",
+            "title": ""
+        },
+        "title": "Towels image in desktop home section 8"
+    }
+}

@@ -1,0 +1,156 @@
+{
+  "flex-layout.row#global__home--section2": {
+    "children": [
+      "slider-layout#global__home--section2"
+    ],
+    "props": {
+      "blockClass": "global__home--section2",
+      "fullWidth": "100%",
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 2 global container"
+  },
+  "flex-layout.col#global__section3--space": {
+    "children": [
+      "image#global__section3--space",
+      "flex-layout.row#global__section3--space"
+    ],
+    "props": {
+      "blockClass": "global__section3--space",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Space section 3 global container"
+  },
+  "flex-layout.row#global__section3--space": {
+    "children": [
+      "flex-layout.col#global__space--text"
+    ],
+    "props": {
+      "blockClass": [
+        "global__section3--item",
+        "global__section3--space"
+      ],
+      "horizontalAlign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Global space text container"
+  },
+  "flex-layout.col#global__space--text": {
+    "children": [
+      "rich-text#global__space--title",
+      "rich-text#global__space--text"
+    ],
+    "props": {
+      "blockClass": "global__section3--text",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Space text col container"
+  },
+  "flex-layout.col#global__section3--autumn": {
+    "children": [
+      "image#global__section3--autumn",
+      "flex-layout.row#global__section3--autumn"
+    ],
+    "props": {
+      "blockClass": "global__section3--autumn",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Autumn section 3 global container"
+  },
+  "flex-layout.row#global__section3--autumn": {
+    "children": [
+      "flex-layout.col#global__autumn--text"
+    ],
+    "props": {
+      "blockClass": [
+        "global__section3--item",
+        "global__section3--autumn"
+      ],
+      "horizontalAlign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Global autumn text container"
+  },
+  "flex-layout.col#global__autumn--text": {
+    "children": [
+      "rich-text#global__autumn--title",
+      "rich-text#global__autumn--text"
+    ],
+    "props": {
+      "blockClass": "global__section3--text",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Autumn text col container"
+  },
+  "flex-layout.col#global__section3--season": {
+    "children": [
+      "image#global__section3--season",
+      "flex-layout.row#global__section3--season"
+    ],
+    "props": {
+      "blockClass": "global__section3--season",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Season section 3 global container"
+  },
+  "flex-layout.row#global__section3--season": {
+    "children": [
+      "flex-layout.col#global__season--text"
+    ],
+    "props": {
+      "blockClass": [
+        "global__section3--item",
+        "global__section3--season"
+      ],
+      "horizontalAlign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Global season text container"
+  },
+  "flex-layout.col#global__season--text": {
+    "children": [
+      "rich-text#global__season--title",
+      "rich-text#global__season--text"
+    ],
+    "props": {
+      "blockClass": "global__section3--text",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Season text col container"
+  },
+  "flex-layout.row#global__section4--price": {
+    "children": [
+      "product-list-price#global__home--section4",
+      "product-selling-price#global__home--section4"
+    ],
+    "props": {
+      "blockClass": "global__section4--price"
+    },
+    "title": "Product price row container on section 4"
+  },
+  "flex-layout.row#global__section7--title": {
+    "children": [
+      "rich-text#global__section7--title"
+    ],
+    "props": {
+      "blockClass": "global__section7--title",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Title row container section 7"
+  }
+}

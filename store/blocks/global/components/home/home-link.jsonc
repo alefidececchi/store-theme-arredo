@@ -1,0 +1,38 @@
+{
+    "link#global__home--section3": {
+        "props": {
+            "blockClass": "global__home--section3",
+            "displayMode": "anchor",
+            "href": "/new-collection",
+            "label": "MIRÁ NUESTRA PROPUESTA"
+        },
+        "title": "Global link to new collection"
+    },
+    "link#global__section7--pillows": {
+        "props": {
+            "blockClass": "global__section7--pillows",
+            "displayMode": "anchor",
+            "href": "/bed-clothes/pillows",
+            "label": "Nada como dormir con la cabeza apoyada y tener la senación de hacerlo en una nube."
+        },
+        "title": "Global link to pillows"
+    },
+    "link#global__section7--plainpillows": {
+        "props": {
+            "blockClass": "global__section7--plainpillows",
+            "displayMode": "anchor",
+            "href": "/bed-clothes/pillows?plainpillows=true",
+            "label": "Si te gusta combinar colores más neutros ¡Mirá esta propuesta!"
+        },
+        "title": "Global link to plain pillows"
+    },
+    "link#global__section7--patternedpillows": {
+        "props": {
+            "blockClass": "global__section7--patternedpillows",
+            "displayMode": "anchor",
+            "href": "/bed-clothes/pillows?patternedpillows=true",
+            "label": "Mucho color y habitaciones más vibrantes."
+        },
+        "title": "Global link to patterned pillows"
+    }
+}

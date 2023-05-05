@@ -1,0 +1,261 @@
+{
+  "flex-layout.row#desktop__home--section1": {
+    "children": [
+      "slider-layout#desktop__home--section1"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section1",
+      "fullWidth": "100%",
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 1 desktop container"
+  },
+  "flex-layout.row#desktop__home--section2": {
+    "children": [
+      "slider-layout#global__home--section2"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section2",
+      "fullWidth": "100%",
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 2 desktop container"
+  },
+  "flex-layout.row#desktop__home--section3": {
+    "children": [
+      "rich-text#desktop__home--section3",
+      "link#global__home--section3",
+      "flex-layout.col#desktop__section3--slider"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section3",
+      "fullWidth": "100%",
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 3 desktop container"
+  },
+  "flex-layout.col#desktop__section3--slider": {
+    "children": [
+      "slider-layout#global__home--section3"
+    ],
+    "props": {
+      "blockClass": "desktop__section3--slider",
+      "width": "100%",
+      "horizontalAllign": "center"
+    },
+    "title": "Section 3 desktop slider column container"
+  },
+  "flex-layout.row#desktop__home--section4": {
+    "children": [
+      "flex-layout.col#desktop__home--section4"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section4",
+      "fullWidth": "100%",
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 4 desktop row container"
+  },
+  "flex-layout.col#desktop__home--section4": {
+    "children": [
+      "flex-layout.row#desktop__section4--title",
+      "flex-layout.row#desktop__section4--slider"
+    ],
+    "title": "Section 4 desktop column container"
+  },
+  "flex-layout.row#desktop__section4--title": {
+    "children": [
+      "rich-text#global__section4--title"
+    ],
+    "props": {
+      "blockClass": "desktop__section4--title",
+      "width": "100%"
+    },
+    "title": "Title column container in section 4"
+  },
+  "flex-layout.row#desktop__section4--slider": {
+    "children": [
+      "list-context.product-list#global__home--section4"
+    ],
+    "props": {
+      "blockClass": "desktop__section4--slider",
+      "width": "100%"
+    },
+    "title": "Slider row container in section 4"
+  },
+  "flex-layout.row#desktop__home--section5": {
+    "children": [
+      "image#desktop__home--section5"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section5",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 5 desktop container"
+  },
+  "flex-layout.row#desktop__home--section6": {
+    "children": [
+      "flex-layout.col#desktop__section6--img1",
+      "flex-layout.col#desktop__section6--img2"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section6",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 6 desktop container"
+  },
+  "flex-layout.col#desktop__section6--img1": {
+    "children": [
+      "image#desktop__section6--img1"
+    ],
+    "props": {
+      "blockClass": [
+        "desktop__section6--img",
+        "desktop__section6--img1"
+      ],
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Image 1 desktop column container on section 6"
+  },
+  "flex-layout.col#desktop__section6--img2": {
+    "children": [
+      "image#desktop__section6--img2"
+    ],
+    "props": {
+      "blockClass": [
+        "desktop__section6--img",
+        "desktop__section6--img2"
+      ],
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Image 2 desktop column container on section 6"
+  },
+  "flex-layout.row#desktop__home--section7": {
+    "children": [
+      "flex-layout.col#desktop__home--section7"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section7",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 7 row container"
+  },
+  "flex-layout.col#desktop__home--section7": {
+    "children": [
+      "flex-layout.row#global__section7--title",
+      "flex-layout.row#desktop__section7--pillows",
+      "flex-layout.row#desktop__section--differentspillows"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section7",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Section 7 column container"
+  },
+  "flex-layout.row#desktop__section7--pillows": {
+    "children": [
+      "image#desktop__home--section7",
+      "link#global__section7--pillows"
+    ],
+    "props": {
+      "blockClass": "desktop__section7--pillows",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Pillows row container in section 7"
+  },
+  "flex-layout.row#desktop__section--differentspillows": {
+    "children": [
+      "flex-layout.col#desktop__section7--plainpillows",
+      "flex-layout.col#desktop__section7--patternedpillows"
+    ],
+    "props": {
+      "blockClass": "desktop__section7--differentspillows",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Differnts pillows row container in section 7"
+  },
+  "flex-layout.col#desktop__section7--plainpillows": {
+    "children": [
+      "image#desktop__section7--plainpillows",
+      "link#global__section7--plainpillows"
+    ],
+    "props": {
+      "blockClass": "desktop__section7--plainpillows",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Plain pillows column container in section 7"
+  },
+  "flex-layout.col#desktop__section7--patternedpillows": {
+    "children": [
+      "image#desktop__section7--patternedpillows",
+      "link#global__section7--patternedpillows"
+    ],
+    "props": {
+      "blockClass": "desktop__section7--patternedpillows",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Patterned pillows column container in section 7"
+  },
+  "flex-layout.row#desktop__home--section8": {
+    "children": [
+      "flex-layout.col#desktop__section8--firstcol",
+      "flex-layout.col#desktop__section8--secondcol"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section8",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 8 row container"
+  },
+  "flex-layout.col#desktop__section8--firstcol": {
+    "children": [
+      "image#desktop__section8--img-1"
+    ],
+    "props": {
+      "blockClass": "desktop__section8--firstcol",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "65%"
+    },
+    "title": "Image first column container in section 8"
+  },
+  "flex-layout.col#desktop__section8--secondcol": {
+    "children": [
+      "image#desktop__section8--img-2",
+      "image#desktop__section8--img-3"
+    ],
+    "props": {
+      "blockClass": "desktop__section8--secondcol",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "35%"
+    },
+    "title": "Image second column container in section 8"
+  }
+}

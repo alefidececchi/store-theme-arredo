@@ -1,0 +1,6 @@
+@media screen and (max-width: 640px) {
+    .sellingPrice--global__home--section4,
+    .listPrice--global__home--section4 {
+        text-align: initial;
+    }
+}

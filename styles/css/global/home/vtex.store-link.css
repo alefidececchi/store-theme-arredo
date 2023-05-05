@@ -1,0 +1,40 @@
+.link--global__home--section3 {
+    color          : #fff;
+    text-decoration: none;
+    line-height    : 24px;
+}
+
+.link--global__home--section3::after {
+    content: "";
+    display: block;
+    width  : 70px;
+    margin : 5px auto 0;
+    border : 1px solid #fff;
+}
+
+.link--global__section7--pillows,
+.link--global__section7--plainpillows,
+.link--global__section7--patternedpillows {
+    text-decoration: none;
+    margin-bottom  : 1rem;
+}
+
+.label--global__section7--pillows,
+.label--global__section7--plainpillows,
+.label--global__section7--patternedpillows {
+    font-family: DM Sans, sans-serif;
+    color      : #fff;
+    font-size  : 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin     : 0 0 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .label--global__section7--pillows,
+    .label--global__section7--plainpillows,
+    .label--global__section7--patternedpillows {
+        font-size: 16px;
+    }
+}
