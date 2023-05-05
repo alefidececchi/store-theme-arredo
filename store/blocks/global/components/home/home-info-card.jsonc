@@ -1,0 +1,92 @@
+{
+    "info-card#global__section2--bedsheets": {
+        "props": {
+            "blockClass": "global__section2--infocard",
+            "callToActionMode": "button",
+            "callToActionText": "Sábanas",
+            "callToActionUrl": "bed-clothes/bed-sheets",
+            "id": "info-card-section2-bed-sheets",
+            "imageActionUrl": "bed-clothes/bed-sheets",
+            "imageUrl": "assets/img/global__section2--bedclothes.png",
+            "isFullModeStyle": false,
+            "mobileImageUrl": "assets/img/global__section2--bedclothes.png",
+            "textAlignment": "center"
+        },
+        "title": "Bed sheets info-card on slider of section 2"
+    },
+    "info-card#global__section2--padded": {
+        "props": {
+            "blockClass": "global__section2--infocard",
+            "callToActionMode": "button",
+            "callToActionText": "Acolchados",
+            "callToActionUrl": "bed-clothes/padded",
+            "id": "info-card-section2-padded",
+            "imageActionUrl": "bed-clothes/padded",
+            "imageUrl": "assets/img/global__section2--padded.png",
+            "isFullModeStyle": false,
+            "mobileImageUrl": "assets/img/global__section2--padded.png",
+            "textAlignment": "center"
+        },
+        "title": "Padded info-card on slider of section 2"
+    },
+    "info-card#global__section2--rug": {
+        "props": {
+            "blockClass": "global__section2--infocard",
+            "callToActionMode": "button",
+            "callToActionText": "Mantas",
+            "callToActionUrl": "bed-clothes/rug",
+            "id": "info-card-section2-rug",
+            "imageActionUrl": "bed-clothes/rug",
+            "imageUrl": "assets/img/global__section2--rug.png",
+            "isFullModeStyle": false,
+            "mobileImageUrl": "assets/img/global__section2--rug.png",
+            "textAlignment": "center"
+        },
+        "title": "Rug info-card on slider of section 2"
+    },
+    "info-card#global__section2--pillows": {
+        "props": {
+            "blockClass": "global__section2--infocard",
+            "callToActionMode": "button",
+            "callToActionText": "Almohadas",
+            "callToActionUrl": "bed-clothes/pillows",
+            "id": "info-card-section2-pillows",
+            "imageActionUrl": "bed-clothes/pillows",
+            "imageUrl": "assets/img/global__section2--pillows.png",
+            "isFullModeStyle": false,
+            "mobileImageUrl": "assets/img/global__section2--pillows.png",
+            "textAlignment": "center"
+        },
+        "title": "Pillows info-card on slider of section 2"
+    },
+    "info-card#global__section2--bedspreads": {
+        "props": {
+            "blockClass": "global__section2--infocard",
+            "callToActionMode": "button",
+            "callToActionText": "Cubrecamas",
+            "callToActionUrl": "bed-clothes/bedspreads",
+            "id": "info-card-section2-bedspreads",
+            "imageActionUrl": "bed-clothes/bedspreads",
+            "imageUrl": "assets/img/global__section2--bedspreads.png",
+            "isFullModeStyle": false,
+            "mobileImageUrl": "assets/img/global__section2--bedspreads.png",
+            "textAlignment": "center"
+        },
+        "title": "Bedspreads info-card on slider of section 2"
+    },
+    "info-card#global__section2--towels": {
+        "props": {
+            "blockClass": "global__section2--infocard",
+            "callToActionMode": "button",
+            "callToActionText": "Toallería",
+            "callToActionUrl": "bathroom/towels",
+            "id": "info-card-section2-towels",
+            "imageActionUrl": "bathroom/towels",
+            "imageUrl": "assets/img/global__section2--towels.png",
+            "isFullModeStyle": false,
+            "mobileImageUrl": "assets/img/global__section2--towels.png",
+            "textAlignment": "center"
+        },
+        "title": "Towels info-card on slider of section 2"
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "rich-text#global__space--title": {
+        "props": {
+            "blockClass": [
+                "section3__item--title",
+                "section3__space--title"
+            ],
+            "text": "### Una vuelta por el ESPACIO",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        },
+        "title": "Space item title"
+    },
+    "rich-text#global__space--text": {
+        "props": {
+            "blockClass": [
+                "section3__item--text",
+                "section3__space--text"
+            ],
+            "text": "Completá tus rincones con estos productos creativamente divertidos.",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        },
+        "title": "Space item text"
+    },
+    "rich-text#global__autumn--title": {
+        "props": {
+            "blockClass": [
+                "section3__item--title",
+                "section3__autumn--title"
+            ],
+            "text": "### Lo hermoso del OTOÑO",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        },
+        "title": "Autumn item title"
+    },
+    "rich-text#global__autumn--text": {
+        "props": {
+            "blockClass": [
+                "section3__item--text",
+                "section3__autumn--text"
+            ],
+            "text": "De afuera hacia adentro. Traé la naturaleza a tus rincones.",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        },
+        "title": "Autumn item text"
+    },
+    "rich-text#global__season--title": {
+        "props": {
+            "blockClass": [
+                "section3__item--title",
+                "section3__season--title"
+            ],
+            "text": "### Belleza de TEMPORADA",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        },
+        "title": "Season item title"
+    },
+    "rich-text#global__season--text": {
+        "props": {
+            "blockClass": [
+                "section3__item--text",
+                "section3__season--text"
+            ],
+            "text": "La calidez plasmada en estos diseños pensados para vos.",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        },
+        "title": "Season item text"
+    },
+    "rich-text#global__section4--title": {
+        "props": {
+            "blockClass": "global__section4--title",
+            "text": "Conocé los más vendidos",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        },
+        "title": "Section 4 title"
+    },
+    "rich-text#global__section7--title": {
+        "props": {
+            "blockClass": "global__section7--title",
+            "text": "Una almohada para tener felices sueños",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        },
+        "title": "Global title in section 7"
+    }
+}

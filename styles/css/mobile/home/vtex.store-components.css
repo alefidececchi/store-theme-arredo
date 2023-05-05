@@ -1,0 +1,55 @@
+.imageElement--mobile__section1--img {
+    width: 100vw !important;
+}
+
+.imageElement--mobile__home--section5 {
+    width : 100%;
+    height: 100%;
+}
+
+.imageElementLink--mobile__section7--pillows,
+.imageElementLink--mobile__section7--plainpillows,
+.imageElementLink--mobile__section7--patternedpillows {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+}
+
+.imageElement--mobile__section7--pillows,
+.imageElement--mobile__section7--plainpillows,
+.imageElement--mobile__section7--patternedpillows {
+    max-width : 100%;
+    transition: all 1s ease;
+    display   : block;
+    width     : 110%;
+    height    : auto;
+    transform : scale(1.1);
+}
+
+.imageElement--mobile__section7--pillows:hover,
+.imageElement--mobile__section7--plainpillows:hover,
+.imageElement--mobile__section7--patternedpillows:hover {
+    transform: scale(1);
+}
+
+.imageElementLink--mobile__section7--pillows {
+    height: 350px;
+}
+
+.imageElementLink--mobile__section7--plainpillows,
+.imageElementLink--mobile__section7--patternedpillows {
+    height: 250px;
+}
+
+@media screen and (max-width: 640px) {
+
+    .imageElementLink--mobile__section7--pillows {
+        height: 275px;
+    }
+    
+    .imageElementLink--mobile__section7--plainpillows,
+    .imageElementLink--mobile__section7--patternedpillows {
+        height: 110px;
+    }
+}

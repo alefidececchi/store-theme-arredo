@@ -1,0 +1,65 @@
+.headingLevel3--section3__item--title {
+    color      : #fff;
+    font-family: DM Sans;
+    font-weight: 700;
+    margin     : 0;
+    font-size  : 1.25rem;
+    margin     : 0;
+}
+
+.paragraph--section3__item--text {
+    color      : #fff;
+    font-family: DM Sans;
+    font-size  : 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin     : 0;
+}
+
+.headingLevel2--global__home--section3 {
+    margin          : 0;
+    color           : #fff;
+    font-family     : Stint Ultra Expanded, DM Sans;
+    font-weight     : 400;
+    word-spacing    : 10px;
+    letter-spacing  : 3px;
+    font-size       : 24px;
+    line-height     : 26px;
+    text-align      : center;
+    margin-bottom   : 1rem;
+    background-color: orange;
+}
+
+.paragraph--global__section4--title {
+    margin     : 12px 0 12px;
+    color      : #91989e;
+    font-family: Stint Ultra Expanded;
+    font-size  : 30px;
+    font-weight: 100;
+}
+
+.paragraph--global__section7--title {
+    color        : #fff;
+    font-family  : Stint Ultra Expanded;
+    font-size    : 30px;
+    font-weight  : 500;
+    line-height  : 58px;
+    text-align   : center;
+    margin-top   : 2rem;
+    margin-bottom: 1.313rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .paragraph--global__section7--title {
+        color        : #fff;
+        font-family  : Stint Ultra Expanded;
+        font-size    : 24px;
+        font-weight  : 500;
+        line-height  : 26px;
+        margin-bottom: 1.313rem;
+        margin-top   : 2rem;
+        padding      : 0 1rem;
+        text-align   : center;
+    }
+}

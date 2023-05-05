@@ -1,0 +1,47 @@
+{
+    "image#global__section3--space": {
+        "props": {
+            "blockClass": [
+                "global__section3--item",
+                "global__section3--space"
+            ],
+            "link": {
+                "url": "new-collection/space"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/global__section3--space.png",
+            "title": "Nueva Colección Otoño Invierno 2023 Líne Espacial | Arredo"
+        },
+        "title": "Global home section 3 slider space image"
+    },
+    "image#global__section3--autumn": {
+        "props": {
+            "blockClass": [
+                "global__section3--item",
+                "global__section3--autumn"
+            ],
+            "link": {
+                "url": "new-collection/nature"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/global__section3--autumn.png",
+            "title": "Nueva Colección Otoño Invierno 2023 Líne Naturaleza | Arredo"
+        },
+        "title": "Global home section 3 slider autumn image"
+    },
+    "image#global__section3--season": {
+        "props": {
+            "blockClass": [
+                "global__section3--item",
+                "global__section3--season"
+            ],
+            "link": {
+                "url": "new-collection/flowers"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/global__section3--season.png",
+            "title": "Nueva Colección Otoño Invierno 2023 Líne Flores | Arredo"
+        },
+        "title": "Global home section 3 slider season image"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "rich-text#desktop__home--section3": {
+        "props": {
+            "blockClass": "desktop__home--section3",
+            "text": "## Conocé nuestros favoritos de temporada",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        },
+        "title": "Header title section 3"
+    }
+}

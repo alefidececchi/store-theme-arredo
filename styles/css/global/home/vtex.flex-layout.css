@@ -1,0 +1,16 @@
+.flexRowContent--global__section3--item {
+    margin-top: 10px;
+}
+
+.flexCol--global__section3--text {
+    align-items: flex-start;
+}
+
+.flexRowContent--global__section4--price .stretchChildrenWidth {
+    width: auto !important;
+}
+
+.flexRowContent--global__section4--price {
+    position: absolute;
+    bottom  : 19%;
+}

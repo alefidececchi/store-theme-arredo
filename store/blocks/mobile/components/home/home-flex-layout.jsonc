@@ -1,0 +1,226 @@
+{
+  "flex-layout.row#mobile__home--section1": {
+    "children": [
+      "slider-layout#mobile__home--section1"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section1",
+      "fullWidth": "100%",
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Mobile section 1 row container"
+  },
+  "flex-layout.row#mobile__home--section2": {
+    "children": [
+      "slider-layout#global__home--section2"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section2",
+      "fullWidth": "100%",
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Mobile section 2 row container"
+  },
+  "flex-layout.row#mobile__home--section3": {
+    "children": [
+      "rich-text#mobile__home--section3",
+      "link#global__home--section3",
+      "flex-layout.col#mobile__section3--slider"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section3",
+      "fullWidth": "100%",
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Mobile section 3 row container"
+  },
+  "flex-layout.col#mobile__section3--slider": {
+    "children": [
+      "slider-layout#global__home--section3"
+    ],
+    "props": {
+      "blockClass": "mobile__section3--slider",
+      "width": "100%",
+      "horizontalAllign": "center"
+    },
+    "title": "Mobile section 3 slider column container"
+  },
+  "flex-layout.row#mobile__home--section4": {
+    "children": [
+      "flex-layout.col#mobile__home--section4"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section4",
+      "fullWidth": "100%",
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Mobile section 4 row container"
+  },
+  "flex-layout.col#mobile__home--section4": {
+    "children": [
+      "flex-layout.row#mobile__section4--title",
+      "flex-layout.row#mobile__section4--slider"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section4"
+    },
+    "title": "Mobile section 4 column container"
+  },
+  "flex-layout.row#mobile__section4--title": {
+    "children": [
+      "rich-text#global__section4--title"
+    ],
+    "props": {
+      "blockClass": "mobile__section4--title",
+      "fullWidth": true
+    },
+    "title": "Title row container in section 4"
+  },
+  "flex-layout.row#mobile__section4--slider": {
+    "children": [
+      "list-context.product-list#global__home--section4"
+    ],
+    "props": {
+      "blockClass": "mobile__section4--slider",
+      "fullWidth": true
+    },
+    "title": "Title row container in section 4"
+  },
+  "flex-layout.row#mobile__home--section5": {
+    "children": [
+      "image#mobile__home--section5"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section5",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 5 mobile container"
+  },
+  "flex-layout.row#mobile__home--section6": {
+    "children": [
+      "flex-layout.col#mobile__section6--img1",
+      "flex-layout.col#mobile__section6--img2"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section6",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 6 mobile container"
+  },
+  "flex-layout.col#mobile__section6--img1": {
+    "children": [
+      "image#mobile__section6--img1"
+    ],
+    "props": {
+      "blockClass": [
+        "mobile__section6--img",
+        "mobile__section6--img1"
+      ],
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Image 1 mobile column container on section 6"
+  },
+  "flex-layout.col#mobile__section6--img2": {
+    "children": [
+      "image#mobile__section6--img2"
+    ],
+    "props": {
+      "blockClass": [
+        "mobile__section6--img",
+        "mobile__section6--img2"
+      ],
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Image 2 mobile column container on section 6"
+  },
+  "flex-layout.row#mobile__home--section7": {
+    "children": [
+      "flex-layout.col#mobile__home--section7"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section7",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 7 row container"
+  },
+  "flex-layout.col#mobile__home--section7": {
+    "children": [
+      "flex-layout.row#global__section7--title",
+      "flex-layout.row#mobile__section7--pillows",
+      "flex-layout.row#mobile__section--differentspillows"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section7",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Section 7 column container"
+  },
+  "flex-layout.row#mobile__section7--pillows": {
+    "children": [
+      "image#mobile__home--section7",
+      "link#global__section7--pillows"
+    ],
+    "props": {
+      "blockClass": "mobile__section7--pillows",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Pillows row container in section 7"
+  },
+  "flex-layout.row#mobile__section--differentspillows": {
+    "children": [
+      "flex-layout.col#mobile__section7--plainpillows",
+      "flex-layout.col#mobile__section7--patternedpillows"
+    ],
+    "props": {
+      "blockClass": "mobile__section7--differentspillows",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Differnts pillows row container in section 7"
+  },
+  "flex-layout.col#mobile__section7--plainpillows": {
+    "children": [
+      "image#mobile__section7--plainpillows",
+      "link#global__section7--plainpillows"
+    ],
+    "props": {
+      "blockClass": "mobile__section7--plainpillows",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Plain pillows column container in section 7"
+  },
+  "flex-layout.col#mobile__section7--patternedpillows": {
+    "children": [
+      "image#mobile__section7--patternedpillows",
+      "link#global__section7--patternedpillows"
+    ],
+    "props": {
+      "blockClass": "mobile__section7--patternedpillows",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Patterned pillows column container in section 7"
+  }
+}

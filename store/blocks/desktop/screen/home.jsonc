@@ -1,6 +1,15 @@
 {
-  "responsive-layout.desktop#home__section-1": {
-    "title": "Home Section 1 Desktop",
-    "children": ["flex-layout.row#home__section-1"]
+  "responsive-layout.desktop#home": {
+    "children": [
+      "flex-layout.row#desktop__home--section1",
+      "flex-layout.row#desktop__home--section2",
+      "flex-layout.row#desktop__home--section3",
+      "flex-layout.row#desktop__home--section4",
+      "flex-layout.row#desktop__home--section5",
+      "flex-layout.row#desktop__home--section6",
+      "flex-layout.row#desktop__home--section7",
+      "flex-layout.row#desktop__home--section8"
+    ],
+    "title": "Desktop home page"
   }
 }

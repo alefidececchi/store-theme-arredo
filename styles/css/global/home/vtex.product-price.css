@@ -1,0 +1,28 @@
+.listPrice--global__home--section4 {
+    font-family : DM Sans, sans-serif;
+    padding     : 0;
+    color       : #909090;
+    font-weight : 400;
+    line-height : 20px;
+    font-size   : 15px;
+    margin-right: 0.3rem;
+}
+
+
+.sellingPriceValue--global__home--section4 .currencyContainer--global__home--section4 {
+    font-family: DM Sans;
+    color      : #555;
+    font-size  : 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align : left;
+}
+
+.listPriceValue--global__home--section4 .currencyContainer--global__home--section4 {
+    text-decoration: line-through;
+    padding: 0;
+    color: #909090;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 15px;
+}
