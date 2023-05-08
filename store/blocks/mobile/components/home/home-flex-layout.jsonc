@@ -247,5 +247,30 @@
       "width": "65%"
     },
     "title": "Image first column container in section 8"
+  },
+  "flex-layout.row#mobile__home--section9": {
+    "children": [
+      "flex-layout.col#mobile__home--section9"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section9",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 9 row container"
+  },
+  "flex-layout.col#mobile__home--section9": {
+    "children": [
+      "rich-text#global__section9--title",
+      "flex-layout.row#mobile__section4--slider"
+    ],
+    "props": {
+      "blockClass": ["mobile__home--section4", "mobile__home--section9"],
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Section 9 column container"
   }
 }

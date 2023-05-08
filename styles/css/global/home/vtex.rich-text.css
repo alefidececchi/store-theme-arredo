@@ -30,7 +30,8 @@
     background-color: orange;
 }
 
-.paragraph--global__section4--title {
+.paragraph--global__section4--title,
+.paragraph--global__section9--title {
     margin     : 12px 0 12px;
     color      : #91989e;
     font-family: Stint Ultra Expanded;

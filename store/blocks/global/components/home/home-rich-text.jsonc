@@ -88,5 +88,14 @@
             "textPosition": "CENTER"
         },
         "title": "Global title in section 7"
+    },
+    "rich-text#global__section9--title": {
+        "props": {
+            "blockClass": "global__section9--title",
+            "text": "Últimos productos navegados",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        },
+        "title": "Global title in section 9"
     }
 }

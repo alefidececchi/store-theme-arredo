@@ -257,5 +257,29 @@
       "width": "35%"
     },
     "title": "Image second column container in section 8"
+  },
+  "flex-layout.row#desktop__home--section9": {
+    "children": [
+      "flex-layout.col#desktop__home--section9"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section9",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 9 row container"
+  },
+  "flex-layout.col#desktop__home--section9": {
+    "children": [
+      "rich-text#global__section9--title",
+      "flex-layout.row#desktop__section4--slider"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section9",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    }
   }
 }
