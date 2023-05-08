@@ -280,6 +280,19 @@
       "horizontalAllign": "center",
       "verticalAlign": "middle",
       "width": "100%"
-    }
+    },
+    "title": "Section 10 column container"
+  },
+  "flex-layout.row#desktop__home--section10": {
+    "children": [
+      "image#desktop__home--section10"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section10",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 10 row container"
   }
 }

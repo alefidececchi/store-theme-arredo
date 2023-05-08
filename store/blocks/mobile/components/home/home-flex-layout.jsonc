@@ -272,5 +272,17 @@
       "width": "100%"
     },
     "title": "Section 9 column container"
+  },
+  "flex-layout.row#mobile__home--section10": {
+    "children": [
+      "image#mobile__home--section10"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section10",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 10 row container"
   }
 }

@@ -117,5 +117,17 @@
             "title": ""
         },
         "title": "Towels image in mobile home section 8"
+    },
+    "image#mobile__home--section10": {
+        "props": {
+            "blockClass": "mobile__home--section10",
+            "link": {
+                "url": "hotsale"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/mobile__section10--hotsale.png",
+            "title": ""
+        },
+        "title": "Hot sale image in mobile home section 10"
     }
 }
