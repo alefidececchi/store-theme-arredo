@@ -1,0 +1,32 @@
+{
+    "image#tablet__section8--img-2": {
+        "props": {
+            "blockClass": [
+                "tablet__section8--img-2",
+                "tablet__section8--secondcol"
+            ],
+            "link": {
+                "url": "/"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/tablet__section8--towels2.jpg",
+            "title": ""
+        },
+        "title": "Towels image in tablet home section 8"
+    },
+    "image#tablet__section8--img-3": {
+        "props": {
+            "blockClass": [
+                "tablet__section8--img-3",
+                "tablet__section8--secondcol"
+            ],
+            "link": {
+                "url": "/"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/tablet__section8--towels3.jpg",
+            "title": ""
+        },
+        "title": "Towels image in tablet home section 8"
+    }
+}

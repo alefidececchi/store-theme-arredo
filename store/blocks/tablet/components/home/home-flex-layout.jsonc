@@ -1,0 +1,15 @@
+{
+  "flex-layout.col#tablet__section8--secondcol": {
+    "children": [
+      "image#tablet__section8--img-2",
+      "image#tablet__section8--img-3"
+    ],
+    "props": {
+      "blockClass": "tablet__section8--secondcol",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "35%"
+    },
+    "title": "Image second column container in section 8"
+  }
+}

@@ -102,5 +102,20 @@
             "title": ""
         },
         "title": "Patterned pillows image in mobile home section 7"
+    },
+    "image#mobile__section8--img-1": {
+        "props": {
+            "blockClass": [
+                "mobile__section8--img-1",
+                "mobile__section8--firstcol"
+            ],
+            "link": {
+                "url": "bathroom/towels"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/mobile__section8--towels1.png",
+            "title": ""
+        },
+        "title": "Towels image in mobile home section 8"
     }
 }
