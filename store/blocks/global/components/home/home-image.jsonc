@@ -43,5 +43,50 @@
             "title": "Nueva Colección Otoño Invierno 2023 Líne Flores | Arredo"
         },
         "title": "Global home section 3 slider season image"
+    },
+    "image#global__section11--babyline": {
+        "props": {
+            "blockClass": [
+                "global__section11--item",
+                "global__section11--babyline"
+            ],
+            "link": {
+                "url": "children-line/baby"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/global__section11--babyline.png",
+            "title": ""
+        },
+        "title": "Baby line global image in section 11"
+    },
+    "image#global__section11--bedsheets": {
+        "props": {
+            "blockClass": [
+                "global__section11--item",
+                "global__section11--bedsheets"
+            ],
+            "link": {
+                "url": "children-line/bed-sheets"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/global__section11--bedsheets.png",
+            "title": ""
+        },
+        "title": "Bed sheets global image in section 11"
+    },
+    "image#global__section11--padded": {
+        "props": {
+            "blockClass": [
+                "global__section11--item",
+                "global__section11--padded"
+            ],
+            "link": {
+                "url": "children-line/padded"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/global__section11--padded.png",
+            "title": ""
+        },
+        "title": "Padded global image in section 11"
     }
 }

@@ -6,6 +6,10 @@
     }
 }
 
+.flexRowContent--mobile__home--section2 {
+    max-width: 20rem;
+    margin   : 0 auto;
+}
 
 .flexRow--mobile__home--section3 {
     background-color: #a19b98;
@@ -106,6 +110,80 @@
     margin-left: 0.5rem;
 }
 
+.flexRow--mobile__home--section8 {
+    margin-top   : 50px;
+    margin-bottom: 50px;
+}
+
+.flexRowContent--mobile__home--section8 {
+    column-gap: 10px;
+    padding   : 10px;
+}
+
+.flexCol--mobile__section8--firstcol,
+.flexCol--tablet__section8--secondcol {
+    position: relative;
+}
+
+.flexCol--tablet__section8--secondcol {
+    row-gap        : 10px;
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+}
+
+.flexColChild--mobile__section8--firstcol {
+    overflow       : hidden;
+    max-height     : auto !important;
+    height         : 100% !important;
+    width          : 100%;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.flexColChild--tablet__section8--secondcol {
+    max-height: calc(17.25rem - 5px);
+    height    : auto !important;
+    overflow  : hidden;
+}
+
+.flexRowContent--mobile__home--section10 {
+    justify-content: center;
+    align-items    : center;
+    margin-top     : 50px;
+    margin-bottom  : 25px;
+}
+
+.flexRowContent--mobile__home--section10 .stretchChildrenWidth {
+    width: auto !important;
+}
+
+.flexRow--mobile__home--section11 {
+    margin-top   : 50px;
+    margin-bottom: 20px;
+}
+
+.flexRowContent--mobile__home--section11 {
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+}
+
+@media screen and (max-width: 980px) {
+    .flexRowContent--global__section4--price {
+        flex-direction: column;
+        align-items   : flex-start;
+        bottom        : 26%;
+    }
+
+    .flexColChild--mobile__home--section4 {
+        max-width: 45rem;
+        width    : inherit;
+        margin   : 0 auto;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     .flexRowContent--mobile__home--section6 .stretchChildrenWidth:first-child {
@@ -114,5 +192,20 @@
 
     .flexRowContent--mobile__home--section6 .stretchChildrenWidth:last-child {
         margin-left: 0.25rem
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .flexRowContent--mobile__home--section8 .stretchChildrenWidth:first-child {
+        width: 100% !important;
+    }
+
+    .flexRowContent--mobile__home--section8 .stretchChildrenWidth:last-child {
+        display: none !important;
+    }
+
+    .flexColChild--mobile__home--section4 {
+        max-width: 22rem;
     }
 }

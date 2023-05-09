@@ -152,5 +152,56 @@
       "preserveLayoutOnMobile": true
     },
     "title": "Title row container section 7"
+  },
+  "flex-layout.col#global__section11--babyline": {
+    "children": [
+      "image#global__section11--babyline",
+      "rich-text#global__babyline--title",
+      "rich-text#global__babyline--text"
+    ],
+    "props": {
+      "blockClass": [
+        "global__section11--itemcol",
+        "global__section11--babyline"
+      ],
+      "horizontalAlign": "left",
+      "verticalAllign": "middle",
+      "width": "100%"
+    },
+    "title": "Baby line global column container in section 11"
+  },
+  "flex-layout.col#global__section11--bedsheets": {
+    "children": [
+      "image#global__section11--bedsheets",
+      "rich-text#global__bedsheets--title",
+      "rich-text#global__bedsheets--text"
+    ],
+    "props": {
+      "blockClass": [
+        "global__section11--itemcol",
+        "global__section11--bedsheets"
+      ],
+      "horizontalAlign": "left",
+      "verticalAllign": "middle",
+      "width": "100%"
+    },
+    "title": "Children's bed sheets global column container in section 11"
+  },
+  "flex-layout.col#global__section11--padded": {
+    "children": [
+      "image#global__section11--padded",
+      "rich-text#global__padded--title",
+      "rich-text#global__padded--text"
+    ],
+    "props": {
+      "blockClass": [
+        "global__section11--itemcol",
+        "global__section11--padded"
+      ],
+      "horizontalAlign": "left",
+      "verticalAllign": "middle",
+      "width": "100%"
+    },
+    "title": "Children's padding global column container in section 11"
   }
 }

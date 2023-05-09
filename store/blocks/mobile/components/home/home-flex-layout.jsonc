@@ -222,5 +222,105 @@
       "width": "100%"
     },
     "title": "Patterned pillows column container in section 7"
+  },
+  "flex-layout.row#mobile__home--section8": {
+    "children": [
+      "flex-layout.col#mobile__section8--firstcol",
+      "flex-layout.col#tablet__section8--secondcol"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section8",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 8 row container"
+  },
+  "flex-layout.col#mobile__section8--firstcol": {
+    "children": [
+      "image#mobile__section8--img-1"
+    ],
+    "props": {
+      "blockClass": "mobile__section8--firstcol",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "65%"
+    },
+    "title": "Image first column container in section 8"
+  },
+  "flex-layout.row#mobile__home--section9": {
+    "children": [
+      "flex-layout.col#mobile__home--section9"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section9",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 9 row container"
+  },
+  "flex-layout.col#mobile__home--section9": {
+    "children": [
+      "rich-text#global__section9--title",
+      "flex-layout.row#mobile__section4--slider"
+    ],
+    "props": {
+      "blockClass": ["mobile__home--section4", "mobile__home--section9"],
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Section 9 column container"
+  },
+  "flex-layout.row#mobile__home--section10": {
+    "children": [
+      "image#mobile__home--section10"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section10",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 10 row container"
+  },
+  "flex-layout.row#mobile__home--section11": {
+    "children": [
+      "flex-layout.col#mobile__section11--texts",
+      "flex-layout.col#mobile__section11--slider"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section11",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 11 row container in mobile view"
+  },
+  "flex-layout.col#mobile__section11--texts": {
+    "children": [
+      "rich-text#global__section11--title",
+      "rich-text#global__section11--text"
+    ],
+    "props": {
+      "blockClass": "mobile__home--section11",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Section 11 texts column container in mobile view"
+  },
+  "flex-layout.col#mobile__section11--slider": {
+    "children": [
+      "slider-layout#global__home--section11"
+    ],
+    "props": {
+      "blockClass": "mobile__section11--slider",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Section 11 slider column container in mobile view"
   }
 }

@@ -88,5 +88,104 @@
             "textPosition": "CENTER"
         },
         "title": "Global title in section 7"
-    }
+    },
+    "rich-text#global__section9--title": {
+        "props": {
+            "blockClass": "global__section9--title",
+            "text": "Últimos productos navegados",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        },
+        "title": "Global title in section 9"
+    },
+    "rich-text#global__section11--title": {
+        "props": {
+            "blockClass": "global__section11--title",
+            "text": "## Bebés",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        },
+        "title": "Global title in section 11"
+    },
+    "rich-text#global__section11--text": {
+        "props": {
+            "blockClass": "global__section11--text",
+            "text": "Cálidos diseños se suman a su habitación, se suman a su vida.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        },
+        "title": "Global text in section 11"
+    },
+    "rich-text#global__babyline--title": {
+        "props": {
+            "blockClass": [
+                "global__items--title",
+                "global__babyline--title"
+            ],
+            "text": "Infantil Línea Bebé:",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        },
+        "title": "Baby line item title in section 11"
+    },
+    "rich-text#global__bedsheets--title": {
+        "props": {
+            "blockClass": [
+                "global__items--title",
+                "global__bedsheets--title"
+            ],
+            "text": "Infantil Sábanas:",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        },
+        "title": "Bed sheets item title in section 11"
+    },
+    "rich-text#global__padded--title": {
+        "props": {
+            "blockClass": [
+                "global__items--title",
+                "global__padded--title"
+            ],
+            "text": "Infantil Acolchados:",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        },
+        "title": "Padded item title in section 11"
+    },
+    "rich-text#global__babyline--text": {
+        "props": {
+            "blockClass": [
+                "global__items--text",
+                "global__babyline--text"
+            ],
+            "text": "Detalles que invitan a soñar",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        },
+        "title": "Baby line item text in section 11"
+    },
+    "rich-text#global__bedsheets--text": {
+        "props": {
+            "blockClass": [
+                "global__items--text",
+                "global__bedsheets--text"
+            ],
+            "text": "Diseños únicos para hacer volar su imaginación.",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        },
+        "title": "Bed sheets item text in section 11"
+    },
+    "rich-text#global__padded--text": {
+        "props": {
+            "blockClass": [
+                "global__items--text",
+                "global__padded--text"
+            ],
+            "text": "Un cálido abrazo de buenas noches.",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
+        },
+        "title": "Padded item text in section 11"
+    }    
 }

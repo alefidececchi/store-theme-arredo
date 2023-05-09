@@ -1,9 +1,0 @@
-@media screen and (max-width: 640px) {
-    .element--global__home--section4 :global(.vtex-product-price-1-x-installments) {
-        bottom  : 18%;
-    }
-
-    .image--global__home--section4 {
-        height: 160px;
-    }
-}
