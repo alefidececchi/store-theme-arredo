@@ -85,3 +85,33 @@
         gap: 10px;
     }
 }
+
+@media screen and (max-width: 980px) {
+    .sliderTrack--global__home--section4 {
+        height: 382px;
+    }
+
+    .slide--global__home--section4 {
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .sliderLeftArrow--global__home--section2 {
+        left: 0;
+    }
+
+    .sliderRightArrow--global__home--section2 {
+        right: 0;
+    }
+
+    .sliderLeftArrow--global__home--section4 {
+        left: calc((((100vw - 22rem) / 2) * -1) + 1rem);
+    }
+
+    .sliderRightArrow--global__home--section4 {
+        right: calc((((100vw - 22rem) / 2) * -1) + 1rem);
+    }
+}

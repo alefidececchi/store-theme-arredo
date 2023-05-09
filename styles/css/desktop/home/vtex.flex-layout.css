@@ -141,12 +141,12 @@
 }
 
 .flexRow--desktop__home--section11 {
-    margin-top: 50px;
+    margin-top   : 50px;
     margin-bottom: 20px;
 }
 
 .flexRowContent--desktop__home--section11 {
-    flex-direction: column;
+    flex-direction : column;
     justify-content: center;
-    align-items: center;
+    align-items    : center;
 }

@@ -54,12 +54,12 @@
 }
 
 .imageElement--mobile__section8--img-1 {
-    max-width    : 100%;
-    transition   : all 1s ease;
-    display      : block;
-    width        : 110%;
-    height       : auto;
-    transform    : scale(1.2);
+    max-width : 100%;
+    transition: all 1s ease;
+    display   : block;
+    width     : 110%;
+    height    : auto;
+    transform : scale(1.2);
 }
 
 .imageElement--mobile__section8--img-1:hover {

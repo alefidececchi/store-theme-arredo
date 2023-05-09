@@ -112,10 +112,23 @@
 }
 
 .skuSelectorContainer--global__home--section4 :global(.vtex-store-components-3-x-skuSelectorSubcontainer) {
-    margin: 0 !important;
+    margin  : 0 !important;
+    position: relative;
+    top     : -1rem;
+    left    : -15px;
 }
 
 .element--global__home--section4 :global(.vtex-product-price-1-x-installments) {
     position: absolute;
     bottom  : 15%;
+}
+
+@media screen and (max-width: 980px) {
+    .element--global__home--section4 :global(.vtex-product-price-1-x-installments) {
+        bottom: 18%;
+    }
+
+    .image--global__home--section4 {
+        height: 160px;
+    }
 }

@@ -6,6 +6,10 @@
     }
 }
 
+.flexRowContent--mobile__home--section2 {
+    max-width: 20rem;
+    margin   : 0 auto;
+}
 
 .flexRow--mobile__home--section3 {
     background-color: #a19b98;
@@ -156,14 +160,28 @@
 }
 
 .flexRow--mobile__home--section11 {
-    margin-top: 50px;
+    margin-top   : 50px;
     margin-bottom: 20px;
 }
 
 .flexRowContent--mobile__home--section11 {
-    flex-direction: column;
+    flex-direction : column;
     justify-content: center;
-    align-items: center;
+    align-items    : center;
+}
+
+@media screen and (max-width: 980px) {
+    .flexRowContent--global__section4--price {
+        flex-direction: column;
+        align-items   : flex-start;
+        bottom        : 26%;
+    }
+
+    .flexColChild--mobile__home--section4 {
+        max-width: 45rem;
+        width    : inherit;
+        margin   : 0 auto;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -185,5 +203,9 @@
 
     .flexRowContent--mobile__home--section8 .stretchChildrenWidth:last-child {
         display: none !important;
+    }
+
+    .flexColChild--mobile__home--section4 {
+        max-width: 22rem;
     }
 }
