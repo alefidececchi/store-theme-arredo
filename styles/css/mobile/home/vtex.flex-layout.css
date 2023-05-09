@@ -155,6 +155,17 @@
     width: auto !important;
 }
 
+.flexRow--mobile__home--section11 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.flexRowContent--mobile__home--section11 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 768px) {
 
     .flexRowContent--mobile__home--section6 .stretchChildrenWidth:first-child {

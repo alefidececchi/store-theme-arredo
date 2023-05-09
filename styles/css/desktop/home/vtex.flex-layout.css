@@ -139,3 +139,14 @@
 .flexRowContent--desktop__home--section10 .stretchChildrenWidth {
     width: auto !important;
 }
+
+.flexRow--desktop__home--section11 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.flexRowContent--desktop__home--section11 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -63,6 +63,25 @@
 }
 
 .slide--global__home--section4 {
-    height: 31.125rem;
+    height         : 31.125rem;
     justify-content: center;
+}
+
+.sliderTrack--global__home--section11 {
+    column-gap     : 20px;
+    display        : flex;
+    justify-content: center;
+    align-items    : flex-start;
+}
+
+
+.sliderLayoutContainer--global__home--section11 {
+    max-width: 76.875rem;
+    margin   : 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .sliderTrack--global__home--section11 {
+        gap: 10px;
+    }
 }
