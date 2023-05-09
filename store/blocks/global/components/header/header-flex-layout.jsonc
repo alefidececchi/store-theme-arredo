@@ -1,0 +1,14 @@
+{
+    "flex-layout.row#global__header--offer": {
+        "children": [
+          "slider-layout#global__header--offer"
+        ],
+        "props": {
+          "blockClass": "global__header--offer",
+          "fullWidth": true,
+          "horizontalAlign": "center",
+          "preserveLayoutOnMobile": true
+        },
+        "title": "Header's slider global row container"
+      }
+}

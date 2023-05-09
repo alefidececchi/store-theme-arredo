@@ -8,19 +8,20 @@
 }
 
 .styledLinkContainer--mobile__megamenu {
-    padding: 0;
+    padding      : 0;
     margin-bottom: 1.25rem;
 }
+
 .styledLinkContent--mobile__megamenu {
     align-items: center;
 }
 
 .collapsibleHeaderText--mobile__megamenu,
 .styledLinkText--mobile__megamenu {
-    font-size: 16px;
+    font-size  : 16px;
     font-weight: 700;
     line-height: 24.5px;
-    color: #555;
-    margin: 0;
+    color      : #555;
+    margin     : 0;
 
 }

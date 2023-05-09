@@ -12,9 +12,9 @@
 }
 
 .childrenContainer--mobile__drawer--menu {
-    display: flex;
+    display       : flex;
     flex-direction: column;
-    height: 88.5%;
+    height        : 88.5%;
 }
 
 .closeIconContainer--mobile__drawer--search {

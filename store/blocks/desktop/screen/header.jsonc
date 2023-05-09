@@ -1,31 +1,12 @@
 {
-    "header-layout.desktop": {
-      "title": "Desktop Header",
-      "children": [
-        "header-row#desktop__1",
-        "header-row#desktop__2"
-      ]
+  "header-layout.desktop#home": {
+    "children": [
+      "flex-layout.row#global__header--offer",
+      "sticky-layout#desktop__header"
+    ],
+    "props": {
+      "blockClass": "desktop__header"
     },
-    "header-row#desktop__1": {
-      "children": [
-        "slider-layout#global__header--offer"
-      ],
-      "props": {
-        "zIndex": 1,
-        "sticky": false,
-        "fullWidth": true
-      },
-      "title": "Desktop header row 1"
-    },
-    "header-row#desktop__2": {
-      "children": [
-        "sticky-layout#desktop__header"
-      ],
-      "props": {
-        "zIndex": 2,
-        "sticky": true,
-        "fullWidth": true
-      },
-      "title": "Desktop header row 2"
-    }
+    "title": "Desktop Header"
   }
+}

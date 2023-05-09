@@ -1,31 +1,9 @@
 {
-    "header-layout.mobile": {
+    "header-layout.mobile#home": {
         "children": [
-            "header-row#mobile__1",
-            "header-row#mobile__2"
-        ],
-        "title": "Mobile Header"
-    },
-    "header-row#mobile__1": {
-        "children": [
-            "slider-layout#global__header--offer"
-        ],
-        "props": {
-            "zIndex": 1,
-            "sticky": false,
-            "fullWidth": true
-        },
-        "title": "Mobile header row 1"
-    },
-    "header-row#mobile__2": {
-        "children": [
+            "flex-layout.row#global__header--offer",
             "sticky-layout#mobile__header"
         ],
-        "props": {
-            "zIndex": 2,
-            "sticky": true,
-            "fullWidth": true
-        },
-        "title": "Mobile header row 2"
+        "title": "Mobile Header"
     }
 }

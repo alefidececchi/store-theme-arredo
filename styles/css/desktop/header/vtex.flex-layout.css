@@ -3,10 +3,11 @@
     display        : flex;
     justify-content: space-between;
 }
-.flexRow--desktop__header--row1{ 
-    height: 88px;
-    display: flex;
-    align-items: center;
+
+.flexRow--desktop__header--row1 {
+    height         : 88px;
+    display        : flex;
+    align-items    : center;
     justify-content: center;
 }
 
