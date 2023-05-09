@@ -1,0 +1,12 @@
+.forceCenter--global__logo--container {
+    top : 15px;
+    left: -1px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .forceCenter--global__logo--container {
+        top : 6px;
+        left: -9px;
+    }
+}
