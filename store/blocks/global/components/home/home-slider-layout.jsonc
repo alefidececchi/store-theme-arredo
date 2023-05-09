@@ -35,6 +35,7 @@
             "flex-layout.col#global__section3--season"
         ],
         "props": {
+            "arrowSize": 11,
             "blockClass": "global__home--section3",
             "centerMode": "disabled",
             "fullWidth": true,
@@ -74,5 +75,32 @@
             "usePagination": true
         },
         "title": "Global slider section 4"
+    },
+    "slider-layout#global__home--section11": {
+        "children": [
+            "flex-layout.col#global__section11--babyline",
+            "flex-layout.col#global__section11--bedsheets",
+            "flex-layout.col#global__section11--padded"            
+        ],
+        "props": {
+            "arrowSize": 11,
+            "blockClass": "global__home--section11",
+            "centerMode": "disabled",
+            "fullWidth": true,
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 1
+            },
+            "showNavigationArrows": "mobileOnly",
+            "showPaginationDots": "never",
+            "slideTransition": {
+                "speed": 400,
+                "delay": 0,
+                "timing": ""
+            },
+            "usePagination": true
+        },
+        "title": "Home section 11 global slider"
     }
 }

@@ -257,5 +257,80 @@
       "width": "35%"
     },
     "title": "Image second column container in section 8"
+  },
+  "flex-layout.row#desktop__home--section9": {
+    "children": [
+      "flex-layout.col#desktop__home--section9"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section9",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 9 row container"
+  },
+  "flex-layout.col#desktop__home--section9": {
+    "children": [
+      "rich-text#global__section9--title",
+      "flex-layout.row#desktop__section4--slider"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section9",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Section 10 column container"
+  },
+  "flex-layout.row#desktop__home--section10": {
+    "children": [
+      "image#desktop__home--section10"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section10",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 10 row container"
+  },
+  "flex-layout.row#desktop__home--section11": {
+    "children": [
+      "flex-layout.col#desktop__section11--texts",
+      "flex-layout.col#desktop__section11--slider"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section11",
+      "fullWidth": true,
+      "horizontalAllign": "center",
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Section 11 row container in desktop view"
+  },
+  "flex-layout.col#desktop__section11--texts": {
+    "children": [
+      "rich-text#global__section11--title",
+      "rich-text#global__section11--text"
+    ],
+    "props": {
+      "blockClass": "desktop__home--section11",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Section 11 texts column container in desktop view"
+  },
+  "flex-layout.col#desktop__section11--slider": {
+    "children": [
+      "slider-layout#global__home--section11"
+    ],
+    "props": {
+      "blockClass": "desktop__section11--slider",
+      "horizontalAllign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "title": "Section 11 slider column container in desktop view"
   }
 }

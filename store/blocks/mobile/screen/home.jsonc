@@ -7,7 +7,12 @@
             "flex-layout.row#mobile__home--section4",
             "flex-layout.row#mobile__home--section5",
             "flex-layout.row#mobile__home--section6",
-            "flex-layout.row#mobile__home--section7"
-        ]
+            "flex-layout.row#mobile__home--section7",
+            "flex-layout.row#mobile__home--section8",
+            "flex-layout.row#mobile__home--section9",
+            "flex-layout.row#mobile__home--section10",
+            "flex-layout.row#mobile__home--section11"
+        ],
+        "title": "Mobile home page"
     }
 }

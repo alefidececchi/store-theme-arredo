@@ -144,5 +144,17 @@
             "title": ""
         },
         "title": "Towels image in desktop home section 8"
+    },
+    "image#desktop__home--section10": {
+        "props": {
+            "blockClass": "desktop__home--section10",
+            "link": {
+                "url": "hotsale"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/desktop__section10--hotsale.png",
+            "title": ""
+        },
+        "title": "Hot sale image in desktop home section 10"
     }
 }
