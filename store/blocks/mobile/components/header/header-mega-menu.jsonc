@@ -7,5 +7,11 @@
             "openOnly": "horizontal"
         },
         "title": "Mega menu only on mobile view"
+    },
+    "mega-menu-go-back-btn": {
+        "props": {
+            "blockClass": "mobile__megamenu--go-back-btn" 
+        },
+        "title": "Megamenu's go back button"
     }
 }

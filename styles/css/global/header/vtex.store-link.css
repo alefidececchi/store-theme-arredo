@@ -36,3 +36,9 @@
 .link--global__header--link {
     text-decoration: none;
 }
+
+@media screen and (max-width: 1024px) {
+    .label--global__header--link {
+        width: 122px;
+    }
+}

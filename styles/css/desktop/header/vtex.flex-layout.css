@@ -1,7 +1,16 @@
+.flexRow--desktop__header--row2 {
+    height: 1.8125rem;
+}
+
 .flexRowContent--desktop__header--row1,
 .flexRowContent--mobile__header--row1 {
     display        : flex;
     justify-content: space-between;
+}
+
+.flexRowContent--desktop__header--row2 {
+    max-width: 80rem;
+    margin   : 0 auto;
 }
 
 .flexRow--desktop__header--row1 {

@@ -1,6 +1,7 @@
 {
     "login#mobile": {
         "props": {
+          "blockClass": "mobile__login",
           "emailAndPasswordTitle": "LOG-IN",
           "accessCodeTitle": "Acess Code LOG-IN",
           "emailPlaceholder": "e-mail",

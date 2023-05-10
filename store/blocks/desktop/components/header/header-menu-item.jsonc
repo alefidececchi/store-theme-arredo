@@ -82,18 +82,18 @@
         },
         "title": "Menu item departament 5"
     },
-    "menu-item#desktop__department--outstanding": {
+    "menu-item#desktop__department--hotsale": {
         "props": {
             "blockClass": "desktop__item--department",
-            "id": "department-outstanding",
+            "id": "department-hotsale",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/outstanding",
+                "href": "/hotsale",
                 "noFollow": false,
-                "tagTitle": "Destacadas",
-                "text": "DESTACADAS"
+                "tagTitle": "Hotsale",
+                "text": "HOTSALE"
             }
         },
         "title": "Menu item departament 6"
