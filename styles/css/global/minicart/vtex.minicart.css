@@ -67,3 +67,24 @@
     font-weight: 400;
     line-height: 24px;
 }
+
+.minicartProductListContainer--global__minicart-product-list {
+    overflow-x: hidden;
+}
+
+.minicartProductListContainer--global__minicart-product-list :global(.vtex-flex-layout-0-x-flexRow--global__minicart--list):last-child {
+    border-bottom: 1px solid #eee;
+}
+
+.minicartSummary--global__minicart--summary :global(.vtex-checkout-summary-0-x-summaryItemContainer) {
+    flex-direction: row;
+    align-items   : center;
+}
+
+.minicartSummary--global__minicart--summary :global(.vtex-checkout-summary-0-x-summaryItemContainer):first-child,
+.minicartSummary--global__minicart--summary :global(.vtex-checkout-summary-0-x-summaryItemContainer):first-child :global(.vtex-checkout-summary-0-x-summaryItemLabel):first-child {
+    color      : #555;
+    font-size  : 16px;
+    font-weight: 400 !important;
+    line-height: 22px;
+}
