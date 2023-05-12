@@ -10,7 +10,7 @@
             // "autocompleteFullWidth": true,
             // "autoFocus": true,
             // "disableBlurAndTouchEndHandler": true,
-            "containerMode": "container"
+            "containerMode": "layout"
         },
         "title": "Searchbar"
     }

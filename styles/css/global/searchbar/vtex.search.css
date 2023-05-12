@@ -1,0 +1,20 @@
+.biggy-autocomplete {
+    position  : absolute;
+    transition: none;
+    max-height: 630px;
+    background: #fff;
+    overflow  : auto;
+    display   : flex;
+    width     : 80vw;
+    right     : 0;
+    top       : 0.75rem;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, .16);
+    padding   : 24px 40px 16px;
+    max-height: none !important;
+}
+
+.biggy-js-container--hidden {
+    opacity   : 0;
+    max-height: 0 !important;
+    padding   : 0;
+}

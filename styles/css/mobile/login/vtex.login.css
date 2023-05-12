@@ -25,3 +25,70 @@
 .portalWrapper--mobile__login .arrowUp {
     left: 1rem;
 }
+
+.portalWrapper--mobile__login :global(.vtex-button):hover {
+    color           : #ff0093;
+    border          : 1px solid #ff0093;
+    background-color: #fff;
+}
+
+.portalWrapper--mobile__login .accessCodeOptionBtn :global(.vtex-button) :hover {
+    color           : #ff0093;
+    border          : 1px solid #ff0093;
+    background-color: #fff;
+}
+
+.portalWrapper--mobile__login .accessCodeOptionBtn :global(.vtex-button) :global(.vtex-button__label):hover,
+.portalWrapper--mobile__login .accessCodeOptionBtn :global(.vtex-button) :global(.vtex-button__label) span:hover {
+    border: 1px solid white;
+}
+
+.portalWrapper--mobile__login .sendButton {
+    text-transform: uppercase;
+    min-height    : 2rem;
+}
+
+.portalWrapper--mobile__login :global(.vtex-input-prefix__group) {
+    color           : #909090;
+    font-size       : 13px;
+    padding         : 0;
+    background-color: #fff;
+    border          : 1px solid #d4d4d4;
+    height          : 44px;
+    border-radius   : 8px;
+    line-height     : 18.5px;
+}
+
+.portalWrapper--mobile__login .backButton :global(.vtex-button) {
+    border          : 0;
+    background-color: white;
+    color           : #555;
+}
+
+.portalWrapper--mobile__login .backButton :global(.vtex-button):hover {
+    border          : 0;
+    background-color: white;
+    color           : #555;
+}
+
+.portalWrapper--mobile__login .sendButton :global(.vtex-button):hover {
+    color           : white;
+    border          : 0px solid #ff0093;
+    background-color: #ff0093;
+}
+
+.portalWrapper--mobile__login .formFooter {
+    border: 0;
+}
+
+.portalWrapper--mobile__login .sendButton :global(.vtex-button__label) span {
+    text-transform: uppercase;
+}
+
+.portalWrapper--mobile__login .forgotPasswordLink,
+.portalWrapper--mobile__login .dontHaveAccount {
+    color      : #555;
+    font-size  : 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
