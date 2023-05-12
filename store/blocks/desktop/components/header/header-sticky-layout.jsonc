@@ -5,8 +5,7 @@
             "flex-layout.row#desktop__header--row2"
         ],
         "props": {
-            "blockClass": "desktop__header",
-            "position": "TOP"
+            "blockClass": "desktop__header"
         },
         "title": "Desktop sticky header"
     }

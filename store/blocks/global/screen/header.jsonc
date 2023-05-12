@@ -1,8 +1,8 @@
 {
     "header.full": {
         "blocks": [
-            "header-layout.desktop",
-            "header-layout.mobile",
+            "header-layout.desktop#home",
+            "header-layout.mobile#home",
             "logo#global",
             "vtex.menu@2.x:menu#desktop__websites",
             "minicart.v2",

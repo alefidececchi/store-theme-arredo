@@ -7,14 +7,15 @@
 }
 
 .drawerContent--mobile__drawer--menu {
-    padding: 0 0.625rem;
-    height : 100vh;
+    padding   : 0 1.25rem;
+    height    : 100vh;
+    overflow-x: hidden;
 }
 
 .childrenContainer--mobile__drawer--menu {
-    display: flex;
+    display       : flex;
     flex-direction: column;
-    height: 88.5%;
+    height        : 88.5%;
 }
 
 .closeIconContainer--mobile__drawer--search {
@@ -25,4 +26,22 @@
     display        : flex;
     justify-content: center;
     align-items    : center;
+}
+
+.closeIconButton--mobile__menu--closebutton {
+    padding   : 0;
+    margin-top: 14px;
+    width     : auto;
+}
+
+.closeIcon--mobile__menu--closebutton {
+    width   : 24px;
+    height  : 24px;
+    display : block;
+    position: relative;
+    left    : -5px;
+}
+
+.openIconContainer--mobile__drawer--menu {
+    padding-left: 0;
 }

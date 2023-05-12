@@ -4,8 +4,7 @@
             "flex-layout.row#mobile__header--row1"
         ],
         "props": {
-            "blockClass": "mobile__header",
-            "position": "TOP"
+            "blockClass": "mobile__header"
         },
         "title": "Mobile sticky header"
     }

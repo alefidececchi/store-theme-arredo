@@ -1,10 +1,14 @@
+.drawer--global__minicart {
+    padding-top: 1.125rem;
+    max-width  : 25rem!important;
+}
+
 .drawerContent--global__minicart {
     height: 100%;
 }
 
 .childrenContainer--global__minicart {
-    padding-top: 1.125rem;
-    height     : 100%;
+    height: 100%;
 }
 
 .minicartSideBarContentWrapper--global__minicart {
@@ -27,10 +31,14 @@
 .closeIconContainer--global__minicart {
     justify-content: flex-end;
     padding        : 0;
-    right          : 1.313rem;
+    right          : 1rem;
     position       : absolute;
     height         : 2rem;
     z-index        : 2;
+}
+
+.closeIconButton--global__minicart {
+    padding: 0;
 }
 
 .openIconContainer--global__minicart {
@@ -66,4 +74,55 @@
     font-size  : 16px;
     font-weight: 400;
     line-height: 24px;
+}
+
+.minicartProductListContainer--global__minicart-product-list {
+    overflow-x: hidden;
+}
+
+.minicartProductListContainer--global__minicart-product-list :global(.vtex-flex-layout-0-x-flexRow--global__minicart--list):last-child {
+    border-bottom: 1px solid #eee;
+}
+
+.minicartSummary--global__minicart--summary :global(.vtex-checkout-summary-0-x-summaryItemContainer) {
+    flex-direction: row;
+    align-items   : center;
+}
+
+.minicartSummary--global__minicart--summary :global(.vtex-checkout-summary-0-x-summaryItemContainer):first-child,
+.minicartSummary--global__minicart--summary :global(.vtex-checkout-summary-0-x-summaryItemContainer):first-child :global(.vtex-checkout-summary-0-x-summaryItemLabel):first-child {
+    color      : #555;
+    font-size  : 16px;
+    font-weight: 400 !important;
+    line-height: 22px;
+}
+
+.minicartQuantityBadge--global__minicart {
+    background-color: #f7f7f6;
+    color           : #ff0093;
+    font-size       : 12px;
+    font-weight     : 700;
+    line-height     : 16px;
+    top             : 0;
+    right           : -1.375rem;
+}
+
+.openIconContainer--global__minicart :global(.vtex-button__label) {
+    padding: 0 !important;
+}
+
+.closeIcon--global__minicart {
+    width: 80%;
+}
+
+@media screen and (max-width: 1024px) {
+    .minicartWrapperContainer--global__minicart {
+        right: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .minicartWrapperContainer--global__minicart {
+        right: 0.7rem;
+    }
 }
