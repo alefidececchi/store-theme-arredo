@@ -130,6 +130,15 @@
     justify-content: space-between;
 }
 
+.autoCompleteOuterContainer--global__header--searchbar :global(.vtex-input__suffix) {
+    padding: 0;
+}
+
+.searchBarIcon--global__header--searchbar {
+    padding: 0;
+    padding-right: 14px;
+}
+
 @media screen and (max-width: 1024px) {
 
     .searchBarInnerContainer--global__header--searchbar :global(.vtex-search-2-x-tileList) {

@@ -35,3 +35,15 @@
     width : inherit;
     height: auto;
 }
+
+.flexRowContent--header__container--col-3 :global(.vtex-button):hover {
+    background-color: transparent !important;
+}
+
+.flexRowContent--header__container--col-3 :global(.vtex-login-2-x-container) {
+    margin-left: 1.3rem;
+}
+
+.flexCol--desktop__header--container {
+    margin-right: 1rem;
+}

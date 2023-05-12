@@ -3,10 +3,16 @@
     left: -1px;
 }
 
-
 @media screen and (max-width: 1024px) {
     .forceCenter--global__logo--container {
         top : 6px;
-        left: -9px;
+        left: -7px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .forceCenter--global__logo--container {
+        left: -2px;
     }
 }

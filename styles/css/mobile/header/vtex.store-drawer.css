@@ -41,3 +41,7 @@
     position: relative;
     left    : -5px;
 }
+
+.openIconContainer--mobile__drawer--menu {
+    padding-left: 0;
+}

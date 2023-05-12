@@ -82,9 +82,3 @@
 .flexRowContent--global__minicart--description2 :global(.vtex-product-list-0-x-productPriceCurrency--global__productlist--price) {
     display: none;
 }
-
-/* @media screen and (max-width: 640px) {
-    .flexRow--global__minicart--list {
-        padding-left: 0.5rem;
-    }
-} */
