@@ -1,29 +1,29 @@
 {
     "rich-text#header__slider--offer-1": {
-        "title": "Header slider text 1",
         "props": {
             "blockClass": "header__slider--offer",
             "text": "6 Cuotas sin interés | En compras superiores a $29.990",
             "textAlignment": "CENTER",
             "textPosition": "CENTER"
-        }
+        },
+        "title": "Header slider text 1"
     },
     "rich-text#header__slider--offer-2": {
-        "title": "Header slider text 2",
         "props": {
             "blockClass": "header__slider--offer",
             "text": "Envío gratis a partir de $29.990",
             "textAlignment": "CENTER",
             "textPosition": "CENTER"
-        }
+        },
+        "title": "Header slider text 2"
     },
     "rich-text#header__slider--offer-3": {
-        "title": "Header slider text 3",
         "props": {
             "blockClass": "header__slider--offer",
             "text": "Retiro gratis en sucursales",
             "textAlignment": "CENTER",
             "textPosition": "CENTER"
-        }
+        },
+        "title": "Header slider text 3"
     }
 }

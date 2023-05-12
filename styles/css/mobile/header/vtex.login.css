@@ -1,0 +1,9 @@
+.label {
+    display       : flex;
+    color         : #555;
+    font-size     : 16px;
+    font-weight   : 400;
+    line-height   : 22px;
+    text-transform: capitalize;
+    padding       : 0;
+}

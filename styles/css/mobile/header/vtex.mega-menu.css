@@ -8,19 +8,124 @@
 }
 
 .styledLinkContainer--mobile__megamenu {
-    padding: 0;
+    padding      : 0;
     margin-bottom: 1.25rem;
+    margin-left  : 0 !important;
+    margin-right : 0 !important;
 }
+
 .styledLinkContent--mobile__megamenu {
     align-items: center;
 }
 
-.collapsibleHeaderText--mobile__megamenu,
 .styledLinkText--mobile__megamenu {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24.5px;
-    color: #555;
-    margin: 0;
+    font-size     : 18px;
+    font-weight   : 700;
+    line-height   : 24.5px;
+    color         : #555;
+    margin        : 0;
+    display       : flex;
+    flex-direction: row-reverse;
+    width         : -webkit-fill-available;
+}
 
+.styledLinkText--mobile__megamenu:last-child {
+    flex-direction : row;
+    justify-content: flex-start;
+}
+
+.collapsibleHeaderText--mobile__megamenu {
+    color        : #555;
+    font-size    : 14px;
+    font-weight  : 700;
+    margin-bottom: 0.75rem;
+    margin-top   : 0;
+}
+
+.accordionIconContainer--mobile__megamenu {
+    display: none !important;
+}
+
+.menuItemVertical--mobile__megamenu,
+.submenuItemVertical--mobile__megamenu {
+    padding            : 0;
+    border-top-style   : none;
+    border-bottom-style: none;
+}
+
+.submenuContainerTitle--mobile__megamenu {
+    display    : flex;
+    color      : #555;
+    font-size  : 20px;
+    font-weight: 400;
+    line-height: 2;
+    padding    : 0;
+    position   : relative;
+    top        : -29px;
+    left       : 25px;
+    position   : relative;
+    top        : -1.8125rem;
+    left       : 1.5625rem;
+}
+
+.styledLinkIcon--mobile__megamenu {
+    margin: 0;
+    width : 11px;
+}
+
+.goBackButtonText--mobile__megamenu--go-back-btn {
+    display: none;
+}
+
+.submenuItem--mobile__megamenu {
+    margin-top: 0 !important;
+}
+
+.submenuItem--mobile__megamenu .styledLinkContainer--mobile__megamenu {
+    margin-bottom: 0 !important;
+}
+
+.submenuItemVertical--mobile__megamenu {
+    background-color: white;
+}
+
+.submenuItem--mobile__megamenu .styledLinkContainer--mobile__megamenu .styledLink--mobile__megamenu .styledLinkContent--mobile__megamenu .styledLinkText--mobile__megamenu {
+    font-weight: 400;
+    color      : #555;
+    font-size  : 14px;
+    line-height: 20px;
+    padding    : 5px 10px;
+    margin     : 0 0 10px;
+}
+
+.seeAllLink--mobile__megamenu {
+    color          : #8c8c8c;
+    font-weight    : 700;
+    text-decoration: underline;
+    font-size      : 18px;
+    margin-top     : 0;
+    padding        : 0 0 1rem;
+}
+
+.submenuItemVertical:last-child .collapsibleHeaderText {
+    color          : #8c8c8c;
+    font-weight    : 700;
+    text-decoration: underline;
+    font-size      : 18px;
+}
+
+.submenuListVertical--mobile__megamenu {
+    position: relative;
+    top     : -1.125rem;
+}
+
+.seeAllLinkContainer--mobile__megamenu {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .collapsibleHeaderText--mobile__megamenu {
+        font-size    : 18px;
+        margin-bottom: 1.15rem;
+    }
 }

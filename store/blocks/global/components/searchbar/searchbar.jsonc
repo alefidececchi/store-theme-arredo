@@ -6,7 +6,11 @@
         "props": {
             "blockClass": "global__header--searchbar",
             "placeholder": "¿Qué estás buscando?",
-            "openAutocompleteOnFocus": true
+            "openAutocompleteOnFocus": true,
+            // "autocompleteFullWidth": true,
+            // "autoFocus": true,
+            // "disableBlurAndTouchEndHandler": true,
+            "containerMode": "layout"
         },
         "title": "Searchbar"
     }

@@ -1,0 +1,94 @@
+.portalWrapper--desktop__login .formTitle {
+    color      : #555;
+    font-size  : 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin     : 1rem 0 0.25rem;
+}
+
+.portalWrapper--desktop__login :global(.vtex-button) {
+    border          : 1px solid #e9e9e9;
+    width           : 100%;
+    min-height      : 2.5rem;
+    background-color: #ff0093;
+    border-radius   : 8px;
+    color           : #fff;
+    font-size       : 12px;
+    font-weight     : 700;
+}
+
+.portalWrapper--desktop__login :global(.vtex-button):hover {
+    color           : #ff0093;
+    border          : 1px solid #ff0093;
+    background-color: #fff;
+}
+
+.portalWrapper--desktop__login .accessCodeOptionBtn :global(.vtex-button) :hover {
+    color           : #ff0093;
+    border          : 1px solid #ff0093;
+    background-color: #fff;
+}
+
+.portalWrapper--desktop__login .accessCodeOptionBtn :global(.vtex-button) :global(.vtex-button__label):hover,
+.portalWrapper--desktop__login .accessCodeOptionBtn :global(.vtex-button) :global(.vtex-button__label) span:hover {
+    border: 1px solid white;
+}
+
+.portalWrapper--desktop__login .sendButton {
+    text-transform: uppercase;
+    min-height    : 2rem;
+}
+
+.portalWrapper--desktop__login .arrowUp {
+    display: none;
+}
+
+.portalWrapper--desktop__login .box {
+    right: -37px;
+    top  : 8px;
+}
+
+.portalWrapper--desktop__login :global(.vtex-input-prefix__group) {
+    color           : #909090;
+    font-size       : 13px;
+    padding         : 0;
+    background-color: #fff;
+    border          : 1px solid #d4d4d4;
+    height          : 44px;
+    border-radius   : 8px;
+    line-height     : 18.5px;
+}
+
+.portalWrapper--desktop__login .backButton :global(.vtex-button) {
+    border          : 0;
+    background-color: white;
+    color           : #555;
+}
+
+.portalWrapper--desktop__login .backButton :global(.vtex-button):hover {
+    border          : 0;
+    background-color: white;
+    color           : #555;
+}
+
+.portalWrapper--desktop__login .sendButton :global(.vtex-button):hover {
+    color           : white;
+    border          : 0px solid #ff0093;
+    background-color: #ff0093;
+}
+
+.portalWrapper--desktop__login .formFooter {
+    border: 0;
+}
+
+.portalWrapper--desktop__login .sendButton :global(.vtex-button__label) span {
+    text-transform: uppercase;
+}
+
+.portalWrapper--desktop__login .forgotPasswordLink,
+.portalWrapper--desktop__login .dontHaveAccount {
+    color      : #555;
+    font-size  : 14px;
+    font-weight: 400;
+    line-height: 20px;
+}

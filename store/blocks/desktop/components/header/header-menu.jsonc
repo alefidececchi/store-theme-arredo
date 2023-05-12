@@ -7,7 +7,7 @@
             "menu-item#desktop__department--kitchen",
             "menu-item#desktop__department--decoration",
             "menu-item#desktop__department--disney",
-            "menu-item#desktop__department--outstanding",
+            "menu-item#desktop__department--hotsale",
             "menu-item#desktop__department--knowus"
         ],
         "props": {

@@ -55,12 +55,12 @@
 }
 
 .styledLinkContent--desktop__item--category {
-    color            : #555;
-    display          : flex;
-    font-size        : 14px;
-    font-weight      : 700;
-    height           : 1.25rem;
-    justify-content  : space-between;
+    color          : #555;
+    display        : flex;
+    font-size      : 14px;
+    font-weight    : 700;
+    height         : 1.25rem;
+    justify-content: space-between;
 }
 
 .menuItem--desktop__item--category--isOpen .styledLinkContent--desktop__item--category {

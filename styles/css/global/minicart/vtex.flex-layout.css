@@ -31,8 +31,12 @@
     padding-left: 1rem;
 }
 
-.flexRowContent--global__minicart--description1 :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+.flexRowContent--global__minicart--description1 .stretchChildrenWidth {
     padding-right: 0.5rem;
+}
+
+.flexRowContent--global__minicart--description1 .stretchChildrenWidth:last-child {
+    margin-right: 1rem;
 }
 
 .flexRowContent--global__minicart--description1 {
@@ -73,4 +77,8 @@
 
 .flexRowContent--global__minicart--description2 {
     justify-content: space-between;
+}
+
+.flexRowContent--global__minicart--description2 :global(.vtex-product-list-0-x-productPriceCurrency--global__productlist--price) {
+    display: none;
 }

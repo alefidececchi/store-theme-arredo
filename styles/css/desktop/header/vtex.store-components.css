@@ -1,22 +1,3 @@
-.portalContainer--global__header--searchbar {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: -2147483647!important;
-}
-
-.searchBarInnerContainer--global__header--searchbar {
-    width: 307px;
-}
-
-.autoCompleteOuterContainer--global__header--searchbar :global(.vtex-input-prefix__group) {
-    height       : 2.813rem;
-    width        : 100%;
-    min-width    : 19.188rem;
-    border       : 1px solid #eee;
-    border-radius: 8px;
-}
-
 .imageElement--desktop__submenu--measures {
     max-width: 346px;
     position : relative;

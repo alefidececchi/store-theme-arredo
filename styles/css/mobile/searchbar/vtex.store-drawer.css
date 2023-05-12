@@ -1,0 +1,17 @@
+.drawerContent--mobile__drawer--search {
+    overflow-y   : hidden;
+    height       : 100%;
+    padding-left : 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.closeIconButton--mobile__drawer--search {
+    padding-right: 0;
+    position     : relative;
+    left         : 0.4375rem;
+    top          : 1px;
+}
+
+.closeIcon--mobile__drawer--search {
+    width: 1.5rem;
+}

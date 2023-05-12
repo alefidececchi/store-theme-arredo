@@ -1,12 +1,22 @@
+.flexRow--desktop__header--row2 {
+    height: 1.8125rem;
+}
+
 .flexRowContent--desktop__header--row1,
 .flexRowContent--mobile__header--row1 {
     display        : flex;
     justify-content: space-between;
 }
-.flexRow--desktop__header--row1{ 
-    height: 88px;
-    display: flex;
-    align-items: center;
+
+.flexRowContent--desktop__header--row2 {
+    max-width: 80rem;
+    margin   : 0 auto;
+}
+
+.flexRow--desktop__header--row1 {
+    height         : 88px;
+    display        : flex;
+    align-items    : center;
     justify-content: center;
 }
 
@@ -24,4 +34,16 @@
 .flexColChild--desktop__header--link {
     width : inherit;
     height: auto;
+}
+
+.flexRowContent--header__container--col-3 :global(.vtex-button):hover {
+    background-color: transparent !important;
+}
+
+.flexRowContent--header__container--col-3 :global(.vtex-login-2-x-container) {
+    margin-left: 1.3rem;
+}
+
+.flexCol--desktop__header--container {
+    margin-right: 1rem;
 }
