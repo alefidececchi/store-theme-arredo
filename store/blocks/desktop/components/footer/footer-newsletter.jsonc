@@ -1,0 +1,27 @@
+{
+    "newsletter-form#desktop__footer--newsletter": {
+        "children": [
+            "newsletter-input-email#desktop__newsletter--mail",
+            "newsletter-submit#desktop__newsletter--submit"
+        ],
+        "props": {
+            "blockClass": "desktop__footer--newsletter"
+        },
+        "title": "Global newsletter"
+    },
+    "newsletter-input-email#desktop__newsletter--mail": {
+        "props": {
+            "blockClass": "desktop__newsletter--mail",
+            "inputLabel": "Suscribite al Newsletter",
+            "placeholderText": "Escribí tu mail"
+        },
+        "title": "Global input newsletter"
+    },
+    "newsletter-submit#desktop__newsletter--submit": {
+        "props": {
+            "blockClass": "desktop__newsletter--submit",
+            "submitButtonLabel": ""
+        },
+        "title": "Global newsletter's button submit"
+    }
+}

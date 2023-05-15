@@ -1,0 +1,96 @@
+.emailInputContainer--mobile__newsletter--mail :global(.vtex-input) {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+}
+
+.emailInputContainer--mobile__newsletter--mail :global(.vtex-input__label) {
+    color          : white;
+    line-height    : normal;
+    display        : flex;
+    flex-direction : column;
+    justify-content: flex-start;
+    align-items    : flex-start;
+    text-align     : left;
+    width          : 90%;
+    margin-bottom  : 0;
+    width          : 90%;
+    max-width      : 21rem;
+    padding-bottom : 15px;
+    margin-right   : 0;
+    font-size      : 22px;
+    font-weight    : 500;
+}
+
+.emailInputContainer--mobile__newsletter--mail :global(.vtex-input__label)::after {
+    content    : "Recibí ofertas y novedades en tu mail";
+    color      : white;
+    font-size  : 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.emailInputContainer--mobile__newsletter--mail :global(.vtex-input-prefix__group) {
+    width           : 90%;
+    border          : 1px solid #b9b9b9;
+    background-color: #fff;
+    padding         : 0;
+    border-radius   : 8px;
+    height          : 50px;
+    display         : flex;
+    margin          : 0 0 2.75rem;
+}
+
+.emailInputContainer--mobile__newsletter--mail :global(.vtex-styleguide-9-x-input) {
+    font-weight: 500;
+    min-height : 50px;
+    display    : flex;
+    margin     : 0;
+    height     : unset;
+    padding    : 0 1rem;
+    color      : #909090;
+}
+
+.formSubmitContainer--mobile__newsletter--submit {
+    height         : 1.5rem;
+    width          : 2.5rem;
+    display        : flex;
+    justify-content: flex-end;
+    padding        : 0;
+}
+
+.formSubmitContainer--mobile__newsletter--submit {
+    height         : 1.5rem;
+    width          : 2.5rem;
+    display        : flex;
+    justify-content: flex-end;
+    padding        : 0;
+    position       : relative;
+    top            : -5.5rem;
+    left           : calc((100% - 90%) / 2 + 90% - 42px);
+}
+
+.formSubmitContainer--mobile__newsletter--submit :global(.vtex-button) {
+    width           : 100%;
+    border          : 0;
+    border-radius   : 0;
+    height          : 100%;
+    background-color: transparent;
+}
+
+.formSubmitContainer--mobile__newsletter--submit :global(.vtex-button__label) {
+    padding    : 0;
+    height     : 1.5rem;
+    border-left: 2px solid #e2e2e2;
+    display    : flex;
+    align-items: center;
+}
+
+.formSubmitContainer--mobile__newsletter--submit :global(.vtex-button__label)::before {
+    content   : "";
+    display   : block;
+    background: url("assets/img/global__arrow--pink.svg") no-repeat;
+    width     : 8px;
+    height    : 13px;
+}

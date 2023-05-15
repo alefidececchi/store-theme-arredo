@@ -1,0 +1,13 @@
+{
+    "footer-layout.desktop": {
+        "children": [
+            "flex-layout.row#desktop__footer--block1",
+            "flex-layout.row#desktop__footer--block2",
+            "flex-layout.row#desktop__footer--block3"
+        ],
+        "props": {
+            "blockClass": "desktop__footer--container"
+        },
+        "title": "Footer in desktop view"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "newsletter-form#mobile__footer--newsletter": {
+        "children": [
+            "newsletter-input-email#mobile__newsletter--mail",
+            "newsletter-submit#mobile__newsletter--submit"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--newsletter"
+        },
+        "title": "Mobile newsletter"
+    },
+    "newsletter-input-email#mobile__newsletter--mail": {
+        "props": {
+            "blockClass": "mobile__newsletter--mail",
+            "inputLabel": "Suscribite al Newsletter",
+            "placeholderText": "Escribí tu mail"
+        },
+        "title": "Mobile input newsletter"
+    },
+    "newsletter-submit#mobile__newsletter--submit": {
+        "props": {
+            "blockClass": "mobile__newsletter--submit",
+            "submitButtonLabel": ""
+        },
+        "title": "Mobile newsletter's button submit"
+    }
+}

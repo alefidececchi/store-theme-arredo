@@ -1,0 +1,94 @@
+{
+    "rich-text#global__footer--infotitle1": {
+        "props": {
+            "blockClass": [
+                "global__footer--infotitle",
+                "global__footer--infotitle1"
+            ],
+            "font": "t-heading-4",
+            "text": "#### Seguinos en:",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT"
+        },
+        "title": "Global info title follow us"
+    },
+    "rich-text#global__footer--customersupport-title": {
+        "props": {
+            "blockClass": [
+                "global__footer--infotitle",
+                "global__footer--customersupport-title"
+            ],
+            "font": "t-heading-4",
+            "text": "#### Atención al Cliente:",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT"
+        },
+        "title": "Global info text customer support"
+    },
+    "rich-text#global__footer--customersupport-text": {
+        "props": {
+            "blockClass": "global__footer--customersupport-text",
+            "text": "0800-362-2740 De Lunes a Viernes de 9 a 21 hs - Sábados y Domingos de 10 a 18 hs",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT"
+        },
+        "title": "Global info text customer support"
+    },
+    "rich-text#global__footer--infotitle2": {
+        "props": {
+            "blockClass": [
+                "global__footer--infotitle",
+                "global__footer--infotitle2"
+            ],
+            "font": "t-heading-4",
+            "text": "#### Asistencia",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT"
+        },
+        "title": "Global info title assistance"
+    },
+    "rich-text#global__footer--infotitle3": {
+        "props": {
+            "blockClass": [
+                "global__footer--infotitle",
+                "global__footer--infotitle3"
+            ],
+            "font": "t-heading-4",
+            "text": "#### Sobre Arredo",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT"
+        },
+        "title": "Global info title about arredo"
+    },
+    "rich-text#global__footer--infotitle4": {
+        "props": {
+            "blockClass": [
+                "global__footer--infotitle",
+                "global__footer--infotitle4"
+            ],
+            "font": "t-heading-4",
+            "text": "#### Comercial",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT"
+        },
+        "title": "Global info title commerce"
+    },
+    "rich-text#global__footer--repentance": {
+        "props": {
+            "blockClass": "global__footer--repentance",
+            "text": "BOTÓN DE ARREPENTIMIENTO",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        },
+        "title": "Global text repentance"
+    },
+    "rich-text#global__footer--block3": {
+        "props": {
+            "blockClass": "global__footer--block3",
+            "text": "**©Copyright 2022. Todos los Derechos Reservados.** [Política de Privacidad](https://alejandrofidececchi--itgloberspartnercl.myvtex.com/privacy-policy) | [Términos & Condiciones](https://alejandrofidececchi--itgloberspartnercl.myvtex.com/terms-and-conditions)\n  Centro de Atención al Cliente: 0800-362-2740 / L a V de 9 a 21 hs - S y D de 10 a 18 | [tiendaonline@arredo.com.ar](mailto:tiendaonline@mail.com.ar).\n  Dirección General de Defensa y Protección al Consumidor: Para consultas y/o denuncias ingrese aquí",
+            "textAlignment": "CENTER",
+            "textPosition": "LEFT"
+        },
+        "title": "Global text footer's block 3"
+    }
+}

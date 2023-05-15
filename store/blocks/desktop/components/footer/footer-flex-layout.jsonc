@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#desktop__footer--block1": {
+        "children": [
+            "newsletter-form#desktop__footer--newsletter"
+        ],
+        "props": {
+            "blockClass": "desktop__footer--block1",
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Block 1 footer Row container"
+    },
+    "flex-layout.row#desktop__footer--block2": {
+        "children": [
+            "flex-layout.col#global__footer--info1",
+            "flex-layout.col#global__footer--info2",
+            "flex-layout.col#global__footer--info3",
+            "flex-layout.col#global__footer--info4"
+        ],
+        "props": {
+            "blockClass": "desktop__footer--block2",
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Block 2 footer Row container"
+    },
+    "flex-layout.row#desktop__footer--block3": {
+        "children": [
+            "flex-layout.col#desktop__footer--developers",
+            "rich-text#global__footer--block3"
+        ],
+        "props": {
+            "blockClass": "desktop__footer--block3",
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Block 3 footer Row container"
+    },
+    "flex-layout.col#desktop__footer--developers": {
+        "children": [
+            "flex-layout.row#global__footer--developers"
+        ],
+        "props": {
+            "blockClass": "desktop__footer--block3",
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "width": "20%"
+        },
+        "title": "Block 3 column container in desktop footer"
+    }
+}
