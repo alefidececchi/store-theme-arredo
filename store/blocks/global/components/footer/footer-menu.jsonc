@@ -1,0 +1,49 @@
+{
+    "menu#global__footer--assistance": {
+        "children": [
+            "menu-item#global__footer--frequently-questions",
+            "menu-item#global__footer--payment",
+            "menu-item#global__footer--shipping",
+            "menu-item#global__footer--branch-withdrawal",
+            "menu-item#global__footer--changes-returns",
+            "menu-item#global__footer--contact"
+        ],
+        "props": {
+            "blockClass": [
+                "global__footer--menulinks",
+                "global__footer--assistance"
+            ]
+        },
+        "title": "Menu of assistance in global footer"
+    },
+    "menu#global__footer--aboutarredo": {
+        "children": [
+            "menu-item#global__footer--branch-offices",
+            "menu-item#global__footer--institutional",
+            "menu-item#global__footer--us",
+            "menu-item#global__footer--people",
+            "menu-item#global__footer--the-earth",
+            "menu-item#global__footer--be-part"
+        ],
+        "props": {
+            "blockClass": [
+                "global__footer--menulinks",
+                "global__footer--aboutarredo"
+            ]
+        },
+        "title": "Menu of about arredo in global footer"
+    },
+    "menu#global__footer--commercial": {
+        "children": [
+            "menu-item#global__footer--franchises",
+            "menu-item#global__footer--corporate-sales"
+        ],
+        "props": {
+            "blockClass": [
+                "global__footer--menulinks",
+                "global__footer--commercial"
+            ]
+        },
+        "title": "Menu of commercial in global footer"
+    }
+}

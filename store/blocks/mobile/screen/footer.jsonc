@@ -1,0 +1,13 @@
+{
+    "footer-layout.mobile": {
+        "children": [
+            "flex-layout.row#mobile__footer--block1",
+            "flex-layout.row#mobile__footer--block2",
+            "flex-layout.row#mobile__footer--block3"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--container"
+        },
+        "title": "Footer in mobile view"
+    }
+}

@@ -1,0 +1,26 @@
+.flexRow--desktop__footer--block2 {
+    margin-top: -3.5rem;
+}
+
+.flexRow--desktop__footer--block2 {
+    background-color: #eee;
+}
+
+.flexRowContent--desktop__footer--block2 {
+    max-width      : 1360px;
+    margin         : 0 auto;
+    padding        : 2.5rem 2rem 4.25rem;
+    justify-content: space-between;
+}
+
+.flexRowContent--desktop__footer--block3 {
+    padding  : 0.875rem 2rem;
+    margin   : auto;
+    width    : 100%;
+    max-width: 1360px;
+}
+
+.flexRowContent--desktop__footer--block2 .stretchChildrenWidth,
+.flexRowContent--desktop__footer--block3 .stretchChildrenWidth {
+    width: auto !important;
+}

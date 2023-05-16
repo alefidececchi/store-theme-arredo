@@ -1,0 +1,135 @@
+{
+    "image#global__footer--facebook": {
+        "props": {
+            "blockClass": [
+                "global__footer--icon",
+                "global__footer--facebook"
+            ],
+            "link": {
+                "url": "https://www.facebook.com/arredo.oficial/",
+                "openNewTab": true
+            },
+            "src": "assets/img/global__footer--facebook.svg"
+        },
+        "title": "Image facbook's logo"
+    },
+    "image#global__footer--instagram": {
+        "props": {
+            "blockClass": [
+                "global__footer--icon",
+                "global__footer--instagram"
+            ],
+            "link": {
+                "url": "https://www.instagram.com/arredo.oficial/",
+                "openNewTab": true
+            },
+            "src": "assets/img/global__footer--instagram.svg"
+        },
+        "title": "Image instagram's logo"
+    },
+    "image#global__footer--twitter": {
+        "props": {
+            "blockClass": [
+                "global__footer--icon",
+                "global__footer--twitter"
+            ],
+            "link": {
+                "url": "https://www.twitter.com/arredo_oficial/",
+                "openNewTab": true
+            },
+            "src": "assets/img/global__footer--twitter.svg"
+        },
+        "title": "Image twitter's logo"
+    },
+    "image#global__footer--youtube": {
+        "props": {
+            "blockClass": [
+                "global__footer--icon",
+                "global__footer--youtube"
+            ],
+            "link": {
+                "url": "https://www.youtube.com/channel/UCg52e8NJzJuS67QsDIvIHMA",
+                "openNewTab": true
+            },
+            "src": "assets/img/global__footer--youtube.svg"
+        },
+        "title": "Image youtube's logo"
+    },
+    "image#global__footer--linkedin": {
+        "props": {
+            "blockClass": [
+                "global__footer--icon",
+                "global__footer--linkedin"
+            ],
+            "link": {
+                "url": "https://www.linkedin.com/company/arredo",
+                "openNewTab": true
+            },
+            "src": "assets/img/global__footer--linkedin.svg"
+        },
+        "title": "Image linkedin's logo"
+    },
+    "image#global__footer--award": {
+        "props": {
+            "blockClass": "global__footer--award",
+            "src": "assets/img/global__footer--award.png"
+        },
+        "title": "Image ecommerce award"
+    },
+    "image#global__footer--datafiscal": {
+        "props": {
+            "blockClass": [
+                "global__footer--developers",
+                "global__footer--datafiscal"
+            ],
+            "link": {
+                "url": "https://www.afip.gob.ar/landing/default.asp",
+                "openNewTab": true
+            },
+            "src": "assets/img/global__logo--fiscal.svg"
+        },
+        "title": "Image data fiscal's logo"
+    },
+    "image#global__footer--mercadopago": {
+        "props": {
+            "blockClass": [
+                "global__footer--developers",
+                "global__footer--mercadopago"
+            ],
+            "link": {
+                "url": "https://www.mercadopago.com.ar/",
+                "openNewTab": true
+            },
+            "src": "assets/img/global__logo--mercadopago.png"
+        },
+        "title": "Image mercadopago's logo"
+    },
+    "image#global__footer--itglobers": {
+        "props": {
+            "blockClass": [
+                "global__footer--developers",
+                "global__footer--itglobers"
+            ],
+            "link": {
+                "url": "https://itglobers.com/",
+                "openNewTab": true
+            },
+            "src": "assets/img/global__logo--itglobers.svg"
+        },
+        "title": "Image itglobers's logo"
+    },
+    "image#global__footer--vtex": {
+        "props": {
+            "blockClass": [
+                "global__footer--developers",
+                "global__footer--vtex"
+            ],
+            "link": {
+                "url": "https://vtex.com/ar-es/",
+                "openNewTab": true
+            },
+            "src": "assets/img/global__logo--vtex.png"
+        },
+        "title": "Image vtex's logo"
+    }
+}
