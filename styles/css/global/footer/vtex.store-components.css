@@ -1,0 +1,22 @@
+.imageElement--global__footer--award {
+    margin-top: 3rem;
+}
+
+.imageElement--global__footer--developers {
+    height      : 25px;
+    width       : auto;
+    padding-left: 0.5rem;
+}
+
+.imageElement--global__footer--datafiscal {
+    height: 35px;
+}
+
+@media screen and (max-width: 640px) {
+    .imageElement--global__footer--award {
+        position: relative;
+        left    : calc(100vw - 60vw + 87px);
+        top     : -31px;
+        margin  : 0;
+    }
+}

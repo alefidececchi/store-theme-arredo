@@ -1,0 +1,229 @@
+{
+    // ASSISTANCE
+    "menu-item#global__footer--frequently-questions": {
+        "props": {
+            "blockClass": "global__footer--menuitem",
+            "id": "assistance-frequently-questions",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/frequently-questions",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "Preguntas Frecuentes"
+            }
+        },
+        "title": "Footer's Menu item 'frequently questions'"
+    },
+    "menu-item#global__footer--payment": {
+        "props": {
+            "blockClass": "global__footer--menuitem",
+            "id": "assistance-payment",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/payment",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "Pago"
+            }
+        },
+        "title": "Footer's Menu item 'payment'"
+    },
+    "menu-item#global__footer--shipping": {
+        "props": {
+            "blockClass": "global__footer--menuitem",
+            "id": "assistance-shipping",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/shipping",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "Envío"
+            }
+        },
+        "title": "Footer's Menu item 'shipping'"
+    },
+    "menu-item#global__footer--branch-withdrawal": {
+        "props": {
+            "blockClass": "global__footer--menuitem",
+            "id": "assistance-branch-withdrawal",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/branch-withdrawal",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "Retiro en Sucursales"
+            }
+        },
+        "title": "Footer's Menu item 'branch withdrawal'"
+    },
+    "menu-item#global__footer--changes-returns": {
+        "props": {
+            "blockClass": "global__footer--menuitem",
+            "id": "assistance-changes-returns",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/changes-returns",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "Cambios y Devoluciones"
+            }
+        },
+        "title": "Footer's Menu item 'changes and returns'"
+    },
+    "menu-item#global__footer--contact": {
+        "props": {
+            "blockClass": "global__footer--menuitem",
+            "id": "assistance-contact",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/contact",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "Contacto"
+            }
+        },
+        "title": "Footer's Menu item 'contact'"
+    },
+    // ABOUT ARREDO
+    "menu-item#global__footer--branch-offices": {
+        "props": {
+            "blockClass": "global__footer--menuitem",
+            "id": "about-arredo-branch-offices",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/branch-offices",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "Sucursales"
+            }
+        },
+        "title": "Footer's Menu item 'branch offices'"
+    },
+    "menu-item#global__footer--institutional": {
+        "props": {
+            "blockClass": "global__footer--menuitem",
+            "id": "about-arredo-institutional",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/institutional",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "Institucional"
+            }
+        },
+        "title": "Footer's Menu item 'institutional'"
+    },
+    "menu-item#global__footer--us": {
+        "props": {
+            "blockClass": "global__footer--menuitem",
+            "id": "about-arredo-us",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/us",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "Nosotrxs"
+            }
+        },
+        "title": "Footer's Menu item 'us'"
+    },
+    "menu-item#global__footer--people": {
+        "props": {
+            "blockClass": "global__footer--menuitem",
+            "id": "about-arredo-people",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/people",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "Personas"
+            }
+        },
+        "title": "Footer's Menu item 'branch withdrawal'"
+    },
+    "menu-item#global__footer--the-earth": {
+        "props": {
+            "blockClass": "global__footer--menuitem",
+            "id": "about-arredo-the-earth",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/the-earth",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "La Tierra"
+            }
+        },
+        "title": "Footer's Menu item 'the earth'"
+    },
+    "menu-item#global__footer--be-part": {
+        "props": {
+            "blockClass": "global__footer--menuitem",
+            "id": "about-arredo-be-part",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/be-part-of-arredo",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "Ser parte de Arredo"
+            }
+        },
+        "title": "Footer's Menu item 'contact'"
+    },
+    // COMMERCE    
+    "menu-item#global__footer--franchises": {
+        "props": {
+            "blockClass": "global__footer--menuitem",
+            "id": "commercial-franchises",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/franchises",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "Franquicias"
+            }
+        },
+        "title": "Footer's Menu item 'franchises'"
+    },
+    "menu-item#global__footer--corporate-sales": {
+        "props": {
+            "blockClass": "global__footer--menuitem",
+            "id": "commercial-corporate-sales",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/corporate-sales",
+                "noFollow": false,
+                "tagTitle": "",
+                "text": "Ventas Corporativas"
+            }
+        },
+        "title": "Footer's Menu item 'corporate sales'"
+    }
+}

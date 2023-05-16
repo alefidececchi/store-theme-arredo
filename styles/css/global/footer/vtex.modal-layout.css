@@ -1,0 +1,33 @@
+.paper--global__footer--repentance {
+    background-color: #fff;
+}
+
+.headerContainer--global__footer--repentance {
+    flex-direction : row;
+    justify-content: space-between;
+    align-items    : center;
+    padding        : 2rem;
+    border         : 0;
+}
+
+.headerContent--global__footer--repentance :global(.vtex-rich-text-0-x-container--global__footer--customersupport-title) {
+    padding: 0;
+    border : 0;
+}
+
+.contentContainer--global__footer--repentance {
+    padding-top: 0;
+}
+
+.contentContainer--global__footer--repentance :global(.vtex-rich-text-0-x-container--global__footer--customersupport-text) {
+    margin    : 0 auto;
+    /* width     : 25rem; */
+    text-align: center;
+}
+
+
+.closeButtonContainer--global__footer--repentance {
+    position: relative;
+    top     : -1.5rem;
+    left    : 1.5rem;
+}

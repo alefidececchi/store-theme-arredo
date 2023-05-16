@@ -1,0 +1,43 @@
+{
+    "modal-trigger#global__footer--repentance": {
+        "children": [
+            "rich-text#global__footer--repentance",
+            "modal-layout#global__footer--repentance"
+        ],
+        "props": {
+            "blockClass": "global__footer--repentance"
+        },
+        "title": "Global modal trigger in footer repentance text"
+    },
+    "modal-layout#global__footer--repentance": {
+        "children": [
+            "modal-header#global__footer--repentance",
+            "modal-content#global__footer--repentance"
+        ],
+        "props": {
+            "blockClass": "global__footer--repentance",
+            "disableEscapeKeyDown": true
+        },
+        "title": "Global modal container in footer repentance action"
+    },
+    "modal-header#global__footer--repentance": {
+        "children": [
+            "rich-text#global__footer--repentance-title"
+        ],
+        "props": {
+            "blockClass": "global__footer--repentance",
+            "showCloseButton": true,
+            "iconCloseSize": 24
+        },
+        "title": "Global close button in repetance modal action"
+    },
+    "modal-content#global__footer--repentance": {
+        "children": [
+            "rich-text#global__footer--customersupport-text"
+        ],
+        "props": {
+            "blockClass": "global__footer--repentance"
+        },
+        "title": "Global modal container text in footer repentance action"
+    }
+}

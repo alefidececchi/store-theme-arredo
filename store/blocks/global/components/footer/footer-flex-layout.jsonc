@@ -1,0 +1,103 @@
+{
+    "flex-layout.col#global__footer--info1": {
+        "children": [
+            "rich-text#global__footer--infotitle1",
+            "flex-layout.row#global__footer--icons",
+            "rich-text#global__footer--customersupport-title",
+            "rich-text#global__footer--customersupport-text",
+            "modal-trigger#global__footer--repentance"
+        ],
+        "props": {
+            "blockClass": [
+                "global__footer--info",
+                "global__footer--info1"
+            ],
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "width": "100%"
+        },
+        "title": "Info column container in global footer "
+    },
+    "flex-layout.col#global__footer--info2": {
+        "children": [
+            "rich-text#global__footer--infotitle2",
+            "menu#global__footer--assistance"
+        ],
+        "props": {
+            "blockClass": [
+                "global__footer--info",
+                "global__footer--info2"
+            ],
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "width": "100%"
+        },
+        "title": "Info column container in global footer "
+    },
+    "flex-layout.col#global__footer--info3": {
+        "children": [
+            "rich-text#global__footer--infotitle3",
+            "menu#global__footer--aboutarredo"
+        ],
+        "props": {
+            "blockClass": [
+                "global__footer--info",
+                "global__footer--info3"
+            ],
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "width": "100%"
+        },
+        "title": "Info column container in global footer "
+    },
+    "flex-layout.col#global__footer--info4": {
+        "children": [
+            "rich-text#global__footer--infotitle4",
+            "menu#global__footer--commercial",
+            "image#global__footer--award"
+        ],
+        "props": {
+            "blockClass": [
+                "global__footer--info",
+                "global__footer--info4"
+            ],
+            "horizontalAlign": "center",
+            "verticalAlign": "middle",
+            "width": "100%"
+        },
+        "title": "Info column container in global footer "
+    },
+    "flex-layout.row#global__footer--icons": {
+        "children": [
+            "image#global__footer--facebook",
+            "image#global__footer--instagram",
+            "image#global__footer--twitter",
+            "image#global__footer--youtube",
+            "image#global__footer--linkedin"
+        ],
+        "props": {
+            "blockClass": "global__footer--icons",
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true
+        },
+        "title": "Footer icons global row container"
+    },
+    "flex-layout.row#global__footer--developers": {
+        "children": [
+            "image#global__footer--datafiscal",
+            "image#global__footer--mercadopago",
+            "image#global__footer--itglobers",
+            "image#global__footer--vtex"
+        ],
+        "props": {
+            "blockClass": "global__footer--developers",
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true
+        },
+        "title": "Global footer developers row container"
+    }
+}

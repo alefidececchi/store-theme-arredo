@@ -1,0 +1,19 @@
+.menuContainer--global__footer--menulinks {
+    flex-direction: column;
+}
+
+.styledLinkContainer--global__footer--menuitem {
+    margin : 0;
+    padding: 0;
+}
+
+.styledLink--global__footer--menuitem {
+    color      : #555;
+    font-size  : 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.styledLink--global__footer--menuitem:hover {
+    color: #ff0093;
+}

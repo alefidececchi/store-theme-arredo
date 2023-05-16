@@ -1,0 +1,84 @@
+{
+    "flex-layout.row#mobile__footer--block1": {
+        "children": [
+            "newsletter-form#mobile__footer--newsletter"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--block1",
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Block 1 footer Row container"
+    },
+    "flex-layout.row#mobile__footer--block2": {
+        "children": [
+            "flex-layout.col#mobile__footer--block2-container",
+            "flex-layout.col#global__footer--info1"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--block2",
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Block 2 footer Row container"
+    },
+    "flex-layout.row#mobile__footer--block3": {
+        "children": [
+            "flex-layout.col#mobile__footer--block3"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--block3",
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Block 3 footer Row container"
+    },
+    "flex-layout.col#mobile__footer--block2-container": {
+        "children": [
+            "flex-layout.row#mobile__footer--block2-container"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--block2-container",
+            "width": "50%"
+        },
+        "title": "First column container in block 2"
+    },
+    "flex-layout.row#mobile__footer--block2-container": {
+        "children": [
+            "flex-layout.col#footer__block2--firstcontainer",
+            "flex-layout.col#global__footer--info3"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--block2-container"
+        },
+        "title": "First column container in block 2"
+    },
+    "flex-layout.col#footer__block2--firstcontainer": {
+        "children": [
+            "flex-layout.row#footer__block2--firstcontainer"
+        ],
+        "props": {
+            "blockClass": "footer__block2--firstcontainer"
+        },
+        "title": ""
+    },
+    "flex-layout.row#footer__block2--firstcontainer": {
+        "children": [
+            "flex-layout.col#global__footer--info2",
+            "flex-layout.col#global__footer--info4"
+        ],
+        "props": {
+            "blockClass": "footer__block2--firstcontainer"
+        },
+        "title": ""
+    },
+    "flex-layout.col#mobile__footer--block3": {
+        "children": [
+            "flex-layout.row#global__footer--developers",
+            "rich-text#global__footer--block3"
+        ]
+    }
+}
