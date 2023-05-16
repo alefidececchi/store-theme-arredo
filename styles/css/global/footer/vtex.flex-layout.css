@@ -1,3 +1,44 @@
 .flexCol--global__footer--info {
     justify-content: flex-start;
+    align-items    : flex-start;
+}
+
+.flexCol--global__footer--info1 {
+    max-width: 18.375rem;
+}
+
+.flexColChild--global__footer--info1 {
+    width: 100%;
+}
+
+.flexRow--global__footer--icons {
+    margin-bottom: 2rem;
+    margin-left  : -2.25rem;
+}
+
+.flexRowContent--global__footer--icons {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-evenly;
+    align-items    : center;
+}
+
+.flexRowContent--global__footer--developers {
+    margin-right: 2.625rem;
+    display     : flex;
+    align-items : center;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .flexRowContent--global__footer--developers {
+        justify-content: space-evenly;
+        margin-bottom  : 19px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .flexCol--global__footer--info1 {
+        margin-top: -6.2rem;
+    }
 }

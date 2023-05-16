@@ -29,7 +29,7 @@
         "props": {
             "blockClass": "global__footer--customersupport-text",
             "text": "0800-362-2740 De Lunes a Viernes de 9 a 21 hs - Sábados y Domingos de 10 a 18 hs",
-            "textAlignment": "CENTER",
+            "textAlignment": "LEFT",
             "textPosition": "LEFT"
         },
         "title": "Global info text customer support"
@@ -86,9 +86,22 @@
         "props": {
             "blockClass": "global__footer--block3",
             "text": "**©Copyright 2022. Todos los Derechos Reservados.** [Política de Privacidad](https://alejandrofidececchi--itgloberspartnercl.myvtex.com/privacy-policy) | [Términos & Condiciones](https://alejandrofidececchi--itgloberspartnercl.myvtex.com/terms-and-conditions)\n  Centro de Atención al Cliente: 0800-362-2740 / L a V de 9 a 21 hs - S y D de 10 a 18 | [tiendaonline@arredo.com.ar](mailto:tiendaonline@mail.com.ar).\n  Dirección General de Defensa y Protección al Consumidor: Para consultas y/o denuncias ingrese aquí",
-            "textAlignment": "CENTER",
+            "textAlignment": "LEFT",
             "textPosition": "LEFT"
         },
         "title": "Global text footer's block 3"
+    },
+    "rich-text#global__footer--repentance-title": {
+        "props": {
+            "blockClass": [
+                "global__footer--infotitle",
+                "global__footer--customersupport-title"
+            ],
+            "font": "t-heading-4",
+            "text": "#### Por favor, comunícate con el siguiente número para cancelar tu compra",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        },
+        "title": "Global info title repentance support"
     }
 }

@@ -94,3 +94,10 @@
     width     : 8px;
     height    : 13px;
 }
+
+@media screen and (max-width: 480px) {
+    .emailInputContainer--mobile__newsletter--mail :global(.vtex-input__label) {
+
+        align-items: center;
+    }
+}

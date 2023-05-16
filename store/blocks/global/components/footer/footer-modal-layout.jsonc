@@ -21,7 +21,11 @@
         "title": "Global modal container in footer repentance action"
     },
     "modal-header#global__footer--repentance": {
+        "children": [
+            "rich-text#global__footer--repentance-title"
+        ],
         "props": {
+            "blockClass": "global__footer--repentance",
             "showCloseButton": true,
             "iconCloseSize": 24
         },

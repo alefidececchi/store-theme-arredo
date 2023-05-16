@@ -41,7 +41,8 @@
             "flex-layout.row#mobile__footer--block2-container"
         ],
         "props": {
-            "blockClass": "mobile__footer--block2-container"
+            "blockClass": "mobile__footer--block2-container",
+            "width": "50%"
         },
         "title": "First column container in block 2"
     },
