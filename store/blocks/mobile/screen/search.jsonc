@@ -1,0 +1,17 @@
+{
+    "search-result-layout.mobile#department": {
+        "children": [],
+        "props": {},
+        "title": "Search result department context in mobile view"
+    },
+    "search-result-layout.mobile#category": {
+        "children": [],
+        "props": {},
+        "title": "Search result category context in mobile view"
+    },
+    "search-result-layout.mobile#subcategory": {
+        "children": [],
+        "props": {},
+        "title": "Search result category context in mobile view"
+    }
+}

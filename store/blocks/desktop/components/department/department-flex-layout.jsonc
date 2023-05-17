@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#desktop__department--banner": {
+        "children": [],
+        "props": {
+            "blockClass": "desktop__department--banner",
+            "fullWidth": true,
+            "horizontalAlign": "center"
+        },
+        "title": "Banner for department context in desktop"
+    },
+    "flex-layout.row#desktop__department--slider": {
+        "children": [],
+        "props": {
+            "blockClass": "desktop__department--slider",
+            "fullWidth": true,
+            "horizontalAlign": "center"
+        },
+        "title": "Slider for department context in desktop"
+    },
+    "flex-layout.row#desktop__department--container": {
+        "children": [
+            "flex-layout.col#desktop__department--filtercontainer",
+            "flex-layout.col#desktop__department--productscontainer"
+        ],
+        "props": {
+            "blockClass": "desktop__department--container",
+            "fullWidth": true,
+            "horizontalAlign": "center"
+        },
+        "title": "Filter and products container for department context in desktop"
+    },
+    "flex-layout.col#desktop__department--filtercontainer": {
+        "children": [
+            "filter-navigator.v3"
+        ],
+        "props": {
+            "blockClass": "desktop__department--filtercontainer",
+            "verticalAlin": "top",
+            "width": "20%"
+        },
+        "title": "Filter container for department context in desktop"
+    },
+    "flex-layout.col#desktop__department--productscontainer": {
+        "children": [
+            "gallery-layout-switcher"
+        ],
+        "props": {
+            "blockClass": "desktop__department--productscontainer",
+            "verticalAlin": "top",
+            "width": "80%"
+        },
+        "title": "Products container for department context in desktop"
+    }
+}

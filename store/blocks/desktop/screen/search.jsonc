@@ -1,0 +1,21 @@
+{
+    "search-result-layout.desktop#department": {
+        "children": [
+            "flex-layout.row#desktop__department--banner",
+            "flex-layout.row#desktop__department--slider",
+            "flex-layout.row#desktop__department--container"
+        ],
+        "props": {},
+        "title": "Search result department context in desktop view"
+    },
+    "search-result-layout.desktop#category": {
+        "children": [],
+        "props": {},
+        "title": "Search result category context in desktop view"
+    },
+    "search-result-layout.desktop#subcategory": {
+        "children": [],
+        "props": {},
+        "title": "Search result category context in desktop view"
+    }
+}
