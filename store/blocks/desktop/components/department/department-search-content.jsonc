@@ -1,0 +1,9 @@
+{
+    "search-content#desktop__plp--products": {
+        "blocks": [
+            "not-found",
+            "gallery#global__plp"
+        ],
+        "title": "Desktopo search content in product list page"
+    }
+}

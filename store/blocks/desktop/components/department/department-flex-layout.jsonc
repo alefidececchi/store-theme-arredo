@@ -1,54 +1,94 @@
 {
-    "flex-layout.row#desktop__department--banner": {
+    "flex-layout.row#desktop__plp--banner": {
         "children": [],
         "props": {
-            "blockClass": "desktop__department--banner",
+            "blockClass": "desktop__plp--banner",
             "fullWidth": true,
             "horizontalAlign": "center"
         },
-        "title": "Banner for department context in desktop"
+        "title": "Banner for plp context in desktop"
     },
-    "flex-layout.row#desktop__department--slider": {
+    "flex-layout.row#desktop__plp--slider": {
         "children": [],
         "props": {
-            "blockClass": "desktop__department--slider",
+            "blockClass": "desktop__plp--slider",
             "fullWidth": true,
             "horizontalAlign": "center"
         },
-        "title": "Slider for department context in desktop"
+        "title": "Slider for plp context in desktop"
     },
-    "flex-layout.row#desktop__department--container": {
+    "flex-layout.row#desktop__plp--container": {
         "children": [
-            "flex-layout.col#desktop__department--filtercontainer",
-            "flex-layout.col#desktop__department--productscontainer"
+            "flex-layout.col#desktop__plp--filtercontainer",
+            "flex-layout.col#desktop__plp--productscontainer"
         ],
         "props": {
-            "blockClass": "desktop__department--container",
+            "blockClass": "desktop__plp--container",
             "fullWidth": true,
             "horizontalAlign": "center"
         },
-        "title": "Filter and products container for department context in desktop"
+        "title": "Filter and products container for plp context in desktop"
     },
-    "flex-layout.col#desktop__department--filtercontainer": {
+    "flex-layout.col#desktop__plp--filtercontainer": {
         "children": [
-            "filter-navigator.v3"
+            "filter-navigator.v3#desktop__plp--filter-navigator"
         ],
         "props": {
-            "blockClass": "desktop__department--filtercontainer",
+            "blockClass": "desktop__plp--filtercontainer",
             "verticalAlin": "top",
             "width": "20%"
         },
-        "title": "Filter container for department context in desktop"
+        "title": "Filter container for plp context in desktop"
     },
-    "flex-layout.col#desktop__department--productscontainer": {
+    "flex-layout.col#desktop__plp--productscontainer": {
         "children": [
-            "gallery-layout-switcher"
+            "flex-layout.row#desktop__plp--orderby-switcher",
+            "search-content#desktop__plp--products",
+            "search-fetch-more#global__plp--fetchmore"
         ],
         "props": {
-            "blockClass": "desktop__department--productscontainer",
+            "blockClass": "desktop__plp--productscontainer",
             "verticalAlin": "top",
             "width": "80%"
         },
-        "title": "Products container for department context in desktop"
+        "title": "Products container for product list page context in desktop"
+    },
+    "flex-layout.row#desktop__plp--orderby-switcher": {
+        "children": [
+            "order-by.v2",
+            "gallery-layout-switcher#global__plp--switch"
+        ],
+        "props": {
+            "blockClass": "desktop__plp--orderby-switcher",
+            "horizontalAlign": "right",
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Order by and layout switcher container in desktop view"
+    },
+    "filter-navigator.v3#desktop__plp--filter-navigator": {
+        "props": {
+            "layout": "responsive",
+            "blockClass": "desktop__plp--filter-navigator",
+            "fullWidthOnMobile": false,
+            "openFiltersMode": "many",
+            "updateOnFilterSelectionOnMobile": true,
+            "closeOnOutsideClick": false,
+            "showClearAllFiltersOnDesktop": true,
+            "initiallyCollapsed": true,
+            "showQuantityBadgeOnMobile": true
+        }
+    },
+    "order-by.v2": {
+        "props": {
+            "hiddenOptions": [
+                "OrderByPriceDESC"
+            ],
+            "specificationOptions": [
+                {
+                    "value": "OrderByPriceDESC",
+                    "label": "Mayor precio"
+                }
+            ]
+        }
     }
 }
