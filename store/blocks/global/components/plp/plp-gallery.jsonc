@@ -2,15 +2,15 @@
     "gallery#global__plp": {
         "props": {
             "blockClass": "global__plp",
-            "GridSummary": "product-summary.shelf#global__home--section4", //#global__plp--grid
-            "ListSummary": "product-summary.shelf#global__home--section4",
+            "GridSummary": "product-summary.shelf#global__card--grid", 
+            "ListSummary": "product-summary.shelf#global__card--list",
             "layouts": [
                 {
                     "name": "grid",
                     "component": "GridSummary",
                     "itemsPerRow": {
-                        "desktop": 2,
-                        "tablet": 2,
+                        "desktop": 3,
+                        "tablet": 1,
                         "phone": 2
                     }
                 },
@@ -31,7 +31,7 @@
         "props": {
             "blockClass": "global__plp--switch"
         },
-        "title": "Global gallery switcher in product list page"
+        "title": "Global gallery layout switcher in product list page"
     },
     "gallery-layout-option#global__plp--grid": {
         "props": {

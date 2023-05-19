@@ -1,22 +1,4 @@
 {
-    "flex-layout.row#desktop__plp--banner": {
-        "children": [],
-        "props": {
-            "blockClass": "desktop__plp--banner",
-            "fullWidth": true,
-            "horizontalAlign": "center"
-        },
-        "title": "Banner for plp context in desktop"
-    },
-    "flex-layout.row#desktop__plp--slider": {
-        "children": [],
-        "props": {
-            "blockClass": "desktop__plp--slider",
-            "fullWidth": true,
-            "horizontalAlign": "center"
-        },
-        "title": "Slider for plp context in desktop"
-    },
     "flex-layout.row#desktop__plp--container": {
         "children": [
             "flex-layout.col#desktop__plp--filtercontainer",
@@ -43,8 +25,7 @@
     "flex-layout.col#desktop__plp--productscontainer": {
         "children": [
             "flex-layout.row#desktop__plp--orderby-switcher",
-            "search-content#desktop__plp--products",
-            "search-fetch-more#global__plp--fetchmore"
+            "flex-layout.row#global__plp--gallery"
         ],
         "props": {
             "blockClass": "desktop__plp--productscontainer",
@@ -64,31 +45,5 @@
             "preserveLayoutOnMobile": true
         },
         "title": "Order by and layout switcher container in desktop view"
-    },
-    "filter-navigator.v3#desktop__plp--filter-navigator": {
-        "props": {
-            "layout": "responsive",
-            "blockClass": "desktop__plp--filter-navigator",
-            "fullWidthOnMobile": false,
-            "openFiltersMode": "many",
-            "updateOnFilterSelectionOnMobile": true,
-            "closeOnOutsideClick": false,
-            "showClearAllFiltersOnDesktop": true,
-            "initiallyCollapsed": true,
-            "showQuantityBadgeOnMobile": true
-        }
-    },
-    "order-by.v2": {
-        "props": {
-            "hiddenOptions": [
-                "OrderByPriceDESC"
-            ],
-            "specificationOptions": [
-                {
-                    "value": "OrderByPriceDESC",
-                    "label": "Mayor precio"
-                }
-            ]
-        }
     }
 }

@@ -1,0 +1,61 @@
+{
+    "flex-layout.row#global__plp--gallery": {
+        "children": [
+            "flex-layout.col#global__plp--gallery"
+        ],
+        "props": {
+            "blockClass": "global__plp--gallery",
+            "fullWidth": true,
+            "horizontalAlign": "center",
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Global gallery row container"
+    },
+    "flex-layout.col#global__plp--gallery": {
+        "children": [
+            "search-content#global__plp--gallery",
+            "search-fetch-more#global__plp--fetchmore"
+        ],
+        "props": {
+            "blockClass": "global__plp--gallery",
+            "horizontalAlign": "center",
+            "preserveLayoutOnMobile": true,
+            "width": "100%"
+        },
+        "title": "Global gallery column container"
+    },
+    "flex-layout.row#global__card--list-container": {
+        "children": [
+            "product-summary-image#global__card",
+            "flex-layout.col#global__card--list"
+        ],
+        "props": {
+            "blockClass": "global__card--list-container",
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Global card list row container"
+    },
+    "flex-layout.col#global__card--list": {
+        "children": [
+            "product-summary-name#global__card",
+            "product-summary-sku-selector#global__card",
+            "flex-layout.row#global__card--price",
+            "product-installments",
+            "add-to-cart-button#global__card"
+        ],
+        "props": {
+            "blockClass": "global__card--list"
+        },
+        "title": "Global card list description column container"
+    },
+    "flex-layout.row#global__card--price": {
+        "children": [
+            "product-list-price#global__card",
+            "product-selling-price#global__card"
+        ],
+        "props": {
+            "blockClass": "global__card--price"
+        },
+        "title": "Global price's row container"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "product-summary.shelf#global__card--grid": {
+        "children": [
+            "product-summary-image#global__card",
+            "product-summary-name#global__card",
+            "product-summary-sku-selector#global__card",
+            "flex-layout.row#global__card--price",
+            "product-installments",
+            "add-to-cart-button#global__card"
+        ],
+        "props": {
+            "blockClass": "global__card--grid"
+        },
+        "title": "Global grid Product summary shelf"
+    },
+    "product-summary.shelf#global__card--list": {
+        "children": [
+            "flex-layout.row#global__card--list-container"
+        ],
+        "props": {
+            "blockClass": "global__card--list"
+        },
+        "title": "Global list Product summary shelf"
+    },
+    "product-summary-image#global__card": {
+        "props": {
+            "blockClass": "global__card"
+        },
+        "title": "Global card product sumamry image"
+    },
+    "product-summary-name#global__card": {
+        "props": {
+            "blockClass": "global__card"
+        },
+        "title": "Global card product sumamry name"
+    },
+    "product-summary-sku-selector#global__card": {
+        "props": {
+            "blockClass": "global__card"
+        },
+        "title": "Global card product summary sku"
+    },
+    "product-list-price#global__card": {
+        "props": {
+            "blockClass": "global__card"
+        },
+        "title": "Global card product summary list price"
+    },
+    "product-selling-price#global__card": {
+        "props": {
+            "blockClass": "global__card"
+        },
+        "title": "Global card product summary selling price"
+    },
+    "add-to-cart-button#global__card": {
+        "props": {
+            "blockClass": "global__card",
+            "onClickBehavior": "add-to-cart",
+            "text": "AGREGAR"
+        },
+        "title": "Global card product summary add to cart button"
+    }
+}

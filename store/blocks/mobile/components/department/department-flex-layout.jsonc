@@ -1,0 +1,24 @@
+{
+    "flex-layout.row#mobile__plp--filter-orderby": {
+        "children": [
+            "filter-navigator.v3",
+            "order-by.v2"
+        ],
+        "props": {
+            "blockClass": "mobile__plp--filter-orderby",
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Filter and orderby mobile row container"
+    },
+    "flex-layout.row#mobile__plp--switcher": {
+        "children": [
+            "gallery-layout-switcher#global__plp--switch"
+        ],
+        "props": {
+            "blockClass": "mobile__plp--switcher",
+            "fullWidth": true,
+            "horizontalAlign": "center"
+        },
+        "title": "Switcher layout mobile row container"
+    }
+}

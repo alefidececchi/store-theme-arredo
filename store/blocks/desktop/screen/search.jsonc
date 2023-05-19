@@ -1,16 +1,17 @@
 {
     "search-result-layout.desktop#department": {
         "children": [
-            "flex-layout.row#desktop__plp--banner",
-            "flex-layout.row#desktop__plp--slider",
+            "flex-layout.row#global__plp--banner",
+            "flex-layout.row#global__plp--slider",
             "flex-layout.row#desktop__plp--container"
         ],
         "props": {
-            "defaultGalleryLayout": "list",
-            "preventRouteChange": true,
+            "blockClass": "desktop__department",
+            "defaultGalleryLayout": "grid",
             "hiddenFacets": {
                 "priceRange": true
-            }
+            },
+            "preventRouteChange": true
         },
         "title": "Search result department context in desktop view"
     },

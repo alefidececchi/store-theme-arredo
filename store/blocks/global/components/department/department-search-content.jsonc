@@ -1,0 +1,12 @@
+{
+    "search-content#global__plp--gallery": {
+        "blocks": [
+            "not-found",
+            "gallery#global__plp"
+        ],
+        "props": {
+            "blockClass": "global__plp--gallery"
+        },
+        "title": "Global search content in product list page"
+    }
+}
