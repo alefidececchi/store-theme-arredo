@@ -1,0 +1,20 @@
+{
+    "flex-layout.row#global__plp--banner": {
+        "children": [],
+        "props": {
+            "blockClass": "global__plp--banner",
+            "fullWidth": true,
+            "horizontalAlign": "center"
+        },
+        "title": "Banner for plp context in global view"
+    },
+    "flex-layout.row#global__plp--slider": {
+        "children": [],
+        "props": {
+            "blockClass": "global__plp--slider",
+            "fullWidth": true,
+            "horizontalAlign": "center"
+        },
+        "title": "Slider for plp context in global view"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "filter-navigator.v3#desktop__plp--filter-navigator": {
+        "props": {
+            "layout": "responsive",
+            "blockClass": "desktop__plp--filter-navigator",
+            "fullWidthOnMobile": false,
+            "openFiltersMode": "many",
+            "updateOnFilterSelectionOnMobile": true, // false ?
+            "closeOnOutsideClick": false,
+            "showClearAllFiltersOnDesktop": true,
+            "initiallyCollapsed": true,
+            "showQuantityBadgeOnMobile": true
+        }
+    }
+}

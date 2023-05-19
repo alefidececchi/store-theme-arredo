@@ -1,0 +1,11 @@
+{
+    "search-result-layout#subcategory": {
+        "blocks": [
+            "search-result-layout.desktop#subcategory",
+            "search-result-layout.mobile#subcategory"
+            // "search-not-found-layout#subcategory"
+        ],
+        "props": {},
+        "title": "Search result subcategory layout"
+    }
+}

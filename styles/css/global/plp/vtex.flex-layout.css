@@ -1,0 +1,39 @@
+.flexColChild--global__card--list :global(.vtex-button) {
+    background-color: #ff0093;
+    border-radius   : 8px;
+    margin-top      : 0.25rem;
+    height          : 2.25rem;
+    min-height      : 0;
+    width           : 123px;
+}
+
+.flexColChild--global__plp--gallery {
+    width: 100%;
+}
+
+.flexColChild--global__card--list :global(.vtex-product-summary-2-x-nameContainer--global__card) {
+    justify-content: flex-end;
+}
+
+.flexColChild--global__card--list .flexRowContent--global__card--price {
+    justify-content: flex-end;
+}
+
+.flexRowContent--global__card--list-container {
+    justify-content: space-between;
+}
+
+.flexRowContent--global__card--list-container .stretchChildrenWidth {
+    width    : 25% !important;
+    max-width: 256px;
+}
+
+.flexRowContent--global__card--price .stretchChildrenWidth {
+    width: auto !important;
+}
+
+@media screen and (max-width: 480px) {
+    .flexColChild--global__card--list :global(.vtex-button) {
+        width: 100%;
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "gallery#global__plp": {
+        "props": {
+            "blockClass": "global__plp",
+            "GridSummary": "product-summary.shelf#global__card--grid", 
+            "ListSummary": "product-summary.shelf#global__card--list",
+            "layouts": [
+                {
+                    "name": "grid",
+                    "component": "GridSummary",
+                    "itemsPerRow": {
+                        "desktop": 3,
+                        "tablet": 1,
+                        "phone": 2
+                    }
+                },
+                {
+                    "name": "list",
+                    "component": "ListSummary",
+                    "itemsPerRow": 1
+                }
+            ]
+        },
+        "title": "Global gallery for department, category, and subcategory section"
+    },
+    "gallery-layout-switcher#global__plp--switch": {
+        "children": [
+            "gallery-layout-option#global__plp--grid",
+            "gallery-layout-option#global__plp--list"
+        ],
+        "props": {
+            "blockClass": "global__plp--switch"
+        },
+        "title": "Global gallery layout switcher in product list page"
+    },
+    "gallery-layout-option#global__plp--grid": {
+        "props": {
+            "blockClass": "global__plp--grid",
+            "name": "grid"
+        },
+        "children": [
+            "icon-grid"
+        ],
+        "title": "Global gallery grid option in product list page"
+    },
+    "gallery-layout-option#global__plp--list": {
+        "props": {
+            "blockClass": "global__plp--list",
+            "name": "list"
+        },
+        "children": [
+            "icon-inline-grid"
+        ],
+        "title": "Global gallery list option in product list page"
+    }
+}
