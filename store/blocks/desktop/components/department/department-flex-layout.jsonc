@@ -1,0 +1,49 @@
+{
+    "flex-layout.row#desktop__plp--container": {
+        "children": [
+            "flex-layout.col#desktop__plp--filtercontainer",
+            "flex-layout.col#desktop__plp--productscontainer"
+        ],
+        "props": {
+            "blockClass": "desktop__plp--container",
+            "fullWidth": true,
+            "horizontalAlign": "center"
+        },
+        "title": "Filter and products container for plp context in desktop"
+    },
+    "flex-layout.col#desktop__plp--filtercontainer": {
+        "children": [
+            "filter-navigator.v3#desktop__plp--filter-navigator"
+        ],
+        "props": {
+            "blockClass": "desktop__plp--filtercontainer",
+            "verticalAlin": "top",
+            "width": "20%"
+        },
+        "title": "Filter container for plp context in desktop"
+    },
+    "flex-layout.col#desktop__plp--productscontainer": {
+        "children": [
+            "flex-layout.row#desktop__plp--orderby-switcher",
+            "flex-layout.row#global__plp--gallery"
+        ],
+        "props": {
+            "blockClass": "desktop__plp--productscontainer",
+            "verticalAlin": "top",
+            "width": "80%"
+        },
+        "title": "Products container for product list page context in desktop"
+    },
+    "flex-layout.row#desktop__plp--orderby-switcher": {
+        "children": [
+            "order-by.v2",
+            "gallery-layout-switcher#global__plp--switch"
+        ],
+        "props": {
+            "blockClass": "desktop__plp--orderby-switcher",
+            "horizontalAlign": "right",
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Order by and layout switcher container in desktop view"
+    }
+}

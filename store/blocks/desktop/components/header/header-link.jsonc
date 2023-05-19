@@ -3,9 +3,9 @@
         "props": {
             "blockClass": "desktop__department1",
             "displayMode": "anchor",
-            "href": "/bed-clothes",
+            "href": "/electrodomesticos",
             "label": "Ver todo"
         },
-        "title": "Link to /bed-clothes"
+        "title": "Link to /electrodomesticos"
     }
 }

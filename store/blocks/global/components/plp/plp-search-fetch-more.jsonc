@@ -1,0 +1,9 @@
+{
+    "search-fetch-more#global__plp--fetchmore": {
+        "props": {
+            "blockClass": "global__plp--fetchmore",
+            "htmlElementForButton": "button"
+        },
+        "title": "Global fetch more button in product list page"
+    }
+}
