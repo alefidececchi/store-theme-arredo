@@ -1,6 +1,56 @@
+.sellingPrice--global__card,
+.listPrice--global__card {
+    text-align: left;
+}
+
 .sellingPriceValue--global__card {
     color      : #555;
     font-size  : 18px;
     font-weight: 700;
     line-height: 20px;
+}
+
+.listPriceValue--global__card .currencyContainer--global__card {
+    color      : #909090;
+    font-weight: 400;
+    line-height: 20px;
+    font-size  : 15px;
+}
+
+@media screen and (max-width: 680px) {
+    .listPriceValue--global__card .currencyContainer--global__card {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 539px) {
+    .sellingPriceValue--global__card {
+        font-size: 15px
+    }
+
+    .listPriceValue--global__card .currencyContainer--global__card {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 411px) {
+
+    .sellingPriceValue--global__card {
+        font-size: 14px
+    }
+
+    .listPriceValue--global__card .currencyContainer--global__card {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .sellingPriceValue--global__card {
+        font-size: 13px
+    }
+
+    .listPriceValue--global__card .currencyContainer--global__card {
+        font-size: 11px;
+    }
 }

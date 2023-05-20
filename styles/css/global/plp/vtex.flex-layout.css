@@ -11,12 +11,16 @@
     width: 100%;
 }
 
-.flexColChild--global__card--list :global(.vtex-product-summary-2-x-nameContainer--global__card) {
-    justify-content: flex-end;
+.flexColChild--global__card--list :global(.vtex-product-summary-2-x-nameContainer--global__card),
+.flexColChild--global__card--list :global(.vtex-product-summary-2-x-SKUSelectorContainer--global__card),
+.flexColChild--global__card--list .flexRowContent--global__card--price,
+.flexColChild--global__card--list :global(.vtex-product-price-1-x-installments) {
+    display        : flex;
+    justify-content: flex-start;
 }
 
-.flexColChild--global__card--list .flexRowContent--global__card--price {
-    justify-content: flex-end;
+.flexColChild--global__card--list :global(.vtex-button) {
+    width: 100%;
 }
 
 .flexRowContent--global__card--list-container {
@@ -24,7 +28,7 @@
 }
 
 .flexRowContent--global__card--list-container .stretchChildrenWidth {
-    width    : 25% !important;
+    width    : 30% !important;
     max-width: 256px;
 }
 
@@ -32,8 +36,28 @@
     width: auto !important;
 }
 
+@media screen and (max-width: 1024px) {
+    .flexColChild--global__card--list :global(.vtex-product-price-1-x-installments) {
+        display  : flex;
+        flex-wrap: wrap;
+    }
+
+    .flexRowContent--global__card--list-container .stretchChildrenWidth {
+        width: 40% !important;
+    }
+
+    .flexRowContent--global__card--price .stretchChildrenWidth {
+        width: auto !important;
+    }
+}
+
 @media screen and (max-width: 480px) {
-    .flexColChild--global__card--list :global(.vtex-button) {
-        width: 100%;
+
+    .flexRowContent--global__card--list-container .stretchChildrenWidth {
+        width: 47.5% !important;
+    }
+
+    .flexRowContent--global__card--price .stretchChildrenWidth {
+        width: auto !important;
     }
 }

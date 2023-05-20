@@ -2,7 +2,7 @@
     "gallery#global__plp": {
         "props": {
             "blockClass": "global__plp",
-            "GridSummary": "product-summary.shelf#global__card--grid", 
+            "GridSummary": "product-summary.shelf#global__card--grid",
             "ListSummary": "product-summary.shelf#global__card--list",
             "layouts": [
                 {
@@ -10,7 +10,7 @@
                     "component": "GridSummary",
                     "itemsPerRow": {
                         "desktop": 3,
-                        "tablet": 1,
+                        "tablet": 2,
                         "phone": 2
                     }
                 },

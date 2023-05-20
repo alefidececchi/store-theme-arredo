@@ -1,5 +1,9 @@
 .gallery--global__plp {
-    padding-left : 2rem;
+    padding-left: 2rem;
+    padding-top : 2rem;
+}
+
+.gallery--global__plp--list {
     padding-right: 2rem;
 }
 
@@ -29,4 +33,25 @@
 
 .galleryItem--global__plp:hover {
     box-shadow: 0 1px 6px rgba(0, 0, 0, .16);
+}
+
+@media screen and (max-width: 1024px) {
+    .gallery--global__plp--grid {
+        display              : grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .galleryItem--global__plp--grid {
+        max-width: 100% !important;
+        min-width: 147px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .gallery--global__plp {
+        padding-left : 1rem;
+        padding-right: 1rem;
+        padding-top  : 2rem;
+    }
 }
