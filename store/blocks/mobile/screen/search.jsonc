@@ -19,13 +19,60 @@
         "title": "Search result department context in mobile view"
     },
     "search-result-layout.mobile#category": {
-        "children": [],
-        "props": {},
+        "children": [
+            "flex-layout.row#mobile__plp--banner",
+            "flex-layout.row#global__plp--title",
+            "flex-layout.row#global__plp--slider",
+            "flex-layout.row#mobile__plp--filter-orderby",
+            "flex-layout.row#mobile__plp--switcher",
+            "flex-layout.row#global__plp--gallery"
+        ],
+        "props": {
+            "blockClass": "mobile__category",
+            "defaultGalleryLayout": "grid",
+            "hiddenFacets": {
+                "priceRange": true
+            },
+            "preventRouteChange": true
+        },
         "title": "Search result category context in mobile view"
     },
     "search-result-layout.mobile#subcategory": {
-        "children": [],
-        "props": {},
+        "children": [
+            "flex-layout.row#mobile__plp--banner",
+            "flex-layout.row#global__plp--title",
+            "flex-layout.row#global__plp--slider",
+            "flex-layout.row#mobile__plp--filter-orderby",
+            "flex-layout.row#mobile__plp--switcher",
+            "flex-layout.row#global__plp--gallery"
+        ],
+        "props": {
+            "blockClass": "mobile__subcategory",
+            "defaultGalleryLayout": "grid",
+            "hiddenFacets": {
+                "priceRange": true
+            },
+            "preventRouteChange": true
+        },
         "title": "Search result category context in mobile view"
+    },
+    "search-result-layout.mobile#brand": {
+        "children": [
+            "flex-layout.row#mobile__plp--banner",
+            "flex-layout.row#global__plp--title",
+            "flex-layout.row#global__plp--slider",
+            "flex-layout.row#mobile__plp--filter-orderby",
+            "flex-layout.row#mobile__plp--switcher",
+            "flex-layout.row#global__plp--gallery"
+        ],
+        "props": {
+            "blockClass": "mobile__brand",
+            "defaultGalleryLayout": "grid",
+            "hiddenFacets": {
+                "priceRange": true
+            },
+            "preventRouteChange": true
+        },
+        "title": "Search result brand context in mobile view"
     }
 }

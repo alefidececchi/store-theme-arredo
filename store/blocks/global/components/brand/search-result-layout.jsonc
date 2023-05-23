@@ -1,0 +1,10 @@
+{
+    "search-result-layout#brand": {
+        "blocks": [
+            "search-result-layout.desktop#brand",
+            "search-result-layout.mobile#brand"
+            // "search-not-found-layout#category"
+        ],
+        "title": "Search result category layout"
+    }
+}

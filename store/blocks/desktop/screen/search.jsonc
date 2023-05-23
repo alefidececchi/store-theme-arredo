@@ -17,13 +17,54 @@
         "title": "Search result department context in desktop view"
     },
     "search-result-layout.desktop#category": {
-        "children": [],
-        "props": {},
+        "children": [
+            "flex-layout.row#desktop__plp--banner",
+            "flex-layout.row#global__plp--title",
+            "flex-layout.row#global__plp--slider",
+            "flex-layout.row#desktop__plp--container"
+        ],
+        "props": {
+            "blockClass": "desktop__category",
+            "defaultGalleryLayout": "grid",
+            "hiddenFacets": {
+                "priceRange": true
+            },
+            "preventRouteChange": true
+        },
         "title": "Search result category context in desktop view"
     },
     "search-result-layout.desktop#subcategory": {
-        "children": [],
-        "props": {},
-        "title": "Search result category context in desktop view"
+        "children": [
+            "flex-layout.row#desktop__plp--banner",
+            "flex-layout.row#global__plp--title",
+            "flex-layout.row#global__plp--slider",
+            "flex-layout.row#desktop__plp--container"
+        ],
+        "props": {
+            "blockClass": "desktop__subcategory",
+            "defaultGalleryLayout": "grid",
+            "hiddenFacets": {
+                "priceRange": true
+            },
+            "preventRouteChange": true
+        },
+        "title": "Search result subcategory context in desktop view"
+    },
+    "search-result-layout.desktop#brand": {
+        "children": [
+            "flex-layout.row#desktop__plp--banner",
+            "flex-layout.row#global__plp--title",
+            "flex-layout.row#global__plp--slider",
+            "flex-layout.row#desktop__plp--container"
+        ],
+        "props": {
+            "blockClass": "desktop__brand",
+            "defaultGalleryLayout": "grid",
+            "hiddenFacets": {
+                "priceRange": true
+            },
+            "preventRouteChange": true
+        },
+        "title": "Search result brand context in desktop view"
     }
 }
