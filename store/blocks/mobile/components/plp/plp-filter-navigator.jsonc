@@ -1,0 +1,24 @@
+{
+    "filter-navigator.v3#mobile__plp--filter-navigator": {
+        "blocks": [
+            "sidebar-close-button#mobile__filter"
+        ],
+        "props": {
+            "blockClass": [
+                "desktop__plp--filter-navigator",
+                "mobile__plp--filter-navigator"
+            ],
+            "closeOnOutsideClick": false,
+            "fullWidthOnMobile": false,
+            "initiallyCollapsed": true,
+            "layout": "responsive",
+            "navigationTypeOnMobile": "collapsible",
+            "openFiltersMode": "many",
+            "showClearAllFiltersOnDesktop": false,
+            "showClearByFilter": true,
+            "showQuantityBadgeOnMobile": true,
+            "updateOnFilterSelectionOnMobile": true
+        },
+        "title": "Filter navigator on mobile view"
+    }
+}

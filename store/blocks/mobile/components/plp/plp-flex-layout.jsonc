@@ -1,7 +1,7 @@
 {
     "flex-layout.row#mobile__plp--filter-orderby": {
         "children": [
-            "filter-navigator.v3",
+            "filter-navigator.v3#mobile__plp--filter-navigator",
             "order-by.v2"
         ],
         "props": {

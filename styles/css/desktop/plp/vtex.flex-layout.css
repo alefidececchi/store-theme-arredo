@@ -1,0 +1,81 @@
+.flexRow--desktop__plp--container {
+    padding  : 0 2rem;
+    max-width: 1360px;
+    width    : 100%;
+    margin   : 2rem auto auto;
+}
+
+.flexRow--desktop__plp--orderby-switcher {
+    margin-bottom: 2rem;
+    padding-left : 2rem;
+    padding-right: 2rem;
+}
+
+.flexRowContent--desktop__plp--orderby-switcher {
+    justify-content: space-between;
+}
+
+.flexRowContent--desktop__plp--orderby-switcher .stretchChildrenWidth {
+    width: auto !important;
+}
+
+.flexRowContent--desktop__plp--orderby-switcher :global(.vtex-search-result-3-x-orderByButton),
+.flexRowContent--desktop__plp--orderby-switcher :global(.vtex-search-result-3-x-orderByDropdown) {
+    padding: 0;
+    border : 0;
+}
+
+.flexRowContent--desktop__plp--orderby-switcher :global(.vtex-search-result-3-x-orderByText) {
+    color         : #555;
+    font-size     : 0;
+    font-weight   : 700;
+    line-height   : 20px;
+    text-transform: capitalize;
+    display       : flex;
+    align-items   : flex-end;
+}
+
+.flexRowContent--desktop__plp--orderby-switcher :global(.vtex-search-result-3-x-orderByText)::before {
+    content        : "";
+    background     : url("assets/img/global__orderby.svg") no-repeat;
+    background-size: contain;
+    width          : 1rem;
+    height         : 1rem;
+    display        : block;
+}
+
+.flexRowContent--desktop__plp--orderby-switcher :global(.vtex-search-result-3-x-orderByText)::after {
+    content  : "Ordenar:";
+    font-size: 18px;
+    margin   : 0 0.75rem 0 0.25rem;
+}
+
+.flexRowContent--desktop__plp--orderby-switcher :global(.vtex-search-result-3-x-filterPopupTitle) {
+    color         : #555;
+    font-size     : 14px;
+    font-weight   : 400;
+    line-height   : 20px;
+    text-transform: capitalize;
+}
+
+.flexRowContent--desktop__plp--orderby-switcher :global(.vtex-search-result-3-x-filterPopupArrowIcon) {
+    display: none;
+}
+
+.flexRowContent--desktop__plp--orderby-switcher :global(.vtex-search-result-3-x-filterPopupTitle) {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.flexRowContent--desktop__plp--orderby-switcher :global(.vtex-search-result-3-x-orderByOptionsContainer) {
+    top      : 3rem;
+    max-width: 300px;
+    left     : 0;
+    min-width: 300px;
+    border   : 1px solid #555;
+}
+
+.flexRowContent--desktop__plp--orderby-switcher :global(.vtex-search-result-3-x-orderByOptionItem) {
+    font-family: DM Sans;
+}

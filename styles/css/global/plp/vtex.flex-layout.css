@@ -36,10 +36,27 @@
     width: auto !important;
 }
 
+.flexCol--global__card--list {
+    justify-content: flex-end;
+}
+
+.flexColChild--global__card--list:first-child {
+    position: relative;
+    bottom  : 4rem;
+}
+
+.flexColChild--global__card--list {
+    height: auto !important;
+}
+
 @media screen and (max-width: 1024px) {
     .flexColChild--global__card--list :global(.vtex-product-price-1-x-installments) {
         display  : flex;
         flex-wrap: wrap;
+    }
+
+    .flexRowContent--global__card--list-container {
+        min-height: 14rem;
     }
 
     .flexRowContent--global__card--list-container .stretchChildrenWidth {
@@ -49,9 +66,34 @@
     .flexRowContent--global__card--price .stretchChildrenWidth {
         width: auto !important;
     }
+
+    .flexColChild--global__card--list:first-child {
+        bottom: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .flexColChild--global__card--list:first-child {
+        bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    .flexRowContent--global__card--list-container {
+        min-height: 12.5rem;
+    }
+
+    .flexColChild--global__card--list:first-child {
+        bottom: 2rem;
+    }
 }
 
 @media screen and (max-width: 480px) {
+
+    .flexRowContent--global__card--list-container {
+        min-height: auto;
+    }
 
     .flexRowContent--global__card--list-container .stretchChildrenWidth {
         width: 47.5% !important;
@@ -59,5 +101,9 @@
 
     .flexRowContent--global__card--price .stretchChildrenWidth {
         width: auto !important;
+    }
+
+    .flexColChild--global__card--list:first-child {
+        bottom: 1rem;
     }
 }

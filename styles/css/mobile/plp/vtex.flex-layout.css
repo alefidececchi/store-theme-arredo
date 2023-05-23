@@ -1,0 +1,133 @@
+.flexRow--mobile__plp--filter-orderby :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+.flexRowContent--mobile__plp--filter-orderby,
+.flexRowContent--mobile__plp--switcher {
+    background-color: #f7f7f6;
+    margin-bottom   : 0.5rem;
+}
+
+.flexRowContent--mobile__plp--filter-orderby :global(.vtex-search-result-3-x-orderBy--layout) {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+}
+
+.flexRowContent--mobile__plp--switcher {
+    margin-bottom: 1rem;
+    padding      : 1rem 0;
+}
+
+.flexRowContent--mobile__plp--switcher :global(.vtex-search-result-3-x-galleryLayoutSwitcher--global__plp--switch) {
+    align-items: center;
+}
+
+.flexRowContent--mobile__plp--switcher :global(.vtex-search-result-3-x-galleryLayoutOptionButton) {
+    padding        : 0;
+    width          : 50%;
+    display        : flex;
+    justify-content: center;
+    height         : 28.8px;
+}
+
+/* 
+.flexRowContent--mobile__plp--switcher :global(.vtex-search-result-3-x-galleryLayoutOptionButton--global__plp--list) {
+    border-left: 1px black solid;
+} */
+
+.flexRowContent--mobile__plp--filter-orderby :global(.vtex-search-result-3-x-orderByButton),
+.flexRowContent--mobile__plp--filter-orderby :global(.vtex-search-result-3-x-orderByDropdown) {
+    background-color: #f7f7f6;
+    padding         : 0;
+    border          : 0;
+    margin          : 0 auto;
+}
+
+.flexRowContent--mobile__plp--filter-orderby :global(.vtex-search-result-3-x-orderBy--layout) :global(.vtex-search-result-3-x-orderByDropdown) {
+    width: 100%;
+}
+
+.flexRowContent--mobile__plp--filter-orderby :global(.vtex-search-result-3-x-orderByText) {
+    color         : #555;
+    font-weight   : 700;
+    line-height   : 20px;
+    text-transform: capitalize;
+    display       : flex;
+    align-items   : flex-end;
+}
+
+.flexRowContent--mobile__plp--filter-orderby :global(.vtex-search-result-3-x-filters--layout) :global(.vtex-search-result-3-x-filterPopupButton)::before {
+    content        : "";
+    background     : url("assets/img/global__filters.svg") no-repeat;
+    background-size: contain;
+    width          : 1rem;
+    height         : 1rem;
+    margin-right   : 0.5rem;
+    display        : block;
+}
+
+.flexRowContent--mobile__plp--filter-orderby :global(.vtex-search-result-3-x-filterPopupTitle) {
+    color         : #555;
+    font-size     : 0;
+    font-weight   : 400;
+    line-height   : 20px;
+    text-transform: capitalize;
+}
+
+.flexRowContent--mobile__plp--filter-orderby :global(.vtex-search-result-3-x-filterPopupTitle) {
+    font-size: 0;
+}
+
+.flexRowContent--mobile__plp--filter-orderby :global(.vtex-search-result-3-x-filters--layout) :global(.vtex-search-result-3-x-filterPopupTitle)::before {
+    content    : "Filtros";
+    font-size  : 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+
+.flexRowContent--mobile__plp--filter-orderby :global(.vtex-search-result-3-x-orderByText)::before {
+    content        : "";
+    background     : url("assets/img/global__orderby.svg") no-repeat;
+    background-size: contain;
+    width          : 1rem;
+    height         : 1rem;
+    display        : block;
+}
+
+.flexRowContent--mobile__plp--filter-orderby :global(.vtex-search-result-3-x-orderByText)::after {
+    content  : "Ordenar:";
+    font-size: 18px;
+    margin   : 0 0.75rem 0 0.25rem;
+}
+
+.flexRowContent--mobile__plp--filter-orderby :global(.vtex-search-result-3-x-filterPopupArrowIcon) {
+    display: none;
+}
+
+.flexRowContent--mobile__plp--filter-orderby :global(.vtex-search-result-3-x-orderByButton),
+.flexRowContent--mobile__plp--switcher :global(.vtex-search-result-3-x-galleryLayoutOptionButton--global__plp--list) {
+    border-left: 1px solid #d4d4d4;
+    height     : 28.8px;
+}
+
+.flexRowContent--mobile__plp--filter-orderby :global(.vtex-search-result-3-x-filterPopupTitle),
+.flexRowContent--mobile__plp--filter-orderby :global(.vtex-search-result-3-x-orderByButton) {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.flexRowContent--mobile__plp--filter-orderby :global(.vtex-search-result-3-x-orderByOptionsContainer) {
+    top      : 3rem;
+    max-width: 182px;
+    left     : calc((50vw - 180px) / 2);
+    width    : 182px;
+    border   : 1px solid #555;
+}
+
+.flexRowContent--mobile__plp--filter-orderby :global(.vtex-search-result-3-x-orderByOptionItem) {
+    font-family: DM Sans;
+}
