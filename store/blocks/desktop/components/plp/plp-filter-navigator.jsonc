@@ -7,7 +7,7 @@
             "openFiltersMode": "many",
             "updateOnFilterSelectionOnMobile": true, // false ?
             "closeOnOutsideClick": false,
-            "showClearAllFiltersOnDesktop": true,
+            "showClearAllFiltersOnDesktop": false,
             "initiallyCollapsed": true,
             "showQuantityBadgeOnMobile": true
         }

@@ -1,0 +1,9 @@
+{
+    "sidebar-close-button#mobile__filter": {
+        "props": {
+            "blockClass": "mobile__filter--close-button",
+            "size": 24
+        },
+        "title": "Sidebar close button for filter navigator in mobile view"
+    }
+}
