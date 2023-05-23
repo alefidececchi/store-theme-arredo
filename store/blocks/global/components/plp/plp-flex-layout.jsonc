@@ -10,7 +10,9 @@
         "title": "Global title on product list page"
     },
     "flex-layout.row#global__plp--slider": {
-        "children": [],
+        "children": [
+            "slider-layout#global__plp--slider"
+        ],
         "props": {
             "blockClass": "global__plp--slider",
             "fullWidth": true,
@@ -76,5 +78,159 @@
             "blockClass": "global__card--price"
         },
         "title": "Global price's row container"
+    },
+    "flex-layout.col#global__plp--slider-bed-sheets": {
+        "children": [
+            "image#global__plp--bed-sheets",
+            "link#global__plp--bed-sheets"
+        ],
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--slider-bed-sheets"
+            ],
+            "width": "100%"
+        },
+        "title": "Global column container for slider's bed sheets item in product list page"
+    },
+    "flex-layout.col#global__plp--slider-bed-spreads": {
+        "children": [
+            "image#global__plp--bed-spreads",
+            "link#global__plp--bed-spreads"
+        ],
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--slider-bed-spreads"
+            ],
+            "width": "100%"
+        },
+        "title": "Global column container for slider's bed spreads item in product list page"
+    },
+    "flex-layout.col#global__plp--slider-padded": {
+        "children": [
+            "image#global__plp--padded",
+            "link#global__plp--padded"
+        ],
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--slider-padded"
+            ],
+            "width": "100%"
+        },
+        "title": "Global column container for slider's padded item in product list page"
+    },
+    "flex-layout.col#global__plp--slider-padding-covers": {
+        "children": [
+            "image#global__plp--padding-covers",
+            "link#global__plp--padding-covers"
+        ],
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--slider-padding-covers"
+            ],
+            "width": "100%"
+        },
+        "title": "Global column container for slider's padding covers item in product list page"
+    },
+    "flex-layout.col#global__plp--slider-pillows": {
+        "children": [
+            "image#global__plp--pillows",
+            "link#global__plp--pillows"
+        ],
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--slider-pillows"
+            ],
+            "width": "100%"
+        },
+        "title": "Global column container for slider's pillows item in product list page"
+    },
+    "flex-layout.col#global__plp--slider-blankets": {
+        "children": [
+            "image#global__plp--blankets",
+            "link#global__plp--blankets"
+        ],
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--slider-blankets"
+            ],
+            "width": "100%"
+        },
+        "title": "Global column container for slider's blankets item in product list page"
+    },
+    "flex-layout.col#global__plp--slider-rug": {
+        "children": [
+            "image#global__plp--rug",
+            "link#global__plp--rug"
+        ],
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--slider-rug"
+            ],
+            "width": "100%"
+        },
+        "title": "Global column container for slider's rug item in product list page"
+    },
+    "flex-layout.col#global__plp--slider-cushions": {
+        "children": [
+            "image#global__plp--cushions",
+            "link#global__plp--cushions"
+        ],
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--slider-cushions"
+            ],
+            "width": "100%"
+        },
+        "title": "Global column container for slider's cushions item in product list page"
+    },
+    "flex-layout.col#global__plp--slider-sommier-covers": {
+        "children": [
+            "image#global__plp--sommier-covers",
+            "link#global__plp--sommier-covers"
+        ],
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--slider-sommier-covers"
+            ],
+            "width": "100%"
+        },
+        "title": "Global column container for slider's sommier covers item in product list page"
+    },
+    "flex-layout.col#global__plp--slider-mattress-covers": {
+        "children": [
+            "image#global__plp--mattress-covers",
+            "link#global__plp--mattress-covers"
+        ],
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--slider-mattress-cover"
+            ],
+            "width": "100%"
+        },
+        "title": "Global column container for slider's mattress cover item in product list page"
+    },
+    "flex-layout.col#global__plp--slider-home-clothes": {
+        "children": [
+            "image#global__plp--home-clothes",
+            "link#global__plp--home-clothes"
+        ],
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--slider-home-clothes"
+            ],
+            "width": "100%"
+        },
+        "title": "Global column container for slider's home clothes item in product list page"
     }
 }

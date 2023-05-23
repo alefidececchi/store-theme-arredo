@@ -31,6 +31,21 @@
     letter-spacing: 0;
 }
 
+.flexRow--global__plp--slider {
+    background-color: hsla(0, 0%, 93.3%, .27);
+    width           : 100%;
+    margin-bottom   : 2rem;
+}
+
+.flexCol--global__plp--slider-item {
+    justify-content: center;
+    align-items    : center;
+}
+
+.flexColChild--global__plp--slider-item:first-child {
+    height: 8.875rem;
+}
+
 
 .flexColChild--global__card--list :global(.vtex-button) {
     background-color: #ff0093;
@@ -97,6 +112,13 @@
 }
 
 @media screen and (max-width: 1024px) {
+
+    .flexRow--global__plp--slider {
+        background   : none;
+        width        : 100%;
+        margin-top   : 1.75rem;
+        margin-bottom: 1.75rem;
+    }
 
     .flexRowContent--global__plp--title {
         top  : -5rem;

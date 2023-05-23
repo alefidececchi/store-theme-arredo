@@ -1,0 +1,30 @@
+{
+    "slider-layout#global__plp--slider": {
+        "children": [
+            "flex-layout.col#global__plp--slider-bed-sheets",
+            "flex-layout.col#global__plp--slider-bed-spreads",
+            "flex-layout.col#global__plp--slider-padded",
+            "flex-layout.col#global__plp--slider-padding-covers",
+            "flex-layout.col#global__plp--slider-pillows",
+            "flex-layout.col#global__plp--slider-blankets",
+            "flex-layout.col#global__plp--slider-rug",
+            "flex-layout.col#global__plp--slider-cushions",
+            "flex-layout.col#global__plp--slider-sommier-covers",
+            "flex-layout.col#global__plp--slider-mattress-covers",
+            "flex-layout.col#global__plp--slider-home-clothes"
+        ],
+        "props": {
+            "blockClass": "global__plp--slider",
+            "showNavigationArrows": "always",
+            "showPaginationDots": "always",
+            "itemsPerPage": {
+                "(min-width:1024px)": 6,
+                "(min-width:640px) and (max-width:1023px)": 4,
+                "(max-width:639px)": 2
+            },
+            "fullWidth": true,
+            "arrowSize": 11
+        },
+        "title": "Global slider on product list page"
+    }
+}

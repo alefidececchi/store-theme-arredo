@@ -1,0 +1,123 @@
+{
+    "link#global__plp--bed-sheets": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--bed-sheets"
+            ],
+            "href": "/bed-clothes/bed-sheets",
+            "label": "Sábanas"
+        },
+        "title": "Global link to bed sheets in slider product list page"
+    },
+    "link#global__plp--bed-spreads": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--bed-spreads"
+            ],
+            "href": "/bed-clothes/bed-spreads",
+            "label": "Cubrecamas"
+        },
+        "title": "Global link to bed spreads in slider product list page"
+    },
+    "link#global__plp--blankets": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--blankets"
+            ],
+            "href": "/bed-clothes/blankets",
+            "label": "Frazadas"
+        },
+        "title": "Global link to blankets in slider product list page"
+    },
+    "link#global__plp--cushions": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--cushions"
+            ],
+            "href": "/bed-clothes/cushions",
+            "label": "Almohadones"
+        },
+        "title": "Global link to cushions in slider product list page"
+    },
+    "link#global__plp--home-clothes": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--home-clothes"
+            ],
+            "href": "/bed-clothes/home-clothes",
+            "label": "Ropa de Hogar"
+        },
+        "title": "Global link to home clothes in slider product list page"
+    },
+    "link#global__plp--mattress-covers": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--mattress-covers"
+            ],
+            "href": "/bed-clothes/mattress-covers",
+            "label": "Cubrecolchón"
+        },
+        "title": "Global link to mattress covers in slider product list page"
+    },
+    "link#global__plp--padded": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--padded"
+            ],
+            "href": "/bed-clothes/padded",
+            "label": "Acolchados"
+        },
+        "title": "Global link to padded in slider product list page"
+    },
+    "link#global__plp--padding-covers": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--padding-covers"
+            ],
+            "href": "/bed-clothes/padding-covers",
+            "label": "Fundas de Acolchados"
+        },
+        "title": "Global link to padding covers in slider product list page"
+    },
+    "link#global__plp--pillows": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--pillows"
+            ],
+            "href": "/bed-clothes/pillows",
+            "label": "Almohadas"
+        },
+        "title": "Global link to pillows in slider product list page"
+    },
+    "link#global__plp--rug": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--rug"
+            ],
+            "href": "/bed-clothes/rug",
+            "label": "Mantas"
+        },
+        "title": "Global link to rug in slider product list page"
+    },
+    "link#global__plp--sommier-covers": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--sommier-covers"
+            ],
+            "href": "/bed-clothes/sommier-covers",
+            "label": "Cubresommier"
+        },
+        "title": "Global link to sommier covers in slider product list page"
+    }
+}
