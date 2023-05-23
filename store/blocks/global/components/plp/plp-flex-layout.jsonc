@@ -1,12 +1,13 @@
 {
-    "flex-layout.row#global__plp--banner": {
-        "children": [],
+    "flex-layout.row#global__plp--title": {
+        "children": [
+            "search-title.v2"
+        ],
         "props": {
-            "blockClass": "global__plp--banner",
-            "fullWidth": true,
-            "horizontalAlign": "center"
+            "blockClass": "global__plp--title",
+            "preserveLayoutOnMobile": true
         },
-        "title": "Banner for plp context in global view"
+        "title": "Global title on product list page"
     },
     "flex-layout.row#global__plp--slider": {
         "children": [],

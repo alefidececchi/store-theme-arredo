@@ -1,4 +1,15 @@
 {
+    "flex-layout.row#desktop__plp--banner": {
+        "children": [
+            "image#desktop__plp--banner"
+        ],
+        "props": {
+            "blockClass": "desktop__plp--banner",
+            "fullWidth": true,
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Banner row container in desktop view"
+    },
     "flex-layout.row#desktop__plp--container": {
         "children": [
             "flex-layout.col#desktop__plp--filtercontainer",

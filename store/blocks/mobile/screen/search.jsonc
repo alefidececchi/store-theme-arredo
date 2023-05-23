@@ -1,7 +1,8 @@
 {
     "search-result-layout.mobile#department": {
         "children": [
-            "flex-layout.row#global__plp--banner",
+            "flex-layout.row#mobile__plp--banner",
+            "flex-layout.row#global__plp--title",
             "flex-layout.row#global__plp--slider",
             "flex-layout.row#mobile__plp--filter-orderby",
             "flex-layout.row#mobile__plp--switcher",

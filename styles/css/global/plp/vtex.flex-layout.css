@@ -1,3 +1,36 @@
+.flexRow--global__plp--title {
+    position: relative;
+}
+
+.flexRow--global__plp--title :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+.flexRowContent--global__plp--title {
+    width   : 99%;
+    position: absolute;
+    top     : -6rem;
+}
+
+.flexRowContent--global__plp--title .stretchChildrenWidth {
+    width          : 100%;
+    display        : flex;
+    justify-content: flex-end;
+}
+
+.flexRowContent--global__plp--title :global(.vtex-search-result-3-x-galleryTitle--layout) {
+    width         : auto;
+    color         : #fff;
+    border-bottom : 2px solid #fff;
+    padding-right : 48px;
+    padding-bottom: 6px;
+    font-weight   : 700;
+    font-size     : 21.5px;
+    margin-top    : 17px;
+    letter-spacing: 0;
+}
+
+
 .flexColChild--global__card--list :global(.vtex-button) {
     background-color: #ff0093;
     border-radius   : 8px;
@@ -49,7 +82,26 @@
     height: auto !important;
 }
 
+@media screen and (min-width: 1367px) {
+    .flexRowContent--global__plp--title :global(.vtex-search-result-3-x-galleryTitle--layout) {
+        border-bottom : 2px solid #fff;
+        color         : #fff;
+        padding-right : 73px;
+        padding-bottom: 6px;
+        font-weight   : 700;
+        font-size     : 29.5px;
+        margin-top    : 8px;
+        letter-spacing: 0;
+    }
+}
+
 @media screen and (max-width: 1024px) {
+
+    .flexRowContent--global__plp--title {
+        top  : -5rem;
+        right: 3%;
+    }
+
     .flexColChild--global__card--list :global(.vtex-product-price-1-x-installments) {
         display  : flex;
         flex-wrap: wrap;
@@ -90,6 +142,10 @@
 }
 
 @media screen and (max-width: 480px) {
+
+    .flexRowContent--global__plp--title {
+        top: -4rem;
+    }
 
     .flexRowContent--global__card--list-container {
         min-height: auto;
