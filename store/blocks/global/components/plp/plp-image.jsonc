@@ -1,0 +1,156 @@
+{
+    "image#global__plp--bed-sheets": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--bed-sheets"
+            ],
+            "link": {
+                "url": "https://alejandrofidececchi--itgloberspartnercl.myvtex.com/promotions/bed-clothes/bed-sheets"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/global__plp--bed-sheets.jpg"
+        },
+        "title": "Global bed sheets image in slider product list page"
+    },
+    "image#global__plp--bed-spreads": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--bed-spreads"
+            ],
+            "link": {
+                "url": "https://alejandrofidececchi--itgloberspartnercl.myvtex.com/promotions/bed-clothes/bed-spreads"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/global__plp--bed-spreads.jpg"
+        },
+        "title": "Global bed spreads image in slider product list page"
+    },
+    "image#global__plp--blankets": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--blankets"
+            ],
+            "link": {
+                "url": "https://alejandrofidececchi--itgloberspartnercl.myvtex.com/promotions/bed-clothes/blankets"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/global__plp--blankets.jpg"
+        },
+        "title": "Global blankets image in slider product list page"
+    },
+    "image#global__plp--cushions": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--cushions"
+            ],
+            "link": {
+                "url": "https://alejandrofidececchi--itgloberspartnercl.myvtex.com/promotions/bed-clothes/cushions"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/global__plp--cushions.jpg"
+        },
+        "title": "Global cushions image in slider product list page"
+    },
+    "image#global__plp--home-clothes": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--home-clothes"
+            ],
+            "link": {
+                "url": "https://alejandrofidececchi--itgloberspartnercl.myvtex.com/promotions/bed-clothes/home-clothes"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/global__plp--home-clothes.jpg"
+        },
+        "title": "Global home clothes image in slider product list page"
+    },
+    "image#global__plp--mattress-covers": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--mattress-covers"
+            ],
+            "link": {
+                "url": "https://alejandrofidececchi--itgloberspartnercl.myvtex.com/promotions/bed-clothes/mattress-covers"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/global__plp--mattress-covers.jpg"
+        },
+        "title": "Global mattress covers image in slider product list page"
+    },
+    "image#global__plp--padded": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--padded"
+            ],
+            "link": {
+                "url": "https://alejandrofidececchi--itgloberspartnercl.myvtex.com/promotions/bed-clothes/padded"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/global__plp--padded.jpg"
+        },
+        "title": "Global padded image in slider product list page"
+    },
+    "image#global__plp--padding-covers": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--padding-covers"
+            ],
+            "link": {
+                "url": "https://alejandrofidececchi--itgloberspartnercl.myvtex.com/promotions/bed-clothes/padding-covers"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/global__plp--padding-covers.jpg"
+        },
+        "title": "Global padding covers image in slider product list page"
+    },
+    "image#global__plp--pillows": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--pillows"
+            ],
+            "link": {
+                "url": "https://alejandrofidececchi--itgloberspartnercl.myvtex.com/promotions/bed-clothes/pillows"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/global__plp--pillows.jpg"
+        },
+        "title": "Global pillows image in slider product list page"
+    },
+    "image#global__plp--rug": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--rug"
+            ],
+            "link": {
+                "url": "https://alejandrofidececchi--itgloberspartnercl.myvtex.com/promotions/bed-clothes/rug"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/global__plp--rug.jpg"
+        },
+        "title": "Global rug image in slider product list page"
+    },
+    "image#global__plp--sommier-covers": {
+        "props": {
+            "blockClass": [
+                "global__plp--slider-item",
+                "global__plp--sommier-covers"
+            ],
+            "link": {
+                "url": "https://alejandrofidececchi--itgloberspartnercl.myvtex.com/promotions/bed-clothes/sommier-covers"
+            },
+            "maxWidth": "100%",
+            "src": "assets/img/global__plp--sommier-covers.jpg"
+        },
+        "title": "Global sommier covers image in slider product list page"
+    }
+}

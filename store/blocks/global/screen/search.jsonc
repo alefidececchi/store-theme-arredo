@@ -37,7 +37,7 @@
     },
     "store.search#brand": {
         "blocks": [
-            // "search-result-layout#brand"
+            "search-result-layout#brand"
         ],
         "props": {
             "context": {

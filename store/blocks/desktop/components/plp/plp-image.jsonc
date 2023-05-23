@@ -1,0 +1,10 @@
+{
+    "image#desktop__plp--banner": {
+        "props": {
+            "blockClass": "desktop__plp--banner",
+            "maxWidth": "100%",
+            "src": "assets/img/desktop__plp--banner.jpg"
+        },
+        "title": "Banner image for product list page on desktop view"
+    }
+}

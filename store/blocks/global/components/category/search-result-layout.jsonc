@@ -5,7 +5,6 @@
             "search-result-layout.mobile#category"
             // "search-not-found-layout#category"
         ],
-        "props": {},
         "title": "Search result category layout"
     }
 }

@@ -1,0 +1,10 @@
+{
+    "image#mobile__plp--banner": {
+        "props": {
+            "blockClass": "mobile__plp--banner",
+            "maxWidth": "100%",
+            "src": "assets/img/mobile__plp--banner.jpg"
+        },
+        "title": "Banner image for product list page on mobile view"
+    }
+}

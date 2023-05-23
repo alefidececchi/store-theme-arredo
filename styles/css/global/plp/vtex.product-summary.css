@@ -13,7 +13,8 @@
 }
 
 .element--global__card--grid {
-    padding: 0;
+    padding        : 0;
+    justify-content: flex-end
 }
 
 .imageWrapper--global__card {
@@ -25,6 +26,26 @@
 
 .imageWrapper--global__card :global(.vtex-store-components-3-x-discountContainer) {
     width: 100%;
+}
+
+.imageWrapper--global__card :global(.vtex-store-components-3-x-discountInsideContainer) {
+    position        : absolute;
+    left            : 0;
+    bottom          : 0;
+    border-radius   : 50%;
+    height          : 4.25rem;
+    background-color: #ac8ec3;
+    font-family     : DM sans;
+    display         : flex;
+    flex-direction  : row;
+    justify-content : center;
+    align-items     : center;
+    font-weight     : 900;
+    font-size       : 20px;
+    border          : white;
+    border-style    : solid;
+    border-width    : 3px;
+    width           : 4.25rem;
 }
 
 .imageContainer--global__card {
@@ -64,14 +85,121 @@
     -webkit-box-orient: vertical;
 }
 
+.skuSelectorContainer--global__card :global(.vtex-store-components-3-x-skuSelectorTextContainer) {
+    display: none;
+}
+
+.SKUSelectorContainer--global__card {
+    min-height: 25px;
+}
+
 .containerNormal--global__card--list {
     max-width: 100% !important;
 }
 
-@media screen and (max-width: 1024px) {}
+.element--global__card--grid :global(.vtex-product-price-1-x-installments),
+.element--global__card--list :global(.vtex-product-price-1-x-installments) {
+    display        : flex;
+    justify-content: flex-start;
+    font-size      : 14px;
+    font-weight    : 500;
+    text-transform : capitalize;
+    flex-wrap      : wrap;
+    color          : rgb(85, 85, 85);
+}
+
+.element--global__card--grid :global(.vtex-product-price-1-x-installmentsNumber),
+.element--global__card--list :global(.vtex-product-price-1-x-installmentsNumber) {
+    margin-left: 6px;
+}
+
+.element--global__card--grid :global(.vtex-product-price-1-x-installmentValue),
+.element--global__card--list :global(.vtex-product-price-1-x-installmentValue) {
+    margin-right: 6px;
+}
+
+.element--global__card--grid :global(.vtex-product-price-1-x-installmentsNumber),
+.element--global__card--grid :global(.vtex-product-price-1-x-installmentValue),
+.element--global__card--list :global(.vtex-product-price-1-x-installmentsNumber),
+.element--global__card--list :global(.vtex-product-price-1-x-installmentValue) {
+    font-weight: 700;
+}
+
+.skuSelectorContainer--global__card :global(.vtex-store-components-3-x-skuSelectorSubcontainer) {
+    margin-bottom: 5px;
+}
+
+.skuSelectorContainer--global__card :global(.vtex-store-components-3-x-skuSelectorOptionsList) {
+    margin: 0;
+}
+
+.skuSelectorItem--global__card {
+    height: 1.5rem;
+    width : 1.5rem;
+}
+
+.frameAround--global__card {
+    border-radius: 100%;
+}
+
+.skuSelectorInternalBox--global__card {
+    border-radius  : 100%;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.skuSelectorItemTextValue--global__card {
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .imageWrapper--global__card :global(.vtex-store-components-3-x-discountInsideContainer) {
+        height   : 3.25rem;
+        width    : 3.25rem;
+        font-size: 14px;
+    }
+
+    .element--global__card--grid :global(.vtex-store-components-3-x-discountInsideContainer) {
+        height   : 4.25rem;
+        width    : 4.25rem;
+        font-size: 20px;
+    }
+
+    .imageWrapper--global__card {
+        height: auto;
+    }
+
+    .image--global__card {
+        max-height: 100% !important;
+        max-width : 100% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .element--global__card--grid :global(.vtex-store-components-3-x-discountInsideContainer) {
+        height   : 3.25rem;
+        width    : 3.25rem;
+        font-size: 14px;
+    }
+
+    .element--global__card--grid :global(.vtex-product-price-1-x-installments),
+    .element--global__card--list :global(.vtex-product-price-1-x-installments) {
+        font-size: 11px;
+    }
+
+    .element--global__card--grid :global(.vtex-product-price-1-x-installmentsNumber),
+    .element--global__card--grid :global(.vtex-product-price-1-x-installmentValue),
+    .element--global__card--list :global(.vtex-product-price-1-x-installmentsNumber),
+    .element--global__card--list :global(.vtex-product-price-1-x-installmentValue) {
+        font-size: 11px;
+    }
+}
 
 @media screen and (max-width: 480px) {
-    .element--global__card--grid :global(.vtex-button) {
+    .element--global__card--list :global(.vtex-button) {
         width: 100%;
     }
 }
