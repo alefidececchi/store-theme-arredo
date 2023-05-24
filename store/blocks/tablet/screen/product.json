@@ -1,0 +1,13 @@
+{
+    "responsive-layout.tablet#tablet__pdp": {
+        "children": [
+            "flex-layout.row#global__pdp--breadcrumb",
+            "rich-text#tablet"
+        ]
+    },
+    "rich-text#tablet": {
+        "props": {
+            "text": "# Tablet"
+        }
+    }
+}

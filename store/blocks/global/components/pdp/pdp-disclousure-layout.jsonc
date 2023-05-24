@@ -1,0 +1,22 @@
+{
+    // "disclousure-layout#global__pdp--calculate-shipping": {
+    //     "children": [
+    //         "disclousure-trigger#global__pdp--calculate-shipping",
+    //         "disclousure-content#global__pdp--calculate-shipping"
+    //     ],
+    //     "props": {
+    //         "blockClass": "global__pdp--calculate-shipping"
+    //     },
+    //     "title": "Global disclousure for calculate shpping"
+    // },
+    // "disclousure-layout#global__pdp--payment-methods": {
+    //     "children": [
+    //         "disclousure-trigger#global__pdp--payment-methods",
+    //         "disclousure-content#global__pdp--payment-methods"
+    //     ],
+    //     "props": {
+    //         "blockClass": "global__pdp--payment-methods"
+    //     },
+    //     "title": "Global disclousure for payment methods"
+    // }
+}

@@ -1,0 +1,27 @@
+{
+    "tab-content#global__plp": {
+        "children": [
+            "tab-content.item#question__title",
+            "tab-content.item#review__title"
+        ],
+        "props": {
+            "blockClass": "global__plp"
+        }
+    },
+    "tab-content.item#question__title": {
+        "children": [
+            "questions-and-answers"
+        ],
+        "props": {
+            "tabId": "questions-and-answers"
+        }
+    },
+    "tab-content.item#review__title": {
+        "children": [
+            "product-reviews"
+        ],
+        "props": {
+            "tabId": "reviews-and-ratings"
+        }
+    }
+}

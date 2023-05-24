@@ -1,0 +1,105 @@
+{
+    "flex-layout.row#global__pdp--breadcrumb": {
+        "children": [
+            "breadcrumb#global__pdp"
+        ],
+        "props": {
+            "blockClass": "global__pdp--breadcrumb"
+        },
+        "title": "Global row container for breadcrumb in product list page"
+    },
+    "flex-layout.row#global__pdp--name-share": {
+        "children": [
+            "flex-layout.col#global__pdp--name",
+            "flex-layout.col#global__pdp--share"
+        ],
+        "props": {
+            "blockClass": "global__pdp--name-share",
+            "fullWidth": true,
+            "horizontalAlign": "left",
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Global row container for name and share"
+    },
+    "flex-layout.row#global__pdp--price": {
+        "children": [
+            "flex-layout.col#global__pdp--price"
+        ],
+        "props": {
+            "blockClass": "global__pdp--price",
+            "fullWidth": true,
+            "horizontalAlign": "left",
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Global row container for price"
+    },
+    "flex-layout.row#global__pdp--skuselector": {
+        "children": [
+            "flex-layout.col#global__pdp--skuselector"
+        ],
+        "props": {
+            "blockClass": "global__pdp--skuselector",
+            "fullWidth": true,
+            "horizontalAlign": "left",
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Global row container for skuselector"
+    },
+    "flex-layout.row#global__pdp--guide-modal": {
+        "children": [
+            "flex-layout.col#global__pdp--guide-modal"
+        ],
+        "props": {
+            "blockClass": "global__pdp--guide-modal",
+            "fullWidth": true,
+            "horizontalAlign": "left",
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Global row container for guide modal"
+    },
+    "flex-layout.row#global__pdp--quantity-and-addcart": {
+        "children": [
+            "flex-layout.col#global__pdp--quantity",
+            "flex-layout.col#global__pdp--addcart"
+        ],
+        "props": {
+            "blockClass": "global__pdp--quantity-and-addcart",
+            "fullWidth": true,
+            "horizontalAlign": "left",
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Global row container for quantity and add to cart button"
+    },
+    "flex-layout.row#global__pdp--disclousures": {
+        "children": [
+            "flex-layout.col#global__pdp--disclousures"
+        ],
+        "props": {
+            "blockClass": "global__pdp--disclousures",
+            "fullWidth": true,
+            "horizontalAlign": "left",
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Global row container for disculousures"
+    },
+    "flex-layout.row#global__pdp--calculate-shipping": {
+        "children": [
+            "shipping-simulator#global__pdp--calculate-shipping"
+        ],
+        "props": {
+            "blockClass": "global__pdp--calculate-shipping",
+            "fullWidth": true
+        },
+        "title": "Global row container for calculate shipping"
+    },
+    "flex-layout.row#global__pdp--payment-methods": {
+        "children": [
+            "flex-layout.col#global__pdp--payment-methods"
+        ],
+        "props": {
+            "blockClass": "global__pdp--payment-methods",
+            "fullWidth": true
+        },
+        "title": "Global row container for payment methods"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "breadcrumb#global__pdp": {
+        "props": {
+            "blockClass": "global__pdp",
+            "showOnMobile": true,
+            "homeIconSize": 0,
+            "caretIconSize": 0
+        },
+        "title": "Global Breadcrumb in product list page"
+    }
+}

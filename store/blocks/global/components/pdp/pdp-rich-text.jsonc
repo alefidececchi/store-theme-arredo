@@ -1,0 +1,16 @@
+{
+    "rich-text#global__pdp--guide-modal": {
+        "props": {
+            "blockClass": "global__pdp--guide-modal",
+            "text": "Ver guía de medidas"
+        },
+        "title": "Global trigger text for sizes guide"
+    },
+    "rich-text#global__pdp--sizes-guide": {
+        "props": {
+            "blockClass": "global__pdp--sizes-guide",
+            "text": "Hello, soy el texto guia de medidas"
+        },
+        "title": "Global text of sizes guide"
+    }
+}

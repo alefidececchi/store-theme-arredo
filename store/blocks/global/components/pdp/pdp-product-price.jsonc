@@ -1,0 +1,21 @@
+{
+    
+    "product-list-price#global__pdp--price":{
+        "props": {
+            "blockClass": "global__pdp--price"
+        },
+        "title": "Global product list price"
+    },
+    "product-selling-price#global__pdp--price":{
+        "props": {
+            "blockClass": "global__pdp--price"
+        },
+        "title": "Global product selling price"
+    },
+    "product-installments#global__pdp--price":{
+        "props": {
+            "blockClass": "global__pdp--price"
+        },
+        "title": "Global product installments price"
+    }
+}

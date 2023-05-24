@@ -1,0 +1,96 @@
+{
+    "flex-layout.col#global__pdp--details": {
+        "children": [
+            "flex-layout.row#global__pdp--name-share",
+            "flex-layout.row#global__pdp--price",
+            "flex-layout.row#global__pdp--skuselector",
+            "flex-layout.row#global__pdp--guide-modal",
+            "flex-layout.row#global__pdp--quantity-and-addcart",
+            "flex-layout.row#global__pdp--disclousures"
+        ],
+        "props": {
+            "blockClass": "global__pdp--details"
+        },
+        "title": "Global column container for products details"
+    },
+    "flex-layout.col#global__pdp--name": {
+        "children": [
+            "vtex.store-components:product-name#global__pdp--name"
+        ],
+        "props": {
+            "blockClass": "global__pdp--name"
+        },
+        "title": "Global column container of product name"
+    },
+    "flex-layout.col#global__pdp--share": {
+        "children": [
+            "modal-trigger#global__pdp--share"
+        ],
+        "props": {
+            "blockClass": "global__pdp--share"
+        },
+        "title": "Global column container of share"
+    },
+    "flex-layout.col#global__pdp--price": {
+        "children": [
+            "product-list-price#global__pdp--price",
+            "product-selling-price#global__pdp--price",
+            "product-installments#global__pdp--price"
+        ],
+        "props": {
+            "blockClass": "global__pdp--price"
+        },
+        "title": "Global column container for price section"
+    },
+    "flex-layout.col#global__pdp--skuselector": {
+        "children": [
+            "product-summary-sku-selector#global__pdp--skuselector"
+        ],
+        "props": {
+            "blockClass": "global__pdp--skuselector",
+            "horizontalAlign": "left"
+        },
+        "title": "Global column container for sku selector"
+    },
+    "flex-layout.col#global__pdp--guide-modal": {
+        "children": [
+            "modal-trigger#global__pdp--guide-modal"
+        ],
+        "props": {
+            "blockClass": "global__pdp--guide-modal",
+            "horizontalAlign": "left"
+        },
+        "title": "Global column container for guide modal"
+    },
+    "flex-layout.col#global__pdp--quantity":{
+        "children": [
+            "product-quantity#global__pdp--quantity"
+        ],
+        "props": {
+            "blockClass":"global__pdp--quantity",
+            "horizontalAlign": "left"
+        },
+        "title": "Global column contaier for quantity"
+    },
+    "flex-layout.col#global__pdp--addcart":{
+        "children": [
+            "add-to-cart-button#global__card"
+        ],
+        "props": {
+            "blockClass":"global__pdp--addcart",
+            "horizontalAlign": "left"
+        },
+        "title": "Global column contaier for quantity"
+    },
+    "flex-layout.col#global__pdp--disclousures": {
+        "children": [
+            // "disclousure-layout#global__pdp--calculate-shipping",
+            // "disclousure-layout#global__pdp--payment-methods"
+        ],
+        "props": {
+            "blockClass":"global__pdp--disclousures",
+            "horizontalAlign": "left"
+        },
+        "title": "Global column contaier for disclousures"
+    }
+}

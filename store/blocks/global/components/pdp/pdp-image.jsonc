@@ -1,0 +1,9 @@
+{
+    "image#global__pdp--share": {
+        "props": {
+            "blockClass": "global__pdp--share",
+            "src": "assets/img/global__pdp--share.svg"
+        },
+        "title": "Image for social network sharing"
+    }
+}

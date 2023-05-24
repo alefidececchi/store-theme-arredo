@@ -1,0 +1,20 @@
+{
+    // "disclousure-trigger#global__pdp--calculate-shipping": {
+    //     "children": [
+    //         "rich-text#global__pdp--calculate-shipping"
+    //     ],
+    //     "props": {
+    //         "blockClass": "global__pdp--calculate-shipping"
+    //     },
+    //     "title": "Global disclousure trigger for calculate shipping"
+    // },
+    // "disclousure-trigger#global__pdp--payment-methods": {
+    //     "children": [
+    //         "rich-text#global__pdp--payment-methods"
+    //     ],
+    //     "props": {
+    //         "blockClass": "global__pdp--payment-methods"
+    //     },
+    //     "title": "Global disclousure trigger for payment methods"
+    // }
+}

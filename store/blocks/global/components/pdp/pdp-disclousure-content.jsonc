@@ -1,0 +1,20 @@
+{
+    // "disclousure-content#global__pdp--calculate-shipping": {
+    //     "children": [
+    //         // "flex-layout.row#global__pdp--calculate-shipping"
+    //     ],
+    //     "props": {
+    //         "blockClass": "global__pdp--calculate-shipping"
+    //     },
+    //     "title": "Global disclousure content for calculate shipping"
+    // },
+    // "disclousure-content#global__pdp--payment-methods": {
+    //     "children": [
+    //         // "flex-layout.row#global__pdp--payment-methods"
+    //     ],
+    //     "props": {
+    //         "blockClass": "global__pdp--payment-methods"
+    //     },
+    //     "title": "Global disclousure content for payment methods"
+    // }
+}

@@ -1,0 +1,13 @@
+{
+    "responsive-layout.desktop#desktop__pdp": {
+        "children": [
+            "rich-text#desktop",
+            "flex-layout.row#global__pdp--breadcrumb"
+        ]
+    },
+    "rich-text#desktop": {
+        "props": {
+            "text": "# Desktop"
+        }
+    }
+}
