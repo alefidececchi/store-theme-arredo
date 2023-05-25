@@ -1,0 +1,54 @@
+{
+    "tab-content#global__plp": {
+        "children": [
+            "tab-content.item#global__pdp--description",
+            "tab-content.item#global__pdp--tab-reviews",
+            "tab-content.item#global__pdp--tab-question-answers"
+        ],
+        "props": {
+            "blockClass": "global__plp"
+        },
+        "title": "Global tab content"
+    },
+    "tab-content.item#global__pdp--tab-question-answers": {
+        "children": [
+            "questions-and-answers"
+        ],
+        "props": {
+            "blockClass": [
+                "global__pdp--tab-question-answers",
+                "global__pdp--tab-content-item"
+            ],
+            "tabId": "questions-and-answers"
+        },
+        "title": "Global tab item content"
+    },
+    "tab-content.item#global__pdp--tab-reviews": {
+        "children": [
+            "product-reviews"
+        ],
+        "props": {
+            "blockClass": [
+                "global__pdp--tab-reviews",
+                "global__pdp--tab-content-item"
+            ],
+            "tabId": "reviews-and-ratings"
+        },
+        "title": "Global tab item content"
+    },
+    "tab-content.item#global__pdp--description": {
+        "children": [
+            "responsive-layout.desktop#desktop__pdp--tab-description-images",
+            "responsive-layout.tablet#tablet__pdp--tab-description-images",
+            "responsive-layout.phone#phone__pdp--tab-description-images"
+        ],
+        "props": {
+            "blockClass": [
+                "global__pdp--tab-description",
+                "global__pdp--tab-content-item"
+            ],
+            "tabId": "product-description"
+        },
+        "title": "Global tab item content"
+    }
+}

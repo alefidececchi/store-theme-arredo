@@ -1,0 +1,58 @@
+{
+    "disclosure-layout#global__pdp--calculate-shipping": {
+        "children": [
+            "disclosure-trigger#global__pdp--calculate-shipping",
+            "disclosure-content#global__pdp--calculate-shipping"
+        ],
+        "props": {
+            "blockClass": "global__pdp--calculate-shipping"
+        },
+        "title": "Global disclosure for calculate shpping"
+    },
+    "disclosure-trigger#global__pdp--calculate-shipping": {
+        "children": [
+            "rich-text#global__pdp--calculate-shipping"
+        ],
+        "props": {
+            "blockClass": "global__pdp--calculate-shipping"
+        },
+        "title": "Global disclosure trigger for calculate shipping"
+    },
+    "disclosure-content#global__pdp--calculate-shipping": {
+        "children": [
+            "flex-layout.row#global__pdp--calculate-shipping"
+        ],
+        "props": {
+            "blockClass": "global__pdp--calculate-shipping"
+        },
+        "title": "Global disclosure content for calculate shipping"
+    },
+    "disclosure-layout#global__pdp--payment-methods": {
+        "children": [
+            "disclosure-trigger#global__pdp--payment-methods",
+            "disclosure-content#global__pdp--payment-methods"
+        ],
+        "props": {
+            "blockClass": "global__pdp--payment-methods"
+        },
+        "title": "Global disclosure for payment methods"
+    },
+    "disclosure-trigger#global__pdp--payment-methods": {
+        "children": [
+            "rich-text#global__pdp--payment-methods"
+        ],
+        "props": {
+            "blockClass": "global__pdp--payment-methods"
+        },
+        "title": "Global disclosure trigger for payment methods"
+    },
+    "disclosure-content#global__pdp--payment-methods": {
+        "children": [
+            "flex-layout.row#global__pdp--payment-methods"
+        ],
+        "props": {
+            "blockClass": "global__pdp--payment-methods"
+        },
+        "title": "Global disclosure content for payment methods"
+    }
+}

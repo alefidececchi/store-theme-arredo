@@ -1,0 +1,12 @@
+{
+    "tab-layout#global__plp": {
+        "children": [
+            "tab-list#global__plp",
+            "tab-content#global__plp"
+        ],
+        "props": {
+            "defaultActiveTabId": "product-description"
+        },
+        "title": "Global tab layout"
+    }
+}

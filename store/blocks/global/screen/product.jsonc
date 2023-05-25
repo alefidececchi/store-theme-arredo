@@ -1,0 +1,9 @@
+{
+    "store.product": {
+        "children": [
+            "responsive-layout.desktop#desktop__pdp",
+            "responsive-layout.tablet#tablet__pdp",
+            "responsive-layout.phone#phone__pdp"
+        ]
+    }
+}

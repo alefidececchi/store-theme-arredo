@@ -1,0 +1,22 @@
+{
+    "flex-layout.row#phone__pdp--images": {
+        "children": [
+            "flex-layout.col#global__pdp--images"
+        ],
+        "props": {
+            "blockClass": "phone__pdp--images",
+            "fullWidth": true
+        },
+        "title": "Phone row container of images"
+    },
+    "flex-layout.row#phone__pdp--details": {
+        "children": [
+            "flex-layout.col#mobile__pdp--details"
+        ],
+        "props": {
+            "blockClass": "phone__pdp--details",
+            "fullWidth": true
+        },
+        "title": "Phone row container of details"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "vtex.store-components:product-name#global__pdp--name": {
+        "props": {
+            "blockClass": "global__pdp--name",
+            "tag": "h1"
+        },
+        "title": "Global product name in product details page"
+    }
+}

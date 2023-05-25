@@ -1,0 +1,9 @@
+{
+    "product-quantity#global__pdp--quantity": {
+        "props": {
+            "blockClass": "global__pdp--quantity",
+            "selectorType": "stepper"
+        },
+        "title": "Global product quantity selector"
+    }
+}

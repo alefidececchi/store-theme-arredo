@@ -1,0 +1,15 @@
+{
+    "responsive-layout.phone#phone__pdp": {
+        "children": [
+            "flex-layout.row#global__pdp--breadcrumb",
+            "flex-layout.row#phone__pdp--images",
+            "flex-layout.row#phone__pdp--details",
+            "flex-layout.row#global__pdp--disclosures",
+            "flex-layout.row#global__pdp--tab-layout",
+            "flex-layout.row#mobile__pdp--slider-other-products",
+            "flex-layout.row#mobile__pdp--slider-other-customers",
+            "flex-layout.row#mobile__pdp--slider-also-interesting"
+        ],
+        "title": "Phone responsive layout of product details page"
+    }
+}

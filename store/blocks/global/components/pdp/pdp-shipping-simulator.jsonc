@@ -1,0 +1,8 @@
+{
+    "shipping-simulator#global__pdp--calculate-shipping": {
+        "props": {
+            "blockClass": "global__pdp--calculate-shipping"
+        },
+        "title": "Global shipping simulator"
+    }
+}
