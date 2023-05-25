@@ -26,5 +26,41 @@
             "text": "- 3 cuotas sin interés en todas las compras* \n- 6 cuotas sin interés a partir de $39.990* \n *con tarjetas de crédito bancarias"
         },
         "title": "Global payment method text"
+    },
+    "rich-text#global__pdp--slider-other-products": {
+        "props": {
+            "blockClass": [
+                "global__pdp--slider-other-products",
+                "global__section4--title"
+            ],
+            "text": "Productos que pueden ser de tu interés",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        },
+        "title": "Global title for slider in product details page"
+    },
+    "rich-text#global__pdp--slider-other-customers": {
+        "props": {
+            "blockClass": [
+                "global__pdp--slider-other-customers",
+                "global__section4--title"
+            ],
+            "text": "Otros clientes se llevaron",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        },
+        "title": "Global title for slider in product details page"
+    },
+    "rich-text#global__pdp--slider-also-interesting": {
+        "props": {
+            "blockClass": [
+                "global__pdp--slider-also-interesting",
+                "global__section4--title"
+            ],
+            "text": "También te puede interesar",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        },
+        "title": "Global title for slider in product details page"
     }
 }
