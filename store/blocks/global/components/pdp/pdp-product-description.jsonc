@@ -1,0 +1,8 @@
+{
+    "product-description#global__pdp--description": {
+        "props": {
+            "blockClass": "global__pdp--description"
+        },
+        "title": "Global product detials in product details page"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "product-images#global__pdp--images": {
+        "props": {
+            "aspectRatio": "1:1",
+            "blockClass": "global__pdp--images",
+            "thumbnailMaxHeight": 80,
+            "thumbnailsOrientation": "vertical",
+            "zoomMode": "in-place-hover"
+        },
+        "title": "Global product images in product details page"
+    }
+}

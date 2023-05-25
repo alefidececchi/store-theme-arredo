@@ -1,0 +1,9 @@
+{
+    "product-specifications#global__pdp--specifications": {
+        "props": {
+            "blockClass": "global__pdp--specifications",
+            "collapsible": "never",
+            "shoudCollapseOnTabChange": false
+        }
+    }
+}

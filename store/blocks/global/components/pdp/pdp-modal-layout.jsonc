@@ -1,0 +1,21 @@
+{
+    "modal-layout#global__pdp--share": {
+        "children": [
+            "share"
+        ],
+        "props": {
+            "blockClass": "global__pdp--share",
+            "disableEscapeKeyDown": true
+        },
+        "title": "Global modal for social network sharing"
+    },
+    "modal-layout#global__pdp--guide-modal": {
+        "children": [
+            "image#global__pdp--size-guide"
+        ],
+        "props": {
+            "blockClass": "global__pdp--guide-modal"
+        },
+        "title": "Global modal for size guide"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "responsive-layout.phone#phone__pdp--tab-description-images": {
+        "children": [
+            "flex-layout.row#global__pdp--description",
+            "flex-layout.row#global__pdp--specifications",
+            "flex-layout.row#global__pdp--images-specifications"
+        ],
+        "title": "Phone layout for description and images in tab section"
+    }
+}

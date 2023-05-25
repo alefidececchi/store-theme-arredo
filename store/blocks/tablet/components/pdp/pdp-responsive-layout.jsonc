@@ -1,0 +1,8 @@
+{
+    "responsive-layout.tablet#tablet__pdp--tab-description-images": {
+        "children": [
+            "flex-layout.row#global__pdp--description-images"
+        ],
+        "title": "Tablet layout description and images in tab section"
+    }
+}

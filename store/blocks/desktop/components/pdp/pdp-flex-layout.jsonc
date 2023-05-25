@@ -1,0 +1,162 @@
+{
+    "flex-layout.row#desktop__pdp--product": {
+        "children": [
+            "flex-layout.col#global__pdp--images",
+            "flex-layout.col#desktop__pdp--details"
+        ],
+        "props": {
+            "blockClass": "desktop__pdp--product",
+            "fullWidth": true
+        },
+        "title": "Desktop row container of product"
+    },
+    "flex-layout.col#desktop__pdp--details": {
+        "children": [
+            "flex-layout.row#global__pdp--name-share",
+            "flex-layout.row#global__pdp--price",
+            "flex-layout.row#global__pdp--skuselector",
+            "flex-layout.row#global__pdp--guide-modal",
+            "flex-layout.row#global__pdp--quantity-and-addcart",
+            "flex-layout.row#global__pdp--disclosures"
+        ],
+        "props": {
+            "blockClass": "desktop__pdp--details"
+        },
+        "title": "Desktop column container for products details"
+    },
+    "flex-layout.row#desktop__pdp--slider-other-products": {
+        "children": [
+            "flex-layout.col#desktop__pdp--slider-other-products"
+        ],
+        "props": {
+            "blockClass": [
+                "desktop__section4--title-other-products",
+                "desktop__home--section4"
+            ],
+            "fullWidth": "100%",
+            "horizontalAllign": "center",
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Desktop row container for slider on product details page"
+    },
+    "flex-layout.row#desktop__pdp--slider-other-customers": {
+        "children": [
+            "flex-layout.col#desktop__pdp--slider-other-customers"
+        ],
+        "props": {
+            "blockClass": [
+                "desktop__section4--title-other-customers",
+                "desktop__home--section4"
+            ],
+            "fullWidth": "100%",
+            "horizontalAllign": "center",
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Desktop row container for slider on product details page"
+    },"flex-layout.row#desktop__pdp--slider-also-interesting": {
+        "children": [
+            "flex-layout.col#desktop__pdp--slider-also-interesting"
+        ],
+        "props": {
+            "blockClass": [
+                "desktop__section4--title-also-interesting",
+                "desktop__home--section4"
+            ],
+            "fullWidth": "100%",
+            "horizontalAllign": "center",
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Desktop row container for slider on product details page"
+    },
+    "flex-layout.col#desktop__pdp--slider-other-products": {
+        "children": [
+            "flex-layout.row#desktop__pdp--title-other-products",
+            "flex-layout.row#desktop__pdp--slider"
+        ],
+        "props": {
+            "blockClass": [
+                "desktop__pdp--slider-other-products",
+                "desktop__home--section4"
+            ]
+        },
+        "title": "Desktop column container for slider on product details page"
+    },
+    "flex-layout.col#desktop__pdp--slider-other-customers": {
+        "children": [
+            "flex-layout.row#desktop__pdp--title-other-customers",
+            "flex-layout.row#desktop__pdp--slider"
+        ],
+        "props": {
+            "blockClass": [
+                "desktop__pdp--slider-other-products",
+                "desktop__home--section4"
+            ]
+        },
+        "title": "Desktop column container for slider on product details page"
+    },
+    "flex-layout.col#desktop__pdp--slider-also-interesting": {
+        "children": [
+            "flex-layout.row#desktop__pdp--title-also-interesting",
+            "flex-layout.row#desktop__pdp--slider"
+        ],
+        "props": {
+            "blockClass": [
+                "desktop__pdp--slider-also-interesting",
+                "desktop__home--section4"
+            ]
+        },
+        "title": "Desktop column container for slider on product details page"
+    },
+    "flex-layout.row#desktop__pdp--slider": {
+        "children": [
+            "list-context.product-list#global__home--section4"
+        ],
+        "props": {
+            "blockClass": [
+                "desktop__pdp--slider",
+                "desktop__section4--slider"
+            ],
+            "fullWidth": true
+        },
+        "title": "Desktop row container for slider in product details page"
+    },
+    "flex-layout.row#desktop__pdp--title-other-products": {
+        "children": [
+            "rich-text#global__pdp--slider-other-products"
+        ],
+        "props": {
+            "blockClass": [
+                "desktop__pdp--slider-other-products",
+                "desktop__section4--title"
+            ],
+            "fullWidth": true
+        },
+        "title": "Desktop row container for title slider in product details page"
+    },
+    "flex-layout.row#desktop__pdp--title-other-customers": {
+        "children": [
+            "rich-text#global__pdp--slider-other-customers"
+        ],
+        "props": {
+            "blockClass": [
+                "desktop__pdp--slider-other-customers",
+                "desktop__section4--title"
+            ],
+            "fullWidth": true
+        },
+        "title": "Desktop row container for title slider in product details page"
+    },
+    "flex-layout.row#desktop__pdp--title-also-interesting": {
+        "children": [
+            "rich-text#global__pdp--slider-also-interesting"
+        ],
+        "props": {
+            "blockClass": [
+                "desktop__pdp--slider-also-interesting",
+                "desktop__section4--title"
+            ],
+            "fullWidth": true
+        },
+        "title": "Desktop row container for title slider in product details page"
+    }
+}

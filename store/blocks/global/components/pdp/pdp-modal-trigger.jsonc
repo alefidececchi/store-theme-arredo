@@ -1,0 +1,22 @@
+{
+    "modal-trigger#global__pdp--share": {
+        "children": [
+            "image#global__pdp--share",
+            "modal-layout#global__pdp--share"
+        ],
+        "props": {
+            "blockClass": "global__pdp--share"
+        },
+        "title": "Global modal trigger for social networks sharing"
+    },
+    "modal-trigger#global__pdp--guide-modal": {
+        "children": [
+            "rich-text#global__pdp--guide-modal",
+            "modal-layout#global__pdp--guide-modal"
+        ],
+        "props": {
+            "blockClass": "global__pdp--share"
+        },
+        "title": "Global modal trigger for size guide"
+    }
+}
