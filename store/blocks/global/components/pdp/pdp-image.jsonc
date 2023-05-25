@@ -19,5 +19,45 @@
             "src": "assets/img/global__pdp--payment-methods.png"
         },
         "title": "Image for payment methods"
+    },
+    "image#global__pdp--lighter": {
+        "props": {
+            "blockClass": [
+                "global__pdp--image-specifications",
+                "global__pdp--lighter"
+            ],
+            "src": "assets/img/global__pdp--lighter.png"
+        },
+        "title": "Image for lighter"
+    },
+    "image#global__pdp--fast-dry": {
+        "props": {
+            "blockClass": [
+                "global__pdp--image-specifications",
+                "global__pdp--fast-dry"
+            ],
+            "src": "assets/img/global__pdp--fast-dry.png"
+        },
+        "title": "Image for fast dry"
+    },
+    "image#global__pdp--without-ironing": {
+        "props": {
+            "blockClass": [
+                "global__pdp--image-specifications",
+                "global__pdp--without-ironing"
+            ],
+            "src": "assets/img/global__pdp--without-ironing.png"
+        },
+        "title": "Image for without ironing"
+    },
+    "image#global__pdp--representative": {
+        "props": {
+            "blockClass": [
+                "global__pdp--image-specifications",
+                "global__pdp--representative"
+            ],
+            "src": "assets/img/global__pdp--representative.png"
+        },
+        "title": "Image for representative"
     }
 }

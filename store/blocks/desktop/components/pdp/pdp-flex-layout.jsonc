@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#desktop__pdp--product": {
+        "children": [
+            "flex-layout.col#global__pdp--images",
+            "flex-layout.col#desktop__pdp--details"
+        ],
+        "props": {
+            "blockClass": "desktop__pdp--product",
+            "fullWidth": true
+        },
+        "title": "Desktop row container of product"
+    },
+    "flex-layout.col#desktop__pdp--details": {
+        "children": [
+            "flex-layout.row#global__pdp--name-share",
+            "flex-layout.row#global__pdp--price",
+            "flex-layout.row#global__pdp--skuselector",
+            "flex-layout.row#global__pdp--guide-modal",
+            "flex-layout.row#global__pdp--quantity-and-addcart",
+            "flex-layout.row#global__pdp--disclosures"
+        ],
+        "props": {
+            "blockClass": "desktop__pdp--details"
+        },
+        "title": "Desktop column container for products details"
+    }
+}

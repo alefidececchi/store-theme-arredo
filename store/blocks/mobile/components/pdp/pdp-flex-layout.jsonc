@@ -1,0 +1,15 @@
+{
+    "flex-layout.col#mobile__pdp--details": {
+        "children": [
+            "flex-layout.row#global__pdp--name-share",
+            "flex-layout.row#global__pdp--price",
+            "flex-layout.row#global__pdp--skuselector",
+            "flex-layout.row#global__pdp--guide-modal",
+            "flex-layout.row#global__pdp--quantity-and-addcart"
+        ],
+        "props": {
+            "blockClass": "mobile__pdp--details"
+        },
+        "title": "Mobile column container for products details"
+    }
+}

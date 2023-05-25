@@ -2,13 +2,11 @@
     "responsive-layout.phone#phone__pdp": {
         "children": [
             "flex-layout.row#global__pdp--breadcrumb",
-            "rich-text#phone"
+            "flex-layout.row#phone__pdp--images",
+            "flex-layout.row#phone__pdp--details",
+            "flex-layout.row#global__pdp--disclosures",
+            "flex-layout.row#global__pdp--tab-layout"
         ],
         "title": "Phone responsive layout of product details page"
-    },
-    "rich-text#phone": {
-        "props": {
-            "text": "# Phone"
-        }
     }
 }

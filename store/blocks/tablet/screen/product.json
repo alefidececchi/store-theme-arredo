@@ -2,13 +2,10 @@
     "responsive-layout.tablet#tablet__pdp": {
         "children": [
             "flex-layout.row#global__pdp--breadcrumb",
-            "rich-text#tablet"
+            "flex-layout.row#tablet__pdp--details",
+            "flex-layout.row#global__pdp--disclosures",
+            "flex-layout.row#global__pdp--tab-layout"
         ],
         "title": "Tablet responsive layout of product details page"
-    },
-    "rich-text#tablet": {
-        "props": {
-            "text": "# Tablet"
-        }
     }
 }

@@ -5,8 +5,8 @@
             "tab-content#global__plp"
         ],
         "props": {
-            "defaultActiveTabId": "reviews-and-ratings"
+            "defaultActiveTabId": "product-description"
         },
-        "title": ""
+        "title": "Global tab layout"
     }
 }

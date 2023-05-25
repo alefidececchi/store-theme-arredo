@@ -1,0 +1,13 @@
+{
+    "flex-layout.row#tablet__pdp--details": {
+        "children": [
+            "flex-layout.col#global__pdp--images",
+            "flex-layout.col#mobile__pdp--details"
+        ],
+        "props": {
+            "blockClass": "tablet__pdp--details",
+            "fullWidth": true
+        },
+        "title": "Tablet row container of product"
+    }
+}

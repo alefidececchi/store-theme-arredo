@@ -8,16 +8,6 @@
         },
         "title": "Global row container for breadcrumb in product list page"
     },
-    "flex-layout.row#global__pdp--product": {
-        "children": [
-            "flex-layout.col#global__pdp--details"
-        ],
-        "props": {
-            "blockClass": "global__pdp--product",
-            "fullWidth": true
-        },
-        "title": "Global row container of product"
-    },
     "flex-layout.row#global__pdp--name-share": {
         "children": [
             "flex-layout.col#global__pdp--name",
@@ -111,5 +101,71 @@
             "fullWidth": true
         },
         "title": "Global row container for payment methods"
+    },
+    "flex-layout.row#global__pdp--tab-layout": {
+        "children": [
+            "flex-layout.col#global__pdp--tab-layout"
+        ],
+        "props": {
+            "blockClass": "global__pdp--tab-layout",
+            "fullWidth": true
+        },
+        "title": "Global row container for tab layout"
+    },
+    "flex-layout.row#global__pdp--description-images": {
+        "children": [
+            "flex-layout.col#global__pdp--description-specifications",
+            "flex-layout.col#global__pdp--images-specifiactions"
+        ],
+        "props": {
+            "blockClass": "global__pdp--description-images",
+            "fullWidth": true,
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Global row container for description"
+    },
+    "flex-layout.row#global__pdp--description": {
+        "children": [
+            "product-description#global__pdp--description"
+        ],
+        "props": {
+            "blockClass": "global__pdp--description",
+            "fullWidth": true
+        },
+        "title": "Global row container for description"
+    },
+    "flex-layout.row#global__pdp--specifications": {
+        "children": [
+            "product-specifications#global__pdp--specifications"
+        ],
+        "props": {
+            "blockClass": "global__pdp--specifications",
+            "fullWidth": true
+        },
+        "title": "Global row container for speceficaction"
+    },
+    "flex-layout.row#global__pdp--images-specifications": {
+        "children": [
+            "image#global__pdp--lighter",
+            "image#global__pdp--fast-dry",
+            "image#global__pdp--without-ironing"
+        ],
+        "props": {
+            "blockClass": "global__pdp--images-specifications",
+            "fullWidth": true,
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Global row container for tab layout"
+    },
+    "flex-layout.row#global__pdp--images-representative": {
+        "children": [
+            "image#global__pdp--representative"
+        ],
+        "props": {
+            "blockClass": "global__pdp--images-representative",
+            "fullWidth": true,
+            "preserveLayoutOnMobile": true
+        },
+        "title": "Global row container for tab layout"
     }
 }
