@@ -6,7 +6,7 @@
             "flex-layout.row#global__pdp--skuselector",
             "flex-layout.row#global__pdp--guide-modal",
             "flex-layout.row#global__pdp--quantity-and-addcart",
-            "flex-layout.row#global__pdp--disclousures"
+            "flex-layout.row#global__pdp--disclosures"
         ],
         "props": {
             "blockClass": "global__pdp--details"
@@ -44,7 +44,7 @@
     },
     "flex-layout.col#global__pdp--skuselector": {
         "children": [
-            "product-summary-sku-selector#global__pdp--skuselector"
+            "sku-selector#global__pdp--skuselector"
         ],
         "props": {
             "blockClass": "global__pdp--skuselector",
@@ -62,35 +62,46 @@
         },
         "title": "Global column container for guide modal"
     },
-    "flex-layout.col#global__pdp--quantity":{
+    "flex-layout.col#global__pdp--quantity": {
         "children": [
             "product-quantity#global__pdp--quantity"
         ],
         "props": {
-            "blockClass":"global__pdp--quantity",
+            "blockClass": "global__pdp--quantity",
             "horizontalAlign": "left"
         },
         "title": "Global column contaier for quantity"
     },
-    "flex-layout.col#global__pdp--addcart":{
+    "flex-layout.col#global__pdp--addcart": {
         "children": [
             "add-to-cart-button#global__card"
         ],
         "props": {
-            "blockClass":"global__pdp--addcart",
+            "blockClass": "global__pdp--addcart",
             "horizontalAlign": "left"
         },
         "title": "Global column contaier for quantity"
     },
-    "flex-layout.col#global__pdp--disclousures": {
+    "flex-layout.col#global__pdp--disclosures": {
         "children": [
-            // "disclousure-layout#global__pdp--calculate-shipping",
-            // "disclousure-layout#global__pdp--payment-methods"
+            "disclosure-layout#global__pdp--calculate-shipping",
+            "disclosure-layout#global__pdp--payment-methods"
         ],
         "props": {
-            "blockClass":"global__pdp--disclousures",
+            "blockClass": "global__pdp--disclosures",
             "horizontalAlign": "left"
         },
-        "title": "Global column contaier for disclousures"
+        "title": "Global column contaier for disclosures"
+    },
+    "flex-layout.col#global__pdp--payment-methods": {
+        "children": [
+            "image#global__pdp--payment-methods",
+            "rich-text#global__pdp--payment-methods-text"
+        ],
+        "props": {
+            "blockClass": "global__pdp--payment-methods",
+            "width": "100%"
+        },
+        "title": "Global colum container for payment methods"
     }
 }

@@ -2,8 +2,10 @@
     "responsive-layout.desktop#desktop__pdp": {
         "children": [
             "rich-text#desktop",
-            "flex-layout.row#global__pdp--breadcrumb"
-        ]
+            "flex-layout.row#global__pdp--breadcrumb",
+            "flex-layout.row#global__pdp--product"
+        ],
+        "title": "Desktop responsive layout of product details page"
     },
     "rich-text#desktop": {
         "props": {

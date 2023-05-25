@@ -1,5 +1,5 @@
 {
-    "product-summary-sku-selector#global__pdp--skuselector": {
+    "sku-selector#global__pdp--skuselector": {
         "props": {
             "blockClass": "global__pdp--skuselector"
         },

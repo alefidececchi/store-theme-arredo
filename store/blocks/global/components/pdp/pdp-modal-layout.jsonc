@@ -1,7 +1,7 @@
 {
     "modal-layout#global__pdp--share": {
         "children": [
-            "product-share"
+            "share"
         ],
         "props": {
             "blockClass": "global__pdp--share",
@@ -11,7 +11,7 @@
     },
     "modal-layout#global__pdp--guide-modal": {
         "children": [
-            "rich-text#global__pdp--size-guide"
+            "image#global__pdp--size-guide"
         ],
         "props": {
             "blockClass": "global__pdp--guide-modal"

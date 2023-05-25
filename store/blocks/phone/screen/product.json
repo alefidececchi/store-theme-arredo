@@ -3,7 +3,8 @@
         "children": [
             "flex-layout.row#global__pdp--breadcrumb",
             "rich-text#phone"
-        ]
+        ],
+        "title": "Phone responsive layout of product details page"
     },
     "rich-text#phone": {
         "props": {

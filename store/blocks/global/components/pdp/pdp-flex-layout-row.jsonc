@@ -8,6 +8,16 @@
         },
         "title": "Global row container for breadcrumb in product list page"
     },
+    "flex-layout.row#global__pdp--product": {
+        "children": [
+            "flex-layout.col#global__pdp--details"
+        ],
+        "props": {
+            "blockClass": "global__pdp--product",
+            "fullWidth": true
+        },
+        "title": "Global row container of product"
+    },
     "flex-layout.row#global__pdp--name-share": {
         "children": [
             "flex-layout.col#global__pdp--name",
@@ -70,12 +80,12 @@
         },
         "title": "Global row container for quantity and add to cart button"
     },
-    "flex-layout.row#global__pdp--disclousures": {
+    "flex-layout.row#global__pdp--disclosures": {
         "children": [
-            "flex-layout.col#global__pdp--disclousures"
+            "flex-layout.col#global__pdp--disclosures"
         ],
         "props": {
-            "blockClass": "global__pdp--disclousures",
+            "blockClass": "global__pdp--disclosures",
             "fullWidth": true,
             "horizontalAlign": "left",
             "preserveLayoutOnMobile": true
