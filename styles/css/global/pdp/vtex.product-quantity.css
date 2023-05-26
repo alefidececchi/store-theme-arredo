@@ -52,3 +52,36 @@
     border-width              : 1px;
     border-right              : 0;
 }
+
+@media screen and (max-width:1024px) {
+    .quantitySelectorStepper--global__pdp--quantity :global(.vtex-numeric-stepper__input) {
+        width: 33%;
+    }
+
+    .quantitySelectorStepper--global__pdp--quantity :global(.vtex-numeric-stepper__plus-button-container) {
+        width: 33%;
+    }
+
+    .quantitySelectorStepper--global__pdp--quantity :global(.vtex-numeric-stepper__minus-button-container) {
+        width: 33%;
+    }
+
+    .quantitySelectorStepper--global__pdp--quantity :global(.vtex-numeric-stepper__plus-button) {
+        width: 100% !important;
+    }
+
+    .quantitySelectorStepper--global__pdp--quantity :global(.vtex-numeric-stepper__minus-button) {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .quantitySelectorStepper--global__pdp--quantity {
+        margin: 0;
+    }
+
+    .quantitySelectorContainer--global__pdp--quantity {
+        width: 43% !important;
+    }
+}

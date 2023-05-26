@@ -3,6 +3,7 @@
         "props": {
             "aspectRatio": "1:1",
             "blockClass": "global__pdp--images",
+            "maxHeight": 452,
             "thumbnailMaxHeight": 80,
             "thumbnailsOrientation": "vertical",
             "zoomMode": "in-place-hover"

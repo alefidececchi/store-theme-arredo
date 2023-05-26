@@ -29,4 +29,9 @@
         font-weight: 500;
         text-align : left;
     }
+
+    .installmentsNumber--global__pdp--price,
+    .installmentValue--global__pdp--price {
+        font-size: 12px;
+    }
 }

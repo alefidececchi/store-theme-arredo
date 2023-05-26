@@ -1,0 +1,10 @@
+.flexRow--tablet__pdp--details {
+    max-width: 1360px;
+    margin   : 0 auto;
+    padding  : 0 2rem;
+}
+
+.flexRowContent--tablet__pdp--details {
+    padding-left : 1rem;
+    padding-right: 1rem;
+}
