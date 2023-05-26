@@ -1,0 +1,32 @@
+.currencyContainer--global__pdp--price {
+    color         : #ff0093;
+    font-size     : 1.5rem;
+    font-weight   : 700;
+    letter-spacing: normal;
+    line-height   : 2rem;
+    text-align    : left;
+}
+
+.installments--global__pdp--price {
+    color      : rgb(85, 85, 85);
+    font-size  : 14px;
+    font-weight: 500;
+    font-family: 'DM Sans';
+}
+
+.installmentsNumber--global__pdp--price,
+.installmentValue--global__pdp--price,
+.installmentValue--global__pdp--price .currencyContainer--global__pdp--price {
+    color      : rgb(85, 85, 85);
+    font-weight: 700;
+    font-size  : 14px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .installments--global__pdp--price {
+        font-size  : 11px;
+        font-weight: 500;
+        text-align : left;
+    }
+}

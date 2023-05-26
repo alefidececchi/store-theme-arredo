@@ -4,7 +4,8 @@
             "product-images#global__pdp--images"
         ],
         "props": {
-            "blockClass": "global__pdp--images"
+            "blockClass": "global__pdp--images",
+            "width": "55%"
         },
         "title": "Global column container of images"
     },
@@ -13,7 +14,8 @@
             "vtex.store-components:product-name#global__pdp--name"
         ],
         "props": {
-            "blockClass": "global__pdp--name"
+            "blockClass": "global__pdp--name",
+            "width": "93%"
         },
         "title": "Global column container of product name"
     },
@@ -22,7 +24,8 @@
             "modal-trigger#global__pdp--share"
         ],
         "props": {
-            "blockClass": "global__pdp--share"
+            "blockClass": "global__pdp--share",
+            "width": "7%"
         },
         "title": "Global column container of share"
     },

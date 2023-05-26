@@ -1,0 +1,176 @@
+.flexRow--global__pdp--breadcrumb :global(.vtex-store-components-3-x-container) {
+    margin-left : 0;
+    padding-left: 1.25rem
+}
+/* 
+.flexRowContent--desktop__pdp--product .stretchChildrenWidth:first-child {
+    width: 55% !important;
+}
+
+
+.flexRowContent--desktop__pdp--product .stretchChildrenWidth:first-child {
+    width: 55% !important;
+} */
+
+.flexColChild--desktop__pdp--details {
+    height: auto !important;
+}
+
+.flexColChild--global__pdp--addcart :global(.vtex-add-to-cart-button-0-x-buttonText--global__card) {
+    font-size  : 1rem !important;
+    font-weight: 400;
+}
+
+.flexRow--global__pdp--name-share {
+    min-height: 59px;
+}
+
+.flexRow--global__pdp--price {
+    min-height: 88.39px;
+}
+
+.flexRowContent--global__pdp--price {
+    align-items   : center;
+    border-bottom : 1px solid hsla(0, 0%, 89%, .5);
+    padding-bottom: 15px;
+    min-height    : 72px;
+}
+
+.flexRowContent--global__pdp--quantity-and-addcart .stretchChildrenWidth {
+    width    : unset !important;
+    max-width: 30% !important;
+}
+
+.flexRow--global__pdp--quantity-and-addcart {
+    margin-bottom: 1rem;
+}
+
+.flexColChild--global__pdp--addcart :global(.vtex-button) {
+    background-color: #ff0093;
+    border-radius   : 8px;
+    height          : 3.125rem;
+    margin-left     : 0;
+}
+
+.flexCol--global__pdp--images-specifiactions {
+    margin-left: 10px;
+    max-width  : 23.313rem;
+}
+
+.flexRowContent--global__pdp--description-images {
+    justify-content: space-between;
+}
+
+.flexRowContent--global__pdp--description-images .stretchChildrenWidth {
+    width: auto;
+}
+
+.flexCol--global__pdp--images-specifiactions {
+    margin-left: 10px;
+    max-width  : 23.313rem;
+}
+
+
+.flexCol--global__pdp--share :global(.vtex-modal-layout-0-x-triggerContainer--global__pdp--share) {
+    background-color: hsla(0, 0%, 89.8%, .3);
+    border-radius   : 50%;
+    display         : flex;
+    height          : 35px;
+    padding         : 5px;
+    width           : 35px;
+}
+
+.flexRowContent--global__pdp--calculate-shipping :global(.vtex-button) {
+    border-radius   : 8px;
+    border          : 1px solid #555;
+    max-height      : 2.75rem;
+    max-width       : 6.25rem;
+    display         : flex;
+    justify-content : center;
+    background-color: transparent;
+    text-decoration : none;
+}
+
+.flexRowContent--global__pdp--calculate-shipping :global(.vtex-button__label) {
+    color         : #fff;
+    border-radius : 8px;
+    text-transform: none;
+    padding       : 0.8125rem 0 !important;
+    height        : 100% !important;
+    width         : 100% !important;
+    font-size     : 0;
+}
+
+.flexRowContent--global__pdp--calculate-shipping :global(.vtex-button__label)::before {
+    content       : "calcular";
+    color         : #555;
+    font-size     : 14px;
+    text-transform: uppercase;
+}
+
+.flexRowContent--global__pdp--calculate-shipping :global(.vtex-store-components-3-x-shippingContainer) {
+    margin        : 0 auto;
+    padding-bottom: 1.25rem;
+    width         : 80%;
+}
+
+.flexRowContent--global__pdp--calculate-shipping :global(.vtex-dropdown__label) {
+    color         : #555;
+    font-size     : .875rem;
+    font-weight   : 500;
+    letter-spacing: normal;
+    line-height   : 1.25rem;
+    text-align    : left;
+}
+
+.flexRowContent--global__pdp--calculate-shipping :global(.vtex-dropdown__container) {
+    color           : #444;
+    font-size       : 13px;
+    padding         : 0;
+    background-color: #fff;
+    border          : 1px solid #d4d4d4;
+    height          : 44px;
+    border-radius   : 8px;
+    line-height     : 18.5px;
+}
+
+.flexRowContent--global__pdp--calculate-shipping :global(.vtex-dropdown__button) {
+    color           : #909090;
+    font-size       : 13px;
+    background-color: #fff;
+    border          : 1px solid #d4d4d4;
+    height          : 44px;
+    border-radius   : 6px;
+    line-height     : 18.5px;
+}
+
+.flexRow--global__pdp--payment-methods {
+    margin        : 0 auto;
+    padding-bottom: 1.25rem;
+    width         : 80%;
+}
+
+@media screen and (min-width: 640px) {
+    .flexRow--desktop__pdp--product {
+        max-width: 1360px;
+        margin   : 0 auto;
+        padding  : 0 2rem;
+    }
+
+    .flexRowContent--desktop__pdp--product {
+        padding-left : 1rem;
+        padding-right: 1rem;
+    }
+
+    .flexCol--desktop__pdp--details {
+        max-width: 30.375rem
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .flexRowContent--desktop__pdp--product {
+        padding-left : 0.25rem;
+        padding-right: 0.25rem;
+    }
+}

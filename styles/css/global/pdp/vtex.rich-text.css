@@ -1,0 +1,53 @@
+.paragraph--global__pdp--guide-modal {
+    color         : #555;
+    cursor        : pointer;
+    font-size     : .875rem;
+    font-weight   : 700;
+    line-height   : 1.25rem;
+    margin-bottom : 1.5rem;
+    margin-top    : 1.5rem;
+    text-transform: uppercase;
+    width         : max-content;
+}
+
+.paragraph--global__pdp--calculate-shipping,
+.paragraph--global__pdp--payment-methods-text {
+    align-items: center;
+    color      : #555;
+    display    : flex;
+    font-size  : 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.paragraph--global__pdp--calculate-shipping::before {
+    content          : "";
+    display          : block;
+    height           : 2.375rem;
+    margin-right     : 1rem;
+    width            : 2.375rem;
+    background       : url("assets/img/global__pdp--shipped.svg");
+    background-repeat: no-repeat;
+}
+
+.paragraph--global__pdp--payment-methods-text::before {
+    content          : "";
+    display          : block;
+    height           : 2.375rem;
+    margin-right     : 1rem;
+    width            : 2.375rem;
+    background       : url("assets/img/global__pdp--credit-cards.svg");
+    background-repeat: no-repeat;
+}
+
+.list--global__pdp--payment-methods-text {
+    margin : 1rem 0;
+    padding: 0 0 0 1.5rem;
+}
+
+.listItem--global__pdp--payment-methods-text {
+    font-size  : 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color      : #909090;
+}
