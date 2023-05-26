@@ -10,6 +10,7 @@
     border-radius  : 8px;
     background     : #fff;
     margin         : auto 0;
+    font-family: "DM Sans";
 }
 
 .label--global__header--link::before {
@@ -22,6 +23,7 @@
     padding            : 0.5rem 1.1rem;
     height             : 20px;
     background-color   : #b292c4;
+    font-family: "DM Sans";
 }
 
 .label--global__header--link {
@@ -31,6 +33,7 @@
     font-size      : 16px;
     font-weight    : 700;
     line-height    : 15px;
+    font-family: "DM Sans";
 }
 
 .link--global__header--link {

@@ -1,0 +1,18 @@
+.trigger--global__pdp--calculate-shipping,
+.trigger--global__pdp--payment-methods {
+    align-items    : center;
+    display        : flex;
+    justify-content: space-between;
+    padding        : 0 1.25rem;
+    width          : 100%;
+    background     : white;
+    align-items    : center;
+    border         : 0;
+    display        : flex;
+    justify-content: space-between;
+    padding        : 0 1.25rem;
+}
+
+.trigger--global__pdp--calculate-shipping {
+    border-top: 1px solid #d4d4d4;
+}

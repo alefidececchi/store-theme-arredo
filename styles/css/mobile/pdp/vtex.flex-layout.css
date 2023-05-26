@@ -1,0 +1,32 @@
+.flexRowContent--mobile__section4--title-other-products,
+.flexRowContent--mobile__section4--title-other-customers,
+.flexRowContent--mobile__section4--title-also-interesting {
+    border-top    : 1px solid hsla(0, 0%, 43.9%, .1);
+    max-width     : 85rem;
+    margin        : auto;
+    padding       : 2.8125rem 2rem 0;
+    flex-direction: column;
+}
+
+.flexRowContent--mobile__section4--title-other-customers,
+.flexRowContent--mobile__section4--title-also-interesting {
+    border: 0;
+}
+
+.flexCol--mobile__pdp--slider-other-products,
+.flexCol--mobile__pdp--slider-other-customers,
+.flexCol--mobile__pdp--slider-also-interesting {
+    max-width: 100%;
+    padding  : 0;
+    margin   : 50px auto;
+}
+
+@media screen and (max-width:640px) {
+
+    .flexRowContent--mobile__section4--title-other-products,
+    .flexRowContent--mobile__section4--title-other-customers,
+    .flexRowContent--mobile__section4--title-also-interesting {
+        padding: 0 1.25rem;
+        border : 0;
+    }
+}

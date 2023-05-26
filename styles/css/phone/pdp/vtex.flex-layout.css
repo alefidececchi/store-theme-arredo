@@ -1,0 +1,9 @@
+.flexRow--phone__pdp--images,
+.flexRow--phone__pdp--details {
+    padding-right: 0.625rem;
+    padding-left : 0.625rem;
+}
+
+.flexRow--phone__pdp--details {
+    margin: 0.75rem 0.625rem 0;
+}

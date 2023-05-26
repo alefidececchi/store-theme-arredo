@@ -74,7 +74,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/notebook",
+                "href": "/queso",
                 "noFollow": false,
                 "tagTitle": "Disney",
                 "text": "DISNEY"
@@ -90,10 +90,10 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/hotsale",
+                "href": "/department1",
                 "noFollow": false,
-                "tagTitle": "Hotsale",
-                "text": "HOTSALE"
+                "tagTitle": "Destacadas",
+                "text": "DESTACADAS"
             }
         },
         "title": "Menu item departament 6"
@@ -106,7 +106,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/knowus",
+                "href": "/madera",
                 "noFollow": false,
                 "tagTitle": "Conocenos",
                 "text": "CONOCENOS"
@@ -245,7 +245,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/bed-clothes/bed-sheets",
+                "href": "/mujer/zapatos",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Sábanas"
@@ -261,7 +261,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/bed-clothes/bedspreads",
+                "href": "/queso/cemento",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Cubrecamas"
@@ -277,7 +277,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/bed-clothes/padded",
+                "href": "/mujer/zapatos",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Acolchados"
@@ -293,7 +293,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/bed-clothes/padding-covers",
+                "href": "/queso/cemento",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Fundas de Acolchados"
@@ -309,7 +309,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/bed-clothes/pillows",
+                "href": "/queso/cemento",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Almohadas"
@@ -325,7 +325,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/bed-clothes/blankets",
+                "href": "/mujer/zapatos",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Frazadas"
@@ -341,7 +341,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/bed-clothes/rug",
+                "href": "/queso/cemento",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Mantas"
@@ -357,7 +357,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/bed-clothes/cushions",
+                "href": "/mujer/zapatos",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Almohadones"
@@ -373,7 +373,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/bed-clothes/sommier-covers",
+                "href": "/queso/cemento",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Cubresommier"
@@ -389,7 +389,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/bed-clothes/mattress-covers",
+                "href": "/mujer/zapatos",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Cubrecolchón"
@@ -405,7 +405,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/bed-clothes/home-clothes",
+                "href": "/queso/cemento",
                 "noFollow": false,
                 "tagTitle": "",
                 "text": "Ropa de Hogar"
