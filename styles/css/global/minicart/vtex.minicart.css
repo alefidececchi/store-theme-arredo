@@ -85,9 +85,10 @@
 }
 
 .minicartSummary--global__minicart--summary :global(.vtex-checkout-summary-0-x-summaryItemContainer) {
-    flex-direction : column;
-    justify-content: center;
-    align-items    : flex-start;
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    align-items    : center;
 }
 
 .minicartSummary--global__minicart--summary :global(.vtex-checkout-summary-0-x-summaryItemContainer):first-child,
@@ -102,6 +103,13 @@
     font-size  : 20px !important;
     font-weight: 700 !important;
     line-height: 24px !important;
+}
+
+.minicartSummary--global__minicart--summary :global(.vtex-checkout-summary-0-x-summaryItemContainer):first-child :global(.vtex-checkout-summary-0-x-price) {
+    color      : #555;
+    font-size  : 16px;
+    font-weight: 400 !important;
+    line-height: 22px;
 }
 
 .minicartQuantityBadge--global__minicart {
