@@ -1,0 +1,22 @@
+.container--global__pdp {
+    padding       : 0.75rem;
+    font-size     : .75rem;
+    font-weight   : 400;
+    padding-top   : 1rem;
+    padding-bottom: 2.5rem;
+    font-family   : DM Sans;
+}
+
+.homeLink--global__pdp {
+    padding: 0;
+}
+
+.arrow--global__pdp--1 {
+    padding-left: 0;
+}
+
+@media screen and (max-width:640px) {
+    .container--global__pdp {
+        padding: 0.75rem;
+    }
+}

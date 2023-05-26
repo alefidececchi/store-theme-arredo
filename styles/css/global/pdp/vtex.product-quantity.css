@@ -1,0 +1,87 @@
+.quantitySelectorTitle--global__pdp--quantity {
+    display: none;
+}
+
+.quantitySelectorStepper--global__pdp--quantity {
+    margin-right: 1rem;
+}
+
+.quantitySelectorStepper--global__pdp--quantity :global(.vtex-numeric-stepper__input) {
+    appearance  : none;
+    color       : #555;
+    border-color: #d4d4d4;
+    border-left : none;
+    border-right: none;
+    font-weight : 400;
+    font-size   : .875rem;
+    height      : 3.125rem;
+    line-height : 1.25rem;
+    padding     : 1rem 0;
+    width       : 100%;
+    border-width: 1px;
+}
+
+.quantitySelectorStepper--global__pdp--quantity :global(.vtex-numeric-stepper__plus-button) {
+    border-top-left-radius    : 0px;
+    border-bottom-left-radius : 0px;
+    width                     : 3em;
+    transition                : opacity 150ms ease 0s;
+    border-color              : #d4d4d4;
+    color                     : #ff0093;
+    font-size                 : .875rem;
+    font-weight               : 400;
+    height                    : 100%;
+    border-top-right-radius   : 8px;
+    border-bottom-right-radius: 8px;
+    border-width              : 1px;
+    border-left               : 0;
+}
+
+.quantitySelectorStepper--global__pdp--quantity :global(.vtex-numeric-stepper__minus-button) {
+    border-top-right-radius   : 0px;
+    border-bottom-right-radius: 0px;
+    width                     : 3em;
+    transition                : opacity 150ms ease 0s;
+    border-color              : #d4d4d4;
+    color                     : #ff0093;
+    font-size                 : .875rem;
+    font-weight               : 400;
+    height                    : 100%;
+    border-top-left-radius    : 8px;
+    border-bottom-left-radius : 8px;
+    border-width              : 1px;
+    border-right              : 0;
+}
+
+@media screen and (max-width:1024px) {
+    .quantitySelectorStepper--global__pdp--quantity :global(.vtex-numeric-stepper__input) {
+        width: 33%;
+    }
+
+    .quantitySelectorStepper--global__pdp--quantity :global(.vtex-numeric-stepper__plus-button-container) {
+        width: 33%;
+    }
+
+    .quantitySelectorStepper--global__pdp--quantity :global(.vtex-numeric-stepper__minus-button-container) {
+        width: 33%;
+    }
+
+    .quantitySelectorStepper--global__pdp--quantity :global(.vtex-numeric-stepper__plus-button) {
+        width: 100% !important;
+    }
+
+    .quantitySelectorStepper--global__pdp--quantity :global(.vtex-numeric-stepper__minus-button) {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .quantitySelectorStepper--global__pdp--quantity {
+        margin: 0;
+    }
+
+    .quantitySelectorContainer--global__pdp--quantity {
+        width: 43% !important;
+    }
+}
