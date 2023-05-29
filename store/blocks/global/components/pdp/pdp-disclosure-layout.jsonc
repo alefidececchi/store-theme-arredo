@@ -11,7 +11,8 @@
     },
     "disclosure-trigger#global__pdp--calculate-shipping": {
         "children": [
-            "rich-text#global__pdp--calculate-shipping"
+            "rich-text#global__pdp--calculate-shipping",
+            "disclosure-state-indicator"
         ],
         "props": {
             "blockClass": "global__pdp--calculate-shipping"
@@ -39,7 +40,8 @@
     },
     "disclosure-trigger#global__pdp--payment-methods": {
         "children": [
-            "rich-text#global__pdp--payment-methods"
+            "rich-text#global__pdp--payment-methods",
+            "disclosure-state-indicator"
         ],
         "props": {
             "blockClass": "global__pdp--payment-methods"
@@ -54,5 +56,13 @@
             "blockClass": "global__pdp--payment-methods"
         },
         "title": "Global disclosure content for payment methods"
+    },
+    "disclosure-state-indicator": {
+        "props": {
+            "blockClass": "global__disclosure--arrow",
+            "Hide": "icon#global__arrow--active",
+            "Show": "icon#global__arrow--inactive"
+        },
+        "title": "Global disclosure state indicator"
     }
 }

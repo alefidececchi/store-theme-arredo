@@ -8,6 +8,10 @@
     flex-direction: column;
 }
 
+.flexColChild--mobile__pdp--details {
+    height: auto !important;
+}
+
 .flexRowContent--mobile__section4--title-other-customers,
 .flexRowContent--mobile__section4--title-also-interesting {
     border: 0;
