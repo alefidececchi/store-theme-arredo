@@ -1,0 +1,10 @@
+.contentContainer--global__plp {
+    margin-bottom: 14px;
+}
+
+@media screen and (max-width: 480px) {
+    .contentContainer--global__plp {
+        padding: 2.25rem 1rem;
+        margin : 0 auto 14px;
+    }
+}
