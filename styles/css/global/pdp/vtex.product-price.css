@@ -1,3 +1,7 @@
+.sellingPrice--global__pdp--price {
+    font-family: 'DM Sans';
+}
+
 .currencyContainer--global__pdp--price {
     color         : #ff0093;
     font-size     : 1.5rem;
@@ -8,10 +12,14 @@
 }
 
 .installments--global__pdp--price {
-    color      : rgb(85, 85, 85);
-    font-size  : 14px;
-    font-weight: 500;
-    font-family: 'DM Sans';
+    color          : rgb(85, 85, 85);
+    font-size      : 14px;
+    font-weight    : 500;
+    font-family    : 'DM Sans';
+    height         : 18px;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
 }
 
 .installmentsNumber--global__pdp--price,
@@ -20,6 +28,15 @@
     color      : rgb(85, 85, 85);
     font-weight: 700;
     font-size  : 14px;
+}
+
+.installmentsNumber--global__pdp--price {
+    margin-left: 3px;
+}
+
+.installmentValue--global__pdp--price .currencyContainer--global__pdp--price {
+    margin-left : 3px;
+    margin-right: 3px;
 }
 
 @media screen and (max-width: 768px) {
@@ -31,7 +48,14 @@
     }
 
     .installmentsNumber--global__pdp--price,
-    .installmentValue--global__pdp--price {
-        font-size: 12px;
+    .installmentValue--global__pdp--price,
+    .installmentValue--global__pdp--price .currencyContainer--global__pdp--price {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .installments--global__pdp--price {
+        height: 33px;
     }
 }

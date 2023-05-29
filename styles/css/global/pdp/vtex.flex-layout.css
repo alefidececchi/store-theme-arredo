@@ -3,6 +3,11 @@
     padding-left: 1.25rem
 }
 
+.flexColChild--global__pdp--images {
+    display        : flex;
+    justify-content: flex-end;
+}
+
 .flexColChild--desktop__pdp--details {
     height: auto !important;
 }
@@ -13,20 +18,21 @@
 }
 
 .flexRow--global__pdp--name-share {
-    min-height    : 59px;
     margin-bottom : 0.75rem;
     padding-bottom: 0.75rem;
 }
 
-.flexRow--global__pdp--price {
-    min-height: 88.39px;
+.flexRowContent--global__pdp--price {
+    align-items  : center;
+    border-bottom: 1px solid hsla(0, 0%, 89%, .5);
+    min-height   : 72px;
 }
 
-.flexRowContent--global__pdp--price {
-    align-items   : center;
-    border-bottom : 1px solid hsla(0, 0%, 89%, .5);
-    padding-bottom: 23px;
-    min-height    : 72px;
+.flexCol--global__pdp--price {
+    min-height     : 72px;
+    justify-content: center;
+    align-items    : flex-start;
+    padding-bottom : 15px;
 }
 
 .flexRow--global__pdp--skuselector {
@@ -62,12 +68,16 @@
     max-width  : 23.313rem;
 }
 
+.flexCol--global__pdp--description-specifications {
+    max-width: 48rem;
+}
+
 .flexRowContent--global__pdp--description-images {
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .flexRowContent--global__pdp--description-images .stretchChildrenWidth {
-    width: auto;
+    width: auto !important;
 }
 
 .flexCol--global__pdp--images-specifiactions {
@@ -193,8 +203,13 @@
     justify-content: flex-end;
 }
 
-.flexRowContent--global__pdp--images-representative .stretchChildrenWidth {
-    margin-right: 1rem;
+.flexRowContent--global__pdp--images-representative {
+    justify-content: center;
+    padding-top    : 1rem;
+}
+
+.flexColChild--global__pdp--images-specifiactions {
+    height: auto !important;
 }
 
 @media screen and (max-width: 1024px) {
@@ -204,9 +219,29 @@
         position: fixed;
         z-index : 16516516516516;
     }
+
+    .flexRow--global__pdp--quantity-and-addcart {
+        padding-bottom: 0;
+    }
 }
 
 @media screen and (max-width:640px) {
+
+    .flexRowContent--global__pdp--tab-layout {
+        margin-top: 2rem;
+        padding   : 0;
+    }
+
+    .flexCol--global__pdp--price {
+        min-height     : 72px;
+        justify-content: flex-start;
+        align-items    : flex-start;
+        padding-bottom : 0;
+    }
+
+    .flexRowContent--global__pdp--price {
+        padding-bottom: 8px;
+    }
 
     .flexRow--global__pdp--description-images {
         margin-top: 0.75rem;
@@ -217,9 +252,9 @@
     }
 
     .flexRowContent--global__pdp--images-specifications {
-        margin-top : 2rem;
-        margin-left: 10px;
-        width      : 369.24px;
+        margin         : 2rem auto 0;
+        width          : 369.24px;
+        justify-content: space-between;
     }
 }
 
